@@ -4,7 +4,7 @@ title: Today I Learned
 permalink: /til/
 ---
 
-[ansible](#ansible), [bash](#bash), [frontend](#frontend), [java](#java), [mongodb](#mongodb), [openssl](#openssl), [postfix](#postfix), [perf](#perf), [python](#python), [yum](#yum)
+[ansible](#ansible), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [mongodb](#mongodb), [openssl](#openssl), [postfix](#postfix), [perf](#perf), [python](#python), [yum](#yum)
 
 
 # Ansible
@@ -78,6 +78,12 @@ done
 # Java
 
 * [Db migrations in java](https://flywaydb.org/): Incredibly Spring data doesn’t have a story for db migrations out of the box (It seems to have everything else!)
+
+# Linux
+
+* `zip -er a.zip a/`: Creates an encrypted zipfile of contents with folders from a/
+* `dd if=/dev/zero of=a.txt bs=1024 count=10240`: Create a 10m “empty” file for testing (10k chunks, at 1024 bytes per chunk)
+* `pstree -s tomcat`: Show processes containing tomcat in their commandline (brew install pstree)
 
 # MacOS
 
