@@ -6,7 +6,7 @@ permalink: /work/
 
 # Code
 
-* [Apis]()
+* [APIs](/code/apis/2021/08/29/apis.html)
 
 # Burnout
 
