@@ -4,6 +4,12 @@ title: Work
 permalink: /work/
 ---
 
+# Security
+
+* Input validation (Anti-corruption layer)
+* Output encoding
+* [Vulnerability Scanning](/videos/2021/08/29/vulnerability-scanning.html)
+
 # Code
 
 * [APIs](/code/apis/2021/08/29/apis.html)
