@@ -128,10 +128,10 @@ mailq
 {% endhighlight %}
 
 _Email entering postfix queues_
-![Inbound email](/assets/images/postfix-queues-1.png)
+![Inbound email](/assets/images/postfix_queues_1.png)
 
 _Email leaving postfix_
-![Outbound email](/assets/images/postfix-queues-2.png)
+![Outbound email](/assets/images/postfix_queues_2.png)
 
 * [Postfix architecture (input handlers, queues, output handlers)](http://www.postfix.org/OVERVIEW.html): Fairly important for understanding how postfix works
 * [SPF records](https://postmarkapp.com/guides/spf): Qualifiers, mechanisms, oh my! This is a way to validate the FROM address of a message. That the sender (ip) is permitted to send email on behalf of the domain in from:. Works with dns
