@@ -12,7 +12,8 @@ permalink: /work/
 
 # Code
 
-* [APIs](/code/apis/2021/08/29/apis.html)
+# [Reviewing Code](/code/2021/09/02/reviewingcode.html)
+* [APIs](/code/2021/08/29/apis.html)
 
 # Burnout
 
