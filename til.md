@@ -4,8 +4,7 @@ title: Today I Learned
 permalink: /til/
 ---
 
-[ansible](#ansible), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [mongodb](#mongodb), [openssl](#openssl), [postfix](#postfix), [perf](#perf), [python](#python), [yum](#yum)
-
+[ansible](#ansible), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [mongodb](#mongodb), [postfix](#postfix), [perf](#perf), [python](#python), [ssh](#ssh), [yum](#yum)
 
 # Ansible
 
@@ -92,24 +91,64 @@ done
 
 # MongoDB
 
-* `mongodump --archive=a.gz --gzip --db <dbname>`: Takes a logical backup
-* `mongorestore --archive=a.gz --gzip`: Restores a logical db backup
-* [Update arrays in a document](https://docs.mongodb.com/drivers/node/fundamentals/crud/write-operations/embedded-arrays/): Modify an array in a document using $ and $[] notation
+{% highlight bash %}
+# Takes a logical backup
+mongodump --archive=a.gz --gzip --db <dbname>
 
-# OpenSSL
+# Restores a logical db backup
+mongorestore --archive=a.gz --gzip
+
+# List engine type (default should be WiredTiger since 3.2+)
+db.serverStatus().storageEngine
+db.serverStatus() # is kinda interesting in general
+
+# a few basic commands that give me a sense of a mongod server
+show dbs
+use <db>
+show collections
+db.collection.find({})
+db.collection.insertOne({
+    "a": 1
+})
+
+# Export all or part of a collection as CSV
+mongoexport --db <db> --collection <coll> --type=csv --query "{ x: value, y: value }" --fields "<field1>,<field2>,..." -u<user>
+
+{% endhighlight %}
+
+Links
+
+* [Update arrays in a document](https://docs.mongodb.com/drivers/node/fundamentals/crud/write-operations/embedded-arrays/): Modify an array in a document using $ and $[] notation
+* [Design Patterns for MongoDB](https://towardsdatascience.com/design-patterns-for-mongodb-894767315905)
+
+**Connection Strings**
 
 {% highlight bash %}
-# Generate a private key in pem format
-openssl genrsa -out key.pem 2048
-# Then do this if I need a public key too
-openssl rsa -in key.pem -outform PEM -pubout -out public.pem
+# DNS seed list (Mongodb > 3.6)
+# We can setup a srv record that contains many or all hosts in a mongodb 
+# replica set
+mongodb+srv://db.cluster.env/dbname
+# This will pull a list of ips,ports from that srv record and connect to 
+# one host. After successfully connecting to the replicaset it will ask the 
+# rs for further hosts
+#
+# There are options that can be passed along with this (standard ones) and 
+# this mode can also lookup a corresponding TXT record to get the replicaset 
+# name + authdb
 
-# Generate a public/private key in rsa format (Can be used with github + SSH)
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-
-# Github recommends creating a key with the ed25519 algorithm
-ssh-keygen -t ed25519 -C "your_email@example.com"
+# Standard connection string
+mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[database][?options]]
+# You can explicitly list all members of a replica set using this method
+# I believe the driver only needs to find one replica set member and then 
+# can discover others and even follow mongo elections
 {% endhighlight %}
+
+Links
+
+* [Connection strings](https://docs.mongodb.com/v3.6/reference/connection-string/)
+* [Blog post about Mongo 3.6 and dns seeding](https://www.mongodb.com/developer/article/srv-connection-strings/)
+* [Another blog post about service discovery](https://www.mongodb.com/blog/post/server-discovery-and-monitoring-next-generation-mongodb-drivers): This one is particularly good. Walks you through a connection lifecycle in pyMongo. (I’m assuming a recent java driver is similar) There’s a formal service discovery protocol it sounds like
+* [db.isMaster()](https://docs.mongodb.com/manual/reference/command/hello/): The query drivers send to the mongo host they’re configured with to learn about the topology of a mongo cluster
 
 # Postfix
 
@@ -139,7 +178,7 @@ _Email leaving postfix_
 * [Extend postfix smtpd input filtering with custom code](http://www.postfix.org/SMTPD_POLICY_README.html): We were looking for a way to show backpressure to clients based on health of active and deferred queues (Don’t accept new messages addressed to email service providers we are currently having delivery trouble with. eg A large number of delayed messages). This may be a way to do that
 * [On destination rate delays](http://postfix.1071664.n5.nabble.com/Rate-limiting-td75185.html): If you are relaying directly to email service providers, the rate means 1 per domain. If indirect on the other hand, domain == ‘smtp nexthop’. If you only have one of these – ie you’re sending messages to an internal smtp server that relays through another before external delivery – domain in this case is NOT the recipient address domain. It is the relay server. If you only have 1 of these, then email will go out 1 at a time at the defined period
 
-## Reverse DNS (ptr) records
+Reverse DNS (ptr) records
 
 > Mail servers will cross-check your SMTP server’s advertised HELO hostname against the PTR record for the connecting IP address, and then check that the returned name has an address record matching the connecting IP address. If any of these checks fail, then your outgoing mail may be rejected or marked as spam.
 > 
@@ -151,7 +190,8 @@ _Email leaving postfix_
 
 # Perf
 
-## First 60 seconds: What to look at first when diagnosing a performance issue on a linux vm
+**First 60 seconds: What to look at first when diagnosing a performance issue on a linux vm**
+
 {% highlight bash %}
 # load averages
 uptime
@@ -183,13 +223,41 @@ top
 {% endhighlight %}
 [Source](https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)
 
-## And other helpful commands
+**And other helpful commands**
 
 * `pidstat 2 [n]`: Samples process resource utilization like top at 2s intervals (n times if specified)
 
 # Python
 
 * `python3 -m http.server 8000`: Runs an http server in the current dir
+
+# SSH
+
+{% highlight bash %}
+# Generate a private key in pem format
+openssl genrsa -out key.pem 2048
+# Then do this if I need a public key too
+openssl rsa -in key.pem -outform PEM -pubout -out public.pem
+
+# Generate a public/private key in rsa format (Can be used with github + SSH)
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+# Github recommends creating a key with the ed25519 algorithm
+ssh-keygen -t ed25519 -C "your_email@example.com"
+{% endhighlight %}
+
+~/.ssh/config
+
+{% highlight bash %}
+# ControlMaster
+#
+# Reuse connections when re-connecting to a host with an already established 
+# one. (Note: The directory ~/.ssh/sockets must already exist.)
+Host *
+    ControlMaster auto
+    ControlPath ~/.ssh/sockets/%r@%h-%p
+    ControlPersist 600
+{% endhighlight %}
 
 # Yum
 
