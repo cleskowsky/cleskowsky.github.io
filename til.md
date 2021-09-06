@@ -12,8 +12,14 @@ permalink: /til/
 
 # Bash
 
-* [gradlew](https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/gradlew) Beautiful bash #1
-* [locust run-redistributed-headless.sh](https://github.com/locustio/locust/blob/master/scripts/run-disributed-headless.sh) Beautiful bash #2 : This one has a nice capture of process ids in an array with looping
+**Beautiful bash**
+
+* [gradlew](https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/gradlew)
+* [locust run-redistributed-headless.sh](https://github.com/locustio/locust/blob/master/scripts/run-disributed-headless.sh) This one has a nice capture of process ids in an array with looping
+* [Github checks ssh key encryption algorithm in use](https://github.com/github/ssh-key-algo/blob/main/ssh-key-algo)
+
+**More links**
+
 * [Documented bash ‘set’ shell modifiers](https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html) (eg What does set -e mean?)
 * [Best practices for writing bash](https://kvz.io/bash-best-practices.html)
 * [Anybody can write good bash](https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort)
