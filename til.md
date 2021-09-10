@@ -85,6 +85,105 @@ done
 * [Db migrations in java](https://flywaydb.org/): Incredibly Spring data doesn’t have a story for db migrations out of the box (It seems to have everything else!)
 * [Elasticsearch's guidance for setting java's heap size](https://www.elastic.co/guide/en/elasticsearch/reference/current/advanced-configuration.html#set-jvm-heap-size): 50% of main memory available in a system is a recommendation I've read in a couple of places now
 
+## Performance analysis
+
+**CPU**
+
+{% highlight bash %}
+# If cpu usage is high, dumping threads in the jvm may help
+# identify what work is being done. Taking multiple dumps
+# at 10s intervals will help spot threads that have been running,
+# or been blocked for a long time.
+#
+# If a problem is lots of threads running for a short amount
+# of time, a 10s interval may not show that readily. (I should
+# look into java flame graphs for java!)
+#
+# Intellij can help analyze thread dumps. Look for the analyze
+# thread dump action.
+jstack <pid>
+
+# A stronger version
+sudo jstack -F <pid>
+{% endhighlight %}
+
+Links
+* [netflix: java flame graphs](https://netflixtechblog.com/java-in-flames-e763b3d32166)
+
+**Memory**
+
+{% highlight bash %}
+# Look at garbage collection stats in the jvm
+sudo jstat -gcutil -h10 1002 250 20
+S0     S1     E      O      M     CCS    YGC     YGCT    FGC    FGCT     GCT
+0.00   0.00 100.00 100.00  93.19  90.39    276   36.911 10510 53321.125 53358.036
+0.00   0.00 100.00 100.00  93.19  90.39    276   36.911 10510 53321.125 53358.036
+0.00   0.00 100.00 100.00  93.19  90.39    276   36.911 10510 53321.125 53358.036
+...
+
+S0 - surviver space 1 utilization
+S1 - surviver space 1 utilization
+E - Eden space utilization
+O - Old gen space utilization
+M - ?
+CCS - ?
+YGC - # of young garbage collections
+YGCT - young gc time (units?)
+FGC - full garbage collections
+FGCT - full garbage collection time
+GCT - garbage collection time
+
+Collect 20 samples, from java process with pid 1002, at 250ms intervals, 
+and reprint the header every 10 lines of output
+
+No header line
+sudo jstat -gcutil <pid> 250 7
+{% endhighlight %}
+
+**JConsole**
+
+A program that ships with the jdk that lets you introspect a running java process. (You can see exposed jmx beans, heap memory, threads, and a few other things) I usually use it to look at jmx beans
+
+{% highlight bash %}
+# Figure out the pid of your java process doing something like this or pidof ...
+ps aux | grep java
+
+# The run
+jconsole
+
+# JConsole will display a list of java processes it finds on your system. Pick the one you want!
+{% endhighlight %}
+
+Note: I have only ever done this in dev
+
+**SDK Man**
+
+Install and run with several jdk versions (And other tools I think)
+
+Links
+* [SDKMan!](https://sdkman.io/)
+
+**Cacerts, trust store, root certs**
+
+{% highlight bash %}
+# View trusted root certs in centos
+keytool -list -keystore /etc/pki/ca-trust/extracted/java/cacerts -storepass changeit
+
+# View an ssl cert from a remote host
+openssl s_client -showcerts -connect telusemrapi.telushealth.com:443
+
+# View a particular cert in my trust store
+# Get alias from the cert list command above
+keytool -list -v -keystore /etc/pki/ca-trust/extracted/java/cacerts -alias digicertassuredidrootca -storepass changeit
+{% endhighlight %}
+
+**Links**
+
+* [How root / intermediate certs work, and how they’re protected](https://security.stackexchange.com/questions/119460/do-i-put-my-subordinate-intermediate-or-root-ca-certificate-in-my-truststore)
+* [A list of tutorials from Baeldung.com. This is a really good resource!](https://www.baeldung.com/java-tutorial)
+* [Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
+* [Java logging](https://www.loggly.com/ultimate-guide/java-logging-basics/): sl4j, apache commons logging, log4j, java.util.logging … All the logs! Nice overview of logging in java with increasing degrees of complexity depending on need
+
 # Linux
 
 * `zip -er a.zip a/`: Creates an encrypted zipfile of contents with folders from a/
