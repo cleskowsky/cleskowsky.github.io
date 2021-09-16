@@ -9,6 +9,26 @@ title:  "Hiring Notes"
 * A few of my favourite [**Interview Questions**](#interview-questions) I like to ask
 * How I've done [**Live Coding**](#live-coding) before and how it's worked / not worked
 
+# Values
+
+A few great ones to ingraine in team culture:
+
+* Candor
+* Diversity
+* Optimism
+* Rigor
+* Transparency
+* Courage
+* Empathy
+* Resilience
+* Teamwork
+* Urgency
+* Curiosity
+* Humor
+* Responsibility
+* Thriftiness
+* Versatility
+
 # Interview Structure
 
 * Phone screen
