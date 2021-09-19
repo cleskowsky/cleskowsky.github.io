@@ -12,3 +12,4 @@ permalink: /books/
 - Scholar of Magic: Art of the Adept, Book 3
 - Secrets and Spellcraft: Art of the Adept, Book 2
 - The Choice of Magic: Art of the Adept, Book 1
+- How to Avoid a Climate Disaster
