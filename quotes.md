@@ -5,6 +5,9 @@ permalink: /quotes/
 ---
 
 <br>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Don’t curse your dead ends and failures. They’re the key element of the work you are doing. We find our way by getting lost. Anything other than that is called reading a map.<br><br>—Seth Godin <a href="https://t.co/1k7Dv147ET">pic.twitter.com/1k7Dv147ET</a></p>&mdash; Aletheia Délivré 🌳 (@delivreal) <a href="https://twitter.com/delivreal/status/1439643197353906180?ref_src=twsrc%5Etfw">September 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">As you gaze longingly at those bright, shiny elastic microservice architectures at scale running the core business of <a href="https://twitter.com/amazon?ref_src=twsrc%5Etfw">@amazon</a>, <a href="https://twitter.com/Twitter?ref_src=twsrc%5Etfw">@twitter</a>, <a href="https://twitter.com/Facebook?ref_src=twsrc%5Etfw">@Facebook</a> , <a href="https://twitter.com/Spotify?ref_src=twsrc%5Etfw">@spotify</a>, <a href="https://twitter.com/Google?ref_src=twsrc%5Etfw">@google</a>, and others keep in mind that the requirements that shaped their architecture are not your requirements.</p>&mdash; Grady Booch (@Grady_Booch) <a href="https://twitter.com/Grady_Booch/status/1407269523942612996?ref_src=twsrc%5Etfw">June 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 <br>
