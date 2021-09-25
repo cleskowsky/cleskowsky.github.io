@@ -9,6 +9,7 @@ permalink: /til/
 # Ansible
 
 * `ansible-playbook -i "localhost" playbook-nagios.yml --list-tasks`: Lists plays that will be run by ansible
+* `ansible hostgroup -i inv -m shell -a "command"`: Execute task <command> across all hosts in group hostgroup in inventory inv
 
 # Bash
 
@@ -189,6 +190,7 @@ keytool -list -v -keystore /etc/pki/ca-trust/extracted/java/cacerts -alias digic
 * `zip -er a.zip a/`: Creates an encrypted zipfile of contents with folders from a/
 * `dd if=/dev/zero of=a.txt bs=1024 count=10240`: Create a 10m “empty” file for testing (10k chunks, at 1024 bytes per chunk)
 * `pstree -s tomcat`: Show processes containing tomcat in their commandline (brew install pstree)
+* `split -l 50 filename`: Splits file into 50 line chunks names xaa, xab, xac, ...
 
 # MacOS
 
