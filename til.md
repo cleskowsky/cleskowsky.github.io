@@ -259,6 +259,10 @@ Links
 
 # Postfix
 
+* [My random notes about sending email on the internet!](/2021/09/30/sending-email.html)
+
+## Various helpful commands
+
 {% highlight bash %}
 # Re-enqueue messages held back for a few days (Resets their timestamp
 # for remaining in delivery queues)
@@ -278,6 +282,8 @@ _Email entering postfix queues_
 
 _Email leaving postfix_
 ![Outbound email](/assets/images/postfix_queues_2.png)
+
+## A few more links about postfix :)
 
 * [Postfix architecture (input handlers, queues, output handlers)](http://www.postfix.org/OVERVIEW.html): Fairly important for understanding how postfix works
 * [SPF records](https://postmarkapp.com/guides/spf): Qualifiers, mechanisms, oh my! This is a way to validate the FROM address of a message. That the sender (ip) is permitted to send email on behalf of the domain in from:. Works with dns
