@@ -23,4 +23,15 @@ Sending email is a dark art! You can't say with complete certainty whether an em
 
 # Links
 
+## Companies sending lots of email
+
 * [Giving away the secrets of 99.3% email delivery](https://signalvnoise.com/posts/3096-giving-away-the-secrets-of-993-email-delivery)
+* [How we send 22000 emails every hour](https://www.jitbit.com/news/email-architecture/)
+
+## Technical reference articles
+* [What is an SPF record?](https://www.dmarcanalyzer.com/spf/spf-record/)
+* [DKIM: What is it and why is it important?](https://postmarkapp.com/guides/dkim)
+
+## Tools
+
+* [SPF Record Checker](https://www.dmarcanalyzer.com/spf/checker/)
