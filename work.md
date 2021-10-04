@@ -16,6 +16,10 @@ permalink: /work/
           * What happened?
           * What we're doing to make sure it doesn't happen again?
 
+# Tech Leads
+
+* [Tom's learnings after becoming a tech lead](https://tomgamon.com/posts/things-i-have-learned-new-tech-lead/): I like these. I bet he was feeling like an imposter for quite awhile before coming to these insights. Going from an individual contributor to a leader can be a bumpy road ...
+
 # Security
 
 * Input validation (Anti-corruption layer)
