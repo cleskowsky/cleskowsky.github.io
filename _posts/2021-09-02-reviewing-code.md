@@ -49,3 +49,4 @@ Code reviews are a most excellent opportunity to share experience about a progra
 * [One Shopify engineer’s list](https://shopify.engineering/great-code-reviews)
 * [Google Code Review Guidelines](https://github.com/google/eng-practices/blob/master/review/reviewer/looking-for.md)
 * [Here’s something from the point of view of the code author](https://mtlynch.io/code-review-love/) (On bringing reviewers joy …)
+* [Conventional Comments](https://conventionalcomments.org/): How to comment with a bit more context about whether you think something is a blocker or suggestion.

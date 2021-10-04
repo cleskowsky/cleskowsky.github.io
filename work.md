@@ -16,7 +16,6 @@ permalink: /work/
           * What happened?
           * What we're doing to make sure it doesn't happen again?
 
-
 # Security
 
 * Input validation (Anti-corruption layer)
@@ -25,7 +24,7 @@ permalink: /work/
 
 # Code
 
-* [Reviewing Code](/code/2021/09/02/reviewingcode.html)
+* [Reviewing Code](/code/2021/09/02/reviewing-code.html)
 * [APIs](/code/2021/08/29/apis.html)
 
 **Links**
