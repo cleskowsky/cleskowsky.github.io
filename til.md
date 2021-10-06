@@ -4,7 +4,7 @@ title: Today I Learned
 permalink: /til/
 ---
 
-[ansible](#ansible), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [mongodb](#mongodb), [postfix](#postfix), [perf](#perf), [python](#python), [ssh](#ssh), [yum](#yum)
+[ansible](#ansible), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [postfix](#postfix), [perf](#perf), [python](#python), [resilience](#resilience), [ssh](#ssh), [yum](#yum)
 
 # Ansible
 
@@ -343,6 +343,10 @@ top
 # Python
 
 * `python3 -m http.server 8000`: Runs an http server in the current dir
+
+# Resilience
+
+* [Timeouts, retries and backoff with jitter](/2021/10/06/backoff-retries-jitter.html)
 
 # SSH
 
