@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "My Random Notes About Sending Email on the Internet"
+title:  "Sending Email on the Internet"
 ---
 
-Sending email is a dark art! You can't say with complete certainty whether an email service provider will accept a message you're trying to send even if you find a "status=sent" in your postfix log.
+This is a work in progress. Sending email reliably isn't an easy thing to do. These are some of my personal notes of things that have worked for me as well as some reference articles from other people who have also spent a lot of time working on this problem.
 
 * DNS
   * Reverse (PTR "pointer" records): A ptr record must be setup mapping an ip address to the email sending domain (hence the "reverse" dns part since dns usually takes a domain and returns 1 or more ip addresses). For AWS and Azure I can set this up myself but less progressive hosting providers may need a phone call and a special request
@@ -31,6 +31,8 @@ Sending email is a dark art! You can't say with complete certainty whether an em
 ## Technical reference articles
 * [What is an SPF record?](https://www.dmarcanalyzer.com/spf/spf-record/)
 * [DKIM: What is it and why is it important?](https://postmarkapp.com/guides/dkim)
+* [What is DMARC and why is it important?](https://mailchimp.com/marketing-glossary/dmarc/)
+* [DKIM Selectors](https://dmarcly.com/blog/what-is-dkim-selector-and-how-does-it-work-dkim-selector-explained): When you're sending email from multiple delivery providers on a single domain. Eg GSuite and Salesforce both sending email on behalf of leskowky.net
 
 ## Tools
 
