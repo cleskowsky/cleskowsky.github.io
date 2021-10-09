@@ -6,19 +6,21 @@ title:  "Sending Email on the Internet"
 This is a work in progress. Sending email reliably isn't an easy thing to do. These are some of my personal notes of things that have worked for me as well as some reference articles from other people who have also spent a lot of time working on this problem.
 
 * DNS
-  * Reverse (PTR "pointer" records): A ptr record must be setup mapping an ip address to the email sending domain (hence the "reverse" dns part since dns usually takes a domain and returns 1 or more ip addresses). For AWS and Azure I can set this up myself but less progressive hosting providers may need a phone call and a special request
-    * <some vm ip> -> mail.leskowsky.net (PTR record)
-  * Forward: The email sending domain should have a dns "A" record setup pointing at the vm running postfix (or other mail transport agent (mta))
-    * mail.leskowsky.net -> <some vm ip> (A record)
-* SPF
-* DKIM
-* DMARC
+  * Sending email
+    * Reverse (PTR "pointer" records): A ptr record must be setup mapping an ip address to the email sending domain (hence the "reverse" dns part since dns usually takes a domain and returns 1 or more ip addresses). For AWS and Azure I can set this up myself but less progressive hosting providers may need a phone call and a special request
+      * <some vm ip> -> mail.leskowsky.net (PTR record)
+    * Forward: The email sending domain should have a dns "A" record setup pointing at the vm running postfix (or other mail transport agent (mta))
+      * mail.leskowsky.net -> <some vm ip> (A record)
+    * SPF
+    * DKIM
+    * DMARC
+  * Receiving email
+    * MX
 * Reputation
-  * IPs
+  * IP
     * Warming
   * Domain
 * Postfix
-* Send rate
 * Transactional vs bulk (unsolicited) email
 
 # Links
