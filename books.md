@@ -22,3 +22,4 @@ Some of these are audiobooks if the performance is well done and the rest I'm us
 ## The Scholomance Series, Naomi Novik
 
 - A Deadly Education, Book 1
+- The Last Graduate, Book 2
