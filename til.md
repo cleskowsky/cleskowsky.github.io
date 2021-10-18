@@ -4,12 +4,29 @@ title: Today I Learned
 permalink: /til/
 ---
 
-[ansible](#ansible), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [postfix](#postfix), [perf](#perf), [python](#python), [resilience](#resilience), [ssh](#ssh), [yum](#yum)
+* [ansible](#ansible), 
+* [aws](#aws), 
+* [bash](#bash), 
+* [frontend](#frontend), 
+* [java](#java), 
+* [linux](#linux), 
+* [macos](#macos), 
+* [mongodb](#mongodb), 
+* [postfix](#postfix), 
+* [perf](#perf), 
+* [python](#python), 
+* [resilience](#resilience), 
+* [ssh](#ssh), 
+* [yum](#yum)
 
 # Ansible
 
 * `ansible-playbook -i "localhost" playbook-nagios.yml --list-tasks`: Lists plays that will be run by ansible
 * `ansible hostgroup -i inv -m shell -a "command"`: Execute task <command> across all hosts in group hostgroup in inventory inv
+
+# AWS
+
+* `aws sts get-caller-identity`: Gets the apiuser for my current apikey
 
 # Bash
 
