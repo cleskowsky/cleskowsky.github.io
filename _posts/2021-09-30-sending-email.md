@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sending Email on the Internet"
+title:  "How to send email reliably on the internet"
 ---
 
 This is a work in progress. Sending email reliably isn't an easy thing to do. These are some of my personal notes of things that have worked for me as well as some reference articles from other people who have also spent a lot of time working on this problem.
