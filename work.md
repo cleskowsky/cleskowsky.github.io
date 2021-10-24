@@ -44,3 +44,7 @@ Sometimes I find stories about people who have taken on too much (work? responsi
 It's super important for teams to be aware that this sort of thing can be (and probably is) happening.
 
 * [Burning out and quitting](https://mayakaczorowski.com/blogs/burnout)
+
+# SRE
+
+![google sre in a nutshell](/assets/images/google_sre_in_a_nutshell.jpg)
