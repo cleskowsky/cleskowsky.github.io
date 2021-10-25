@@ -21,9 +21,10 @@ permalink: /til/
 * [ssh](#ssh) 
 * [yum](#yum)
 
-# Specific services I have helped run at some point
+# Services I have helped run in the past
 
 * [Sending email](/2021/09/30/sending-email.html)
+  * Email is delightful :)
 
 # Ansible
 
