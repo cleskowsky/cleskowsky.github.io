@@ -22,6 +22,7 @@ This is a work in progress. Sending email reliably isn't an easy thing to do. Th
   * Domain
 * Postfix
 * Transactional vs bulk (unsolicited) email
+* [Feedback loops](https://www.emailfeedbackloops.com/): Register with email service providers so that you can receive notifications whenever a recipient marks one of your emails as spam. Add these mailboxes to a do-not-email list to protect your email domain / ip rep. The ESPs you're probably particularly worried about not offending are gmail, outlook / hotmail and yahoo
 
 # Links
 
