@@ -36,12 +36,12 @@ This is a work in progress. Sending email reliably isn't an easy thing to do. Th
 
 # Links
 
-## Companies sending lots of email
+## From the trenches
 
 * [Giving away the secrets of 99.3% email delivery](https://signalvnoise.com/posts/3096-giving-away-the-secrets-of-993-email-delivery)
 * [How we send 22000 emails every hour](https://www.jitbit.com/news/email-architecture/)
 
-## Technical reference articles
+## Message authentication
 * [What is an SPF record?](https://www.dmarcanalyzer.com/spf/spf-record/)
 * [DKIM: What is it and why is it important?](https://postmarkapp.com/guides/dkim)
 * [What is DMARC and why is it important?](https://mailchimp.com/marketing-glossary/dmarc/)
