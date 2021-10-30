@@ -42,10 +42,28 @@ This is a work in progress. Sending email reliably isn't an easy thing to do. Th
 * [How we send 22000 emails every hour](https://www.jitbit.com/news/email-architecture/)
 
 ## Message authentication
+
+### SPF
+
 * [What is an SPF record?](https://www.dmarcanalyzer.com/spf/spf-record/)
+
+### DKIM
+
 * [DKIM: What is it and why is it important?](https://postmarkapp.com/guides/dkim)
-* [What is DMARC and why is it important?](https://mailchimp.com/marketing-glossary/dmarc/)
 * [DKIM Selectors](https://dmarcly.com/blog/what-is-dkim-selector-and-how-does-it-work-dkim-selector-explained): When you're sending email from multiple delivery providers on a single domain. Eg GSuite and Salesforce both sending email on behalf of leskowky.net
+* [DKIM Records Explained](https://docs.sendgrid.com/ui/account-and-settings/dkim-records)
+
+### DMARC
+
+* [What is DMARC and why is it important?](https://mailchimp.com/marketing-glossary/dmarc/)
+* [DMARC: What is it and why do you need it?](https://postmarkapp.com/guides/dmarc)
+* [How DMARC and a custom Return-Path work together](https://postmarkapp.com/blog/how-dmarc-and-a-custom-return-path-work-together)
+* [What if DKIM passes on a message sent from an unfamiliar source?](https://postmarkapp.com/support/article/1089-what-if-dkim-passes-on-a-message-sent-from-an-unfamiliar-source)
+* [DMARC reports](https://support.google.com/a/answer/10032472?hl=en)
+* From Google
+  * [Tutorial: Recommended DMARC rollout](https://support.google.com/a/answer/10032473?hl=en)
+  * [Troubleshoot DMARC issues](https://support.google.com/a/answer/10032578?hl=en&ref_topic=2759254)
+* [DMARC Monitoring Tools — Comparison Sheet](https://docs.google.com/spreadsheets/d/1qqqh3ivF3w8GmAhEvJoh8NWt2pTy7HvkClTydYE367Q/edit#gid=0)
 
 ## Tools
 
