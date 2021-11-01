@@ -6,18 +6,6 @@ permalink: /work/
 
 * [Hiring Notes](/2021/09/14/hiring-notes.html)
 
-# Production
-
-* Incident Response
-    * Communication during incident response is super important. Internally, the customer support team needs to know something is up because customers may be calling in to ask why our software isn't working. Externally, customers directly impacted by an outage may want to keep up to date on the status of the outage and when a fix is likely to land. Somebody responsible for communicating the status of an incident while it's being worked should be appointed right away when the response team forms.
-        * [Heroku status page for an event includes incident updates and post incident response report](https://status.heroku.com/incidents/2347): This looks pretty great. I like the follow-up report template too. Looks like ...
-          * Summary
-          * Who was affected?
-          * What happened?
-          * What we're doing to make sure it doesn't happen again?
-
-![Final patch](/assets/images/104-final-patch.png)
-
 # Tech Leads
 
 * [Tom's learnings after becoming a tech lead](https://tomgamon.com/posts/things-i-have-learned-new-tech-lead/): I like these. I bet he was feeling like an imposter for quite awhile before coming to these insights. Going from an individual contributor to a leader can be a bumpy road ...
