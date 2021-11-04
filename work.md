@@ -36,3 +36,13 @@ It's super important for teams to be aware that this sort of thing can be (and p
 # SRE
 
 ![google sre in a nutshell](/assets/images/google_sre_in_a_nutshell.jpg)
+
+# Process
+
+* [Cut Out Time Estimates on Roadmaps: Get Into a Product Delivery Rhythm](https://www.honeycomb.io/blog/product-strategy-and-roadmap-timing/): Product delivery process used at Honeycomb. Tight deadlines for most things are de-emphasized a bit it seems. Work is picked up in chunks of varying size and progress updated at regular cadences (the idea is with this kind of process spending time drilling into trying to figure out exactly how long something will take to complete is a fool's errand):
+  * yearly - The roadmap is updated yearly but often changes. Headings are: in progress, next and planned
+  * quarterly - OKRs. Much more likely to be happening. Company aligns around these ideas. Not necessarily specific at this level.
+  * 6 weeks - Things get real
+  * 2 weeks - Updates provided broadly about what has changed since last time by functional area
+  * weekly - 30m demo days to show off work in progress
+  * daily - Team syncs. "Keep talking about the work and make sure everyone's got the plot". I like this language!
