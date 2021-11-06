@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Books
-permalink: /books/
+title: Reading
+permalink: /reading/
 ---
 
 # 2021
@@ -23,3 +23,7 @@ Some of these are audiobooks if the performance is well done and the rest I'm us
 
 - A Deadly Education, Book 1
 - The Last Graduate, Book 2
+
+## Articles
+
+* [Fast](https://patrickcollison.com/fast): A list of amazing things built but also finished impossibly quickly!
