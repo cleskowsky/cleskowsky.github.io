@@ -27,3 +27,4 @@ Some of these are audiobooks if the performance is well done and the rest I'm us
 ## Articles
 
 * [Fast](https://patrickcollison.com/fast): A list of amazing things built but also finished impossibly quickly!
+* [CockroachDB Serverless](https://www.cockroachlabs.com/blog/how-we-built-cockroachdb-serverless/): Describes the architecture of CrDB's serverless product. (recently launched) Details of how they did multi-tenancy and scaling are pretty neat!
