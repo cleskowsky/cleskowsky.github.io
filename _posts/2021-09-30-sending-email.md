@@ -20,6 +20,14 @@ This is a work in progress. Sending email reliably isn't an easy thing to do. Th
   * IP
     * Warming
   * Domain
+    * Domain splitting: It's a good idea to isolate different kinds of email from each other through the use of subdomains. (eg Transactional email vs bulk or marketing email is an easy example to think about)
+      * no-reply@mail.company.com (or no-reply@company.com) vs no-reply@marketing.company.com
+      * Reputation of email sent at the root domain affects email sent from subdomains. The reverse is not true.
+      * Email sent from 1 subdomain doesn't impact the rep of email sent from another subdomain
+      * Domains and subdomains must be warmed for sending email (Google and Microsoft offer tools to see a domain's rep from their point of view)
+        * Every email service provider will have their own internal way of measuring email domain rep involving multiple factors
+        * IPs have rep too but it is thought that since services exist that provide shared pools of ip addresses for use by multiple senders this signal is not as good as it was for ESPs
+      * If you split too much you may get to a place where you're not sending enough email in a channel for it to build the rep it needs for email to deliver
 * Postfix
 * Transactional vs bulk (unsolicited) email
 * [Feedback loops](https://www.emailfeedbackloops.com/): Register with email service providers so that you can receive notifications whenever a recipient marks one of your emails as spam. Add these mailboxes to a do-not-email list to protect your email domain / ip rep. The ESPs you're probably particularly worried about not offending are gmail, outlook / hotmail and yahoo
@@ -68,3 +76,7 @@ This is a work in progress. Sending email reliably isn't an easy thing to do. Th
 ## Tools
 
 * [SPF Record Checker](https://www.dmarcanalyzer.com/spf/checker/)
+
+## Using email subdomains
+
+* [When and why to use them from Litmus](https://www.litmus.com/blog/email-subdomains/): Highly level overview of why / how you'd do it with real examples from internet companies actually doing it
