@@ -52,6 +52,8 @@ This is a work in progress. Sending email reliably isn't an easy thing to do. Th
 
 ## Message authentication
 
+* [Dmarcly's ultimate guide to implementing message authentication](https://dmarcly.com/blog/how-to-implement-dmarc-dkim-spf-to-stop-email-spoofing-phishing-the-definitive-guide#a-tale-of-two-from-addresses)
+
 ### SPF
 
 * [What is an SPF record?](https://www.dmarcanalyzer.com/spf/spf-record/)
@@ -73,6 +75,7 @@ This is a work in progress. Sending email reliably isn't an easy thing to do. Th
   * [Tutorial: Recommended DMARC rollout](https://support.google.com/a/answer/10032473?hl=en)
   * [Troubleshoot DMARC issues](https://support.google.com/a/answer/10032578?hl=en&ref_topic=2759254)
 * [DMARC Monitoring Tools — Comparison Sheet](https://docs.google.com/spreadsheets/d/1qqqh3ivF3w8GmAhEvJoh8NWt2pTy7HvkClTydYE367Q/edit#gid=0)
+* [What is DMARC Identifier Alignment](https://dmarcly.com/blog/what-is-dmarc-identifier-alignment-domain-alignment): Describes spf, dkim alignment pretty well me thinks.
 
 ## Tools
 
