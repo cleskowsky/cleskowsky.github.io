@@ -20,6 +20,7 @@ permalink: /work/
 
 * [Reviewing Code](/code/2021/09/02/reviewing-code.html)
 * [APIs](/code/2021/08/29/apis.html)
+* [VIDEO: Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0)
 
 **Links**
 
