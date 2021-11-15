@@ -41,6 +41,7 @@ This is a work in progress. Sending email reliably isn't an easy thing to do. Th
 
 * [Guidelines for sending email to hotmail mailboxes](https://sendersupport.olc.protection.outlook.com/pm/policies.aspx)
 * [Summarized by returnpath](https://help.returnpath.com/hc/en-us/articles/225097528-Microsoft-Outlook-com-and-Hotmail-deliverability-best-practices)
+* [SNDS: Smart Network Data Services (Reputation of sender with Outlook.com)](https://sendersupport.olc.protection.outlook.com/snds/)
 
 # Links
 
