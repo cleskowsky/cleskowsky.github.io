@@ -5,6 +5,7 @@ permalink: /work/
 ---
 
 * [Hiring Notes](/2021/09/14/hiring-notes.html)
+* [Project Management](#projectmanagement)
 
 # Tech Leads
 
@@ -47,3 +48,17 @@ It's super important for teams to be aware that this sort of thing can be (and p
   * 2 weeks - Updates provided broadly about what has changed since last time by functional area
   * weekly - 30m demo days to show off work in progress
   * daily - Team syncs. "Keep talking about the work and make sure everyone's got the plot". I like this language!
+
+# Project Management
+
+![This is probably a bit more about product management but it's so good! :)](/assets/images/alethia_delivre_product_management.png)
+
+![Peter Bourgon on starting a new project](/assets/images/peter_bourgon_new_project.png)
+
+* SMART
+  * Specific: Know exactly what you're doing and not doing!
+  * Measurable: There's gotta be a real win here with key metrics that you can measure and compare with the previous state of the system
+  * Attainable: The team can actually do it. (Necessary partners and other assets / resources are in play and can be reached!)
+  * Relevant: The needle will be moved in terms of what the business is trying to achieve
+  * Time boxed: projects have to end and should deliver value to make the time investment worthwhile!
+  
