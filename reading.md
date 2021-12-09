@@ -27,24 +27,17 @@ Some of these are audiobooks if the performance is well done and the rest I'm us
 
 ## Articles
 
-* [Fast](https://patrickcollison.com/fast): A list of amazing things built but also finished impossibly quickly!
-* [CockroachDB Serverless](https://www.cockroachlabs.com/blog/how-we-built-cockroachdb-serverless/): Describes the architecture of CrDB's serverless product. (recently launched) Details of how they did multi-tenancy and scaling are pretty neat!
-* [Master Passwords](https://support.1password.com/pbkdf2/): With PBKDF2 (password-based key derivation function v2) how much does it cost to guess a password of various complexities / lengths according to 1Password
-
-
-# 2021
+- [Fast](https://patrickcollison.com/fast): A list of amazing things built but also finished impossibly quickly!
+- [CockroachDB Serverless](https://www.cockroachlabs.com/blog/how-we-built-cockroachdb-serverless/): Describes the architecture of CrDB's serverless product. (recently launched) Details of how they did multi-tenancy and scaling are pretty neat!
+- [Master Passwords](https://support.1password.com/pbkdf2/): With PBKDF2 (password-based key derivation function v2) how much does it cost to guess a password of various complexities / lengths according to 1Password
+- [10 technical strategies to avoid when scaling your startup (and 5 to embrace)](https://www.intercom.com/blog/ten-technical-strategies-to-avoid-when-scaling-your-startup-and-five-to-embrace/): Good revisit "the choosing boring technology" advice of the last few years. I love it!
+- [The days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short): This list is giving me a bit to think about
 
 ## Books
 
 - Project Hail Mary, Andy Weir
 - Rhythm of War, Brandon Sanderson
 - How to Avoid a Climate Disaster, Bill Gates
-
-## Articles
-
-- 10 technical strategies to avoid when scaling your startup (and 5 to embrace): Good revisit "the choosing boring technology" advice of the last few years. I love it!
-- RFCs can be helpful in making work visible, getting people engaged and participating, and reducing risk
-- The days are long but the decades are short: This list is giving me a bit to think about
 
 # 2020
 
@@ -65,12 +58,10 @@ Some of these are audiobooks if the performance is well done and the rest I'm us
 
 ## Articles
 
-- The 25 greatest Java apps ever written: Just a great romp through 25 years of a programming language, and platform that helped power the world through a period of rapid change. Lots of neat things in here I remember poking at personally. Really great 🙂
-- The UX of Lego Panels: UX design principles, and lego. Amazing!
-- Efficient, reliable cluster management at scale with Twine (Facebook datacenter os): Nice discussion of challenges running at their scale and of handling different kinds of workloads with unique constraints
-- Priority Guides: Alternative to wireframes for documenting user interfaces, goals, user research that avoids getting too caught up on interactions and aesthetics. Definitely seems to favour content and context
-- 4+1 Architectural View Model: Concisely model a system taking into account several different, but useful! perspectives
-- 2021 Predictions from Werner Vogels: A list of areas Werner is excited about that are ripe for change for eg education, small business participation in our economies, how cities are designed, machine learning, etc. He’s in a position to see and hear about all the things people are doing. I think he’s spot on
+- [The 25 greatest Java apps ever written](https://blogs.oracle.com/javamagazine/post/the-top-25-greatest-java-apps-ever-written): Just a great romp through 25 years of a programming language, and platform that helped power the world through a period of rapid change. Lots of neat things in here I remember poking at personally. Really great 🙂
+- [The UX of Lego Panels](https://interactionmagic.com/UX-LEGO-Interfaces): UX design principles, and lego. Amazing!
+- [Priority Guides](https://alistapart.com/article/priority-guides-a-content-first-alternative-to-wireframes/): Alternative to wireframes for documenting user interfaces, goals, user research that avoids getting too caught up on interactions and aesthetics. Definitely seems to favour content and context
+- [4+1 Architectural View Model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model#:~:text=4%2B1%20is%20a%20view,system%20engineers%2C%20and%20project%20managers.): Concisely model a system taking into account several different, but useful! perspectives
 
 # 2019
 
@@ -100,5 +91,5 @@ Some of these are audiobooks if the performance is well done and the rest I'm us
 - An Astronaut’s Guide to Life by Chris Hadfield
 
 # Favourite articles
-- On Being a Senior Engineer
-- A Mature Role for Automation
+- [On Being a Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
+- [A Mature Role for Automation](https://www.kitchensoap.com/2012/09/21/a-mature-role-for-automation-part-i/)
