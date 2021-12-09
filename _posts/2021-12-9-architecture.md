@@ -21,7 +21,7 @@ title: "Architecture"
 
 [Hexagonal Architecture](https://netflixtechblog.com/ready-for-changes-with-hexagonal-architecture-b315ec967749): A Netflix blog post talking about organizing a program into layers, and responsibilities in the [Hexagonal Way](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))). The principle objects they call out are business entities, repositories, services, data sources, and transports. Seems to me like you can go a long way with just these concepts and come to a well factored program.
 
-![netflix hexagonal architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
+![netflix hexagonal architecture](/assets/images/netflix_hexagonal_architecture.png)
 
 ## Concepts
 
