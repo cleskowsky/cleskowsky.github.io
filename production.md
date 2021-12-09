@@ -118,3 +118,48 @@ Stuff I think about when I’m getting a new application ready to run in prod. T
 ![Final patch](/assets/images/104-final-patch.png)
 
 ![Devotion to duty xkcd](/assets/images/xkcd_devotion_to_duty.png)
+
+# SLIs, SLOs, SLAs, Error Budgets … Oh My!
+
+Want to be able to answer the question “When should we slow down a bit to work on making our application more reliable, or performant?”
+
+This is a framework to define availability in concrete terms, determine acceptable levels of it, and then come to a consensus with product, development, and the business about what we do when we don’t have enough of it.
+
+- SLI – Service level indicator. A system metric that can be used to classify a request as either good or bad. eg 95th should be < 100ms for requests to our web application
+- SLO – Service level objective. A measure of how well we’re doing over time with respect to an agreement we make internally with ourselves of what good / bad even means. eg In the previous 30d, 99% of the time we should hit our stated latency goals. Note: A corollary is we don’t want to exceed our goals either. It’s time + energy taken away from work that could be put into making a better product
+- SLA – Service level agreement. A promise we’re comfortable making to customers about how much availability we’re willing to guarantee. There may even be financial penalties associated with failure to meet goals
+
+# Links
+
+- [SRE implements DevOps](https://www.youtube.com/watch?v=uTEL8Ff1Zvk&list=PLIivdWyY5sqJrKl7D2u-gmis8h9K66qoj&index=2): A series of videos with Liz Fong-Jones and Seth Vargo that talks about what devops is and how SRE relates to it. (SRE is how Google decided to adopt some of the principles of the devops movement)
+  - Reduce toil
+  - De-stigmatize failure
+  - Error budgets, slos, slis
+  - Better communication between developer and production support teams
+  - Measure all the things that matter
+  - Tiny batches, gradual change
+- [How github deploys code](https://github.blog/2021-01-25-improving-how-we-deploy-github/)
+
+# Platforms
+
+All platforms must have a story around these functional areas. Even if you don’t think of your system as a platform (maybe you didn’t intentional design it as such) you have one!
+
+- Service discovery
+- Release management / deployment
+- Internal / external routing
+- Config / secrets management
+- Run code
+
+# From the System Design Primer
+Start with use cases and constraints
+
+- Who is going to use it?
+- How are they going to use it?
+- How many users are there?
+- What does the system do?
+- What are the inputs and outputs of the system?
+- How much data do we expect to handle?
+- How many requests per second do we expect?
+- What is the expected read to write ratio?
+
+![It's always dns](/assets/images/its-always-dns.jpeg)

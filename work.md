@@ -61,4 +61,11 @@ It's super important for teams to be aware that this sort of thing can be (and p
   * Attainable: The team can actually do it. (Necessary partners and other assets / resources are in play and can be reached!)
   * Relevant: The needle will be moved in terms of what the business is trying to achieve
   * Time boxed: projects have to end and should deliver value to make the time investment worthwhile!
-  
+
+# Growth
+
+- [On Being A Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
+- [Talking with tech leads](https://www.amazon.ca/Talking-Tech-Leads-Novices-Practitioners/dp/150581748X)
+- [Stuck? Do something.](https://world.hey.com/jamis/stuck-do-something-c54521ab)
+
+![Liz Fong-Jones on being a principle engineer](/assets/images/liz_fongjones_principle_engineer.png)

@@ -30,3 +30,75 @@ Some of these are audiobooks if the performance is well done and the rest I'm us
 * [Fast](https://patrickcollison.com/fast): A list of amazing things built but also finished impossibly quickly!
 * [CockroachDB Serverless](https://www.cockroachlabs.com/blog/how-we-built-cockroachdb-serverless/): Describes the architecture of CrDB's serverless product. (recently launched) Details of how they did multi-tenancy and scaling are pretty neat!
 * [Master Passwords](https://support.1password.com/pbkdf2/): With PBKDF2 (password-based key derivation function v2) how much does it cost to guess a password of various complexities / lengths according to 1Password
+
+
+# 2021
+
+## Books
+
+- Project Hail Mary, Andy Weir
+- Rhythm of War, Brandon Sanderson
+- How to Avoid a Climate Disaster, Bill Gates
+
+## Articles
+
+- 10 technical strategies to avoid when scaling your startup (and 5 to embrace): Good revisit "the choosing boring technology" advice of the last few years. I love it!
+- RFCs can be helpful in making work visible, getting people engaged and participating, and reducing risk
+- The days are long but the decades are short: This list is giving me a bit to think about
+
+# 2020
+
+## Books
+
+- Refactoring: Improving the Design of Existing Code
+- Software Engineering at Google
+- Building Secure and Reliable Systems
+- A Mark of Kings
+- Hello World, Hannah Fry
+- Renegades, Marissa Meyer
+- The Sandman Audible Studios Production, Neil Gaiman. This was an incredible full cast production, writing to be performed in a radio program type format. So good. I hope another is on the way
+- The Goblin Emperor. Very much enjoyed this one. There’s just the one book (I often prefer my fantasy reading to involve epic story arcs and multiple thick books! :)). Listen to the audiobook from audible. The narator was excellent
+
+## Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FS1mnISoG7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Articles
+
+- The 25 greatest Java apps ever written: Just a great romp through 25 years of a programming language, and platform that helped power the world through a period of rapid change. Lots of neat things in here I remember poking at personally. Really great 🙂
+- The UX of Lego Panels: UX design principles, and lego. Amazing!
+- Efficient, reliable cluster management at scale with Twine (Facebook datacenter os): Nice discussion of challenges running at their scale and of handling different kinds of workloads with unique constraints
+- Priority Guides: Alternative to wireframes for documenting user interfaces, goals, user research that avoids getting too caught up on interactions and aesthetics. Definitely seems to favour content and context
+- 4+1 Architectural View Model: Concisely model a system taking into account several different, but useful! perspectives
+- 2021 Predictions from Werner Vogels: A list of areas Werner is excited about that are ripe for change for eg education, small business participation in our economies, how cities are designed, machine learning, etc. He’s in a position to see and hear about all the things people are doing. I think he’s spot on
+
+# 2019
+
+- Being Mortal, Atul Gawande
+- Educated, Tara Westover
+- Skyward, Brandon Sanderson
+- The Box, Marc Levinson
+- Stumbling On Happiness, Daniel Gilbert
+- Head on, John Scalzi (Book 2: The Lock In Series)
+- The Legion and the Lioness (World Apart #1)
+- Data and Goliath
+- Supernova in the East I & II, Dan Carlin’s Hardcore History Podcast
+- Effective Java : I figured a quick skim of this was worthwhile since I’m starting to work in Java again. It was a great read back in the day and has even been updated a bit for more recent versions of the language!
+- Shogun
+- Starsight
+- The Unicorn Project
+
+# 2018
+
+- How F’cked Up is Your Management by Johnathan and Melissa Nightingale
+- Mars Rover Curiosity: An Inside Account from Curiosity’s Chief Engineer by Rob Manning & William L. Simon
+
+# 2017
+
+- The Manager’s Path by Camille Fournier
+- Creativity Inc by Ed Catmull
+- An Astronaut’s Guide to Life by Chris Hadfield
+
+# Favourite articles
+- On Being a Senior Engineer
+- A Mature Role for Automation

@@ -58,7 +58,6 @@ We have a role we're trying to fill and likewise the candidate is trying to grow
 
 ## Past behaviour
 
-* What sorts of things do you like to work on in a day? (What’s an ideal day for you?)
 * What are you most proud of accomplishing during this time?
 * What were the trouble spots, the things you struggled with, during this time?
 * Can you tell us about a time when you were under a lot of pressure at work and what you did to get through it?
