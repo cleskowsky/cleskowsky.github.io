@@ -27,6 +27,7 @@ Some of these are audiobooks if the performance is well done and the rest I'm us
 
 ## Articles
 
+- [Stuck? Do something](https://world.hey.com/jamis/stuck-do-something-c54521ab): Yes! Do I not have any ideas or do I think my ideas aren't worth trying? There's a difference. Just in the doing sometimes we can learn important things.
 - [Fast](https://patrickcollison.com/fast): A list of amazing things built but also finished impossibly quickly!
 - [CockroachDB Serverless](https://www.cockroachlabs.com/blog/how-we-built-cockroachdb-serverless/): Describes the architecture of CrDB's serverless product. (recently launched) Details of how they did multi-tenancy and scaling are pretty neat!
 - [Master Passwords](https://support.1password.com/pbkdf2/): With PBKDF2 (password-based key derivation function v2) how much does it cost to guess a password of various complexities / lengths according to 1Password
