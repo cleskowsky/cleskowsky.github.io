@@ -8,6 +8,7 @@ permalink: /reading/
 
 Some of these are audiobooks if the performance is well done and the rest I'm usually reading on a Kindle. Turning to audiobooks more and more as their production values just continue to go up!
 
+- Cytonic, Book 3 of Skyward series
 - [The Sandman Act 2](https://www.audible.ca/pd/The-Sandman-Act-II-Audiobook/B098TZ3S98?pf_rd_p=cf62c4d8-861a-46fc-be1c-1335921252bc&pf_rd_r=XFNHMNB7YCB9YJD0M9Z8)
 - Sufficiently Advanced Magic, Book 1: I had to put this series down in book 2. It's like looking over the shoulder of somebody playing a video game like diablo and speaking out every thought and detail of ever mouse click. Over and over and over ...
 - Release It! 2nd Edition
