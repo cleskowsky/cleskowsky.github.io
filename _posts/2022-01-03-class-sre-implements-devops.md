@@ -5,6 +5,8 @@ title: "Class SRE Implements DevOps"
 
 A story told in 10 parts ...
 
+[Source](https://youtube.com/playlist?list=PLIivdWyY5sqJrKl7D2u-gmis8h9K66qoj)
+
 # What is DevOps?
 
 * Set of practices and culture that try to break down tension between development and ops
