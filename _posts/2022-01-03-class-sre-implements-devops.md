@@ -58,3 +58,16 @@ SLIs and SLOs as a way to make the definition of availability concrete is a neat
 
 * Logs, metrics, traces ?? (Slightly different from the messaging from Honeycomb. Although maybe not much)
 * Traces are a good starting point. They contain context about individual requests even as they cross process boundaries
+
+# Incident management
+
+* Responsibilities in an incident: Commander (overall decision making responsibility), communicator, Ops lead (+ subject matter experts)
+* How do incidents get declared?
+
+# Postmortems and retrospectives
+
+* Who participated in the event?
+* What happened? When did it start? What was impacted? How bad was it? How was it resolved? How long did it take to resolve? Did you make any temporary changes?
+* Blameless ... no faulting or firing if a mistake was made
+* "What did you know at the time when you restarted that process?"
+* The individual is not at fault. The fact that the system allowed a dangerous operation to be carried out is where the problem probably is. You have much more control over the latter
