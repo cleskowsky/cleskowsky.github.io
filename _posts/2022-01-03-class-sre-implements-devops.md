@@ -7,8 +7,6 @@ A story told in 10 parts ...
 
 [Source](https://youtube.com/playlist?list=PLIivdWyY5sqJrKl7D2u-gmis8h9K66qoj)
 
-There's just so much great material in this series!!
-
 # What is DevOps?
 
 * Set of practices and culture that try to break down tension between development and ops
@@ -32,28 +30,31 @@ There's just so much great material in this series!!
 "Product developers and Operators", "How to define reliabiliy vs availability"
 
 * Want a way to define availability (uniquely for a service) that is based on metrics over time. This is the service level indicator (SLI). For your metric - eg latency - what is considered good and bad. Whenever you look at that metric if you're outside the bounds of what is considered good you're bad ... regardless of whether the work eventually completed
-  * Sidenote: How available should a service be? Engineering beyond what users need / would annoy them is a waste of energy that could have gone into the product
 * An slo is an agreement among stakeholders inside the business that concretely defines what healthy looks like over longer periods of time. If an SLI is computed over the previous 5mins an SLO may be computed over 30days. Breaching an SLO is serious business. Convincing management and product that reliability becomes top priority when this happens is a critical part of putting an SLI, SLO type program in place
 * SLAs are an agreement between the business and customers that describes what they should expect in terms of availability and what happens if that commitment isn't met (eg credits, refunds, etc)
 
 SLIs and SLOs as a way to make the definition of availability concrete is a neat concept.
 
-# Risk and error budgets
+# Now SRE everyone else
 
-* What's our goal for availability of a service
-* It's a decision to be made with product team and business
-* Higher availability comes with more complexity and cost
-* Some risk exists in systems always
-* How much uptime will a service have
-* Difference between actual uptime and target uptime is the error budget. If you want 99% availability you can tolerate 1% downtime within a SLO window
-* Executive team has to buy into error budgets for error budgets to work. It has to be enforceable or why bother
+* Our customers should probably understand what our SLOs are
+* Anyone using our service by way of an api has a dependency on a thing that will affect their availability ultimately. They should understand about the reliability goals of our service so they can plan accordingly
+* Google has CREs (Customer reliability engineers) that are SREs that are facing outwards. Work between customers and our platform
 
-# Toil and toil budgets
+# Managing risks as an SRE
 
-* Manual work required by the system, repetitive
-* 1 off tasks are not worth automating
-* How do you measure toil? Can be easy if you can devote a person to it full time on a rotating schedule
-* Keep amount of toil balanced with project work
-* Some amount of toil isn't terrible - eg might be a good way for a new team member to cut their teeth
+* Identify sources of bad minutes you might see and estimate their impact to the system (eg upgrades that require taking the system down, backups that degrade service, ddos attacks)
+* Add them all up. If you're within your error budget you're done ... there's no work here!
 
-SRE project work includes "Performance, reliability, utilization, monitoring"
+# Actionable alerting for SREs
+
+"Automated system that verifies you can login, add an item to a cart and checkout"
+
+* Tie alerting to error budget consumption
+* Fast burn vs slow burn alerts (Want to see major rare issues + small frequent issues)
+* A lot of times we alert on stuff that doesn't matter to the user
+
+# Observatibility of distributed systems
+
+* Logs, metrics, traces ?? (Slightly different from the messaging from Honeycomb. Although maybe not much)
+* Traces are a good starting point. They contain context about individual requests even as they cross process boundaries
