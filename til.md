@@ -19,7 +19,8 @@ permalink: /til/
 * [perf](#perf) 
 * [python](#python) 
 * [resilience](#resilience) 
-* [ssh](#ssh) 
+* [ssh](#ssh)
+* [tailwindcss](#tailwindcss)
 * [yum](#yum)
 
 # Services I have helped run in the past
@@ -409,6 +410,14 @@ Host *
     ControlMaster auto
     ControlPath ~/.ssh/sockets/%r@%h-%p
     ControlPersist 600
+{% endhighlight %}
+
+# Tailwindcss
+
+{% highlight bash %}
+# Quick and dirty launch tailwind cli (using springboot here)
+# Note: This is not appropriate for inclusion in a build script (Use postcss or some such for that)
+npx tailwindcss -i ./src/main/resources/static/css/site.css -o ./target/classes/static/css/site.css --watch
 {% endhighlight %}
 
 # Yum
