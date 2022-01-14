@@ -9,6 +9,12 @@ permalink: /vim/
 {% highlight bash %}
 " Close every window in the current tabview but the current one
 Ctrl+w o
+
+" Instead of Ctrl+w + Ctrl+j to move to the left split buffer, use Ctrl+j
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 {% endhighlight %}
 
 # Links
