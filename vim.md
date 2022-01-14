@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Work
+title: Vim
 permalink: /vim/
 ---
 
@@ -23,6 +23,7 @@ Ctrl+w o
 
 * [Ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
 * [Vim-plug](https://github.com/junegunn/vim-plug)
+* [Nerdtree](https://github.com/preservim/nerdtree)
 
 # Videos
 
