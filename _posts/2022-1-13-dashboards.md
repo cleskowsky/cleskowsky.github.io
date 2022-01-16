@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Links"
+title: "Dashboards"
 ---
 
 Apparently it's dashboard day today lol!
@@ -12,4 +12,4 @@ Apparently it's dashboard day today lol!
   * The first 5 seconds - A user should be able to find what they need in < 5s
   * Performance - Make sure your dashboard is usable with real datasets (toy dashboards only work with tiny amounts of data)
 * [Obvious Ownership: A Sensible Humane Registry](https://developers.soundcloud.com/blog/obvious-ownership-humane-registry?ck_subscriber_id=185275687): Sound cloud's solution to a directory of services -> team owners so that people can ask "Who owns this thing?"
-* [Notes on the perfidy of dashboards](https://charity.wtf/2021/08/09/notes-on-the-perfidy-of-dashboards/):
+* [Notes on the perfidy of dashboards](https://charity.wtf/2021/08/09/notes-on-the-perfidy-of-dashboards/): Dashboards are good at showing business metrics and metrics related to well known processes. Often used as starting points for an investigation. (Finding a place to jump in deeper) You can lose a lot of context with them though if they're based exclusively on metrics. Metrics record a timestamp, a label (eg http_requests.failed) and a value. You don't necessarily know endpoint, query parameters, timings to service dependencies, in context errors, etc. Wide events give you this. (Observability)
