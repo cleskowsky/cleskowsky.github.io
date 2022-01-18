@@ -9,6 +9,7 @@ permalink: /production/
 * [DevOps](#devops)
 * [Logging](#logging)
 * [Comics](#comics)
+* [Observability](#observability)
 
 # Incident Response
 
@@ -163,3 +164,22 @@ Start with use cases and constraints
 - What is the expected read to write ratio?
 
 ![It's always dns](/assets/images/its-always-dns.jpeg)
+
+# Observability
+
+I'll fill in this section more as I go but for now I'm going to start collecting links I thought are really helpful to my overall understanding of the movement here:
+
+Observability @ Tucows
+
+* [Unpacking observability](https://storiesfromtheherd.com/unpacking-observability-a-beginners-guide-833258a0591f): Begins by describing what issue investigation could be like with thoughtful, pervasive instrumentation. Wide events with a focus on spans and traces. "Know what normal looks like in prod". OpenTelemetry lets you collect this stuff and send to a backend of my choosing. (Honeycomb and datadog are 2 examples of services that are otel compatible)
+* [Definitions! Logs, events, traces and spans](https://medium.com/dzerolabs/observability-journey-understanding-logs-events-traces-and-spans-836524d63172): Excellent. Logs are what we're pumping out pretty much exclusively at work these days. Unstructured and without much context (inconsistent context?) in terms of the broader event a particular message belongs to. Events add structure, spans are containers for strongly related events and traces hold related spans
+
+The Observability Journey (A twitter thread by Charity majors)
+
+* On call
+* Dedicated sustainability work (10-15% of developer capacity)
+* Monitoring, tracing
+* SLIs, SLOs : Put in place a few key ones to get started with so when you talk to leadership about investments to be made in resilience and availability you have real data to back up the recommendations you're making in terms of platform / product investments
+* Product
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve been talking to lots of teams about their observability journey, or how they managed to dig themselves out of hell and get a handle on shit. Some patterns definitely emerge.</p>&mdash; Charity Majors (@mipsytipsy) <a href="https://twitter.com/mipsytipsy/status/1442582259463122947?ref_src=twsrc%5Etfw">September 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
