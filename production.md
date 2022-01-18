@@ -183,3 +183,7 @@ The Observability Journey (A twitter thread by Charity majors)
 * Product
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve been talking to lots of teams about their observability journey, or how they managed to dig themselves out of hell and get a handle on shit. Some patterns definitely emerge.</p>&mdash; Charity Majors (@mipsytipsy) <a href="https://twitter.com/mipsytipsy/status/1442582259463122947?ref_src=twsrc%5Etfw">September 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Links
+
+* [Deployment strategies for OpenTelemetry](https://lightstep.com/blog/deployment-strategies-for-opentelemetry/): An article on the lightstep blog but a core committer to the otel project. Seems like the first step is to install the otel collector everywhere. This lets you lift and shift instrumented data to any backend metrics / traces host that supports the otel protocol. (Which is many of the big ones : prometheus, datadog, sumologic, lightstep, etc.) Step 2 is instrumenting apps which is slower / harder for sure. He recommends starting with the most important work flow through an app end to end so people can see the value and start to get excited
