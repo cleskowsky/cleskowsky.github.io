@@ -35,3 +35,20 @@ title: "Architecture"
 
 * [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
 * [Decomposing the monolith](https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity): Shopify talks about the benefits and drawbacks of both monolithic and microservice architectures. They decided they didn't want the overhead of microservices but did want to strengthen the boundaries between functional areas within their monolithic app. (eg shipping rate calc vs tax calc)
+
+# Design stamina
+
+The ease at which new features can be added to a system over time will vary. If a team slows down overly much, it may be time to think about an architecture that may address the pain points being felt.
+
+[Martin Fowler](https://martinfowler.com/bliki/DesignStaminaHypothesis.html)
+
+# Monolith first
+
+More goodness from Martin Fowler!
+
+> As I hear stories about teams using a microservices architecture, I've noticed a common pattern.
+> 
+> 1. Almost all the successful microservice stories have started with a monolith that got too big and was broken up
+> 2. Almost all the cases where I've heard of a system that was built as a microservice system from scratch, it has ended up in serious trouble
+
+[Source](https://martinfowler.com/bliki/MonolithFirst.html)
