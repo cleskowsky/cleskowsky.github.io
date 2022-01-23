@@ -4,12 +4,13 @@ title: Production
 permalink: /production/
 ---
 
-* [Incident Response](#incident-response)
-* [Production Readiness](#checklist-production-readiness)
-* [DevOps](#devops)
-* [Logging](#logging)
+* [Architecture](https://cleskowsky.github.io/2021/12/09/architecture.html)
 * [Comics](#comics)
+* [DevOps](#devops)
+* [Incident Response](#incident-response)
+* [Logging](#logging)
 * [Observability](#observability)
+* [Production Readiness](#checklist-production-readiness)
 
 # Incident Response
 
