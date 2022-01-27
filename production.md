@@ -187,4 +187,13 @@ I'll fill in this section more as I go but for now I'm going to start collecting
 
 ## Links
 
+* [Mapping Out Your Observability Journey](https://www.honeycomb.io/blog/mapping-your-observability-journey/): Breaking down big plans into digestable chunks is key to getting buyin and shipping. It's really hard to get everything you want done in the first go for bigger projects and just attempting this can mean you never ship!
+  * Start with the signals you have - eg log file analysis - to get what's happening right now by high cardinality dimensions (eg userId, ip, api endpoint etc)
+  * Then proceed to the why by instrumenting code. Even linking in a lib like opentelemetry will automatically start watching stuff like http requests (Minimum energy, get to spans)
+    * Start with a single service. Add dependencies in a subsequent step to break up the work and start showing people what's possible
+  * Look for wins in investigations to show the business it's worth it. This road is long and not cheap!
+  * Instrument more
+  * Learn how to write queries against your data depending on whatever backend you choose
+  * Start cheap. Most backends have free tiers that are good for small services. Some things can be self hosts. (eg Prometheus and Jaegar)
+  * Get more people excited about your new super powers
 * [Deployment strategies for OpenTelemetry](https://lightstep.com/blog/deployment-strategies-for-opentelemetry/): An article on the lightstep blog but a core committer to the otel project. Seems like the first step is to install the otel collector everywhere. This lets you lift and shift instrumented data to any backend metrics / traces host that supports the otel protocol. (Which is many of the big ones : prometheus, datadog, sumologic, lightstep, etc.) Step 2 is instrumenting apps which is slower / harder for sure. He recommends starting with the most important work flow through an app end to end so people can see the value and start to get excited
