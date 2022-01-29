@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Today I Learned
+title: TIL
 permalink: /til/
 ---
+
+Today I Learned!
 
 # Tools
 
