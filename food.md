@@ -12,6 +12,7 @@ permalink: /food/
 * [Easy Butter Paneer With Spinach Recipe](https://www.seriouseats.com/easy-butter-paneer-spinach-recipe)
 * [Easy Tomato Soup](#easy-tomato-soup-recipe)
 * [Split Pea Soup (from Bill)](#split-pea-soup-from-bill)
+* [Baba Ghanoush](#baba-ghanoush)
 
 # Restaurants
 
@@ -42,3 +43,23 @@ In a large stock pot, bring the water to a boil. Add the rest of the ingredients
 Simmer, covered, for 45 minutes to 1 hour, until the vegetables are soft. Using an immersion blender, blend the soup a bit to create a creamy, smoother consistency.
 
 ![Split pea soup](/assets/images/split-pea-soup.jpeg)
+
+# Baba Ghanoush
+
+## Ingredients
+
+* Eggplant
+* Garlic powder
+* Lemon
+* Salt
+* Tahini
+
+## Steps
+
+* Roast until it’s soft (no seasoning here)
+* Peel skin
+* Remove big seedy chunks
+* Put fleshy bits in the blender
+* Put in a bit of tahini - start with 2 or 3 tablespoons
+* Not too thick
+* Salt, lemon, garlic powder to taste
