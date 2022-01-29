@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Split Pea Soup Recipe"
 ---
 
-# Ingredients
+# Split Pea Soup (From Bill)
+
+## Ingredients
 
 * 2 1/2 L water
 * 2 1/4 C green split peas ; dried
@@ -13,7 +14,7 @@ title: "Split Pea Soup Recipe"
 * 2 potatoes ; peeled and chopped
 * 4 bouillon cubes
 
-# Steps
+## Steps
 
 In a large stock pot, bring the water to a boil. Add the rest of the ingredients.
 
