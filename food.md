@@ -10,7 +10,8 @@ permalink: /food/
 * [Tuscan Pappa al Pomodoro (Tomato and Bread Soup) Recipe](https://www.seriouseats.com/tuscan-tomato-bread-soup-pappa-al-pomodoro-recipe)
 * [Homemade Pizza Dough for Beginners](https://sallysbakingaddiction.com/homemade-pizza-crust-recipe/)
 * [Easy Butter Paneer With Spinach Recipe](https://www.seriouseats.com/easy-butter-paneer-spinach-recipe)
-* [Split Pea Soup (From Bill)](/recipes/pea-soup.md)
+* [Easy Tomato Soup](#easy-tomato-soup-recipe)
+* [Split Pea Soup (from Bill)](#split-pea-soup-from-bill)
 
 # Restaurants
 
@@ -21,3 +22,23 @@ permalink: /food/
 ![page 1](/assets/images/tomato_soup_1.png){: width="240"}
 ![page 2](/assets/images/tomato_soup_2.png){: width="240"}
 ![page 3](/assets/images/tomato_soup_3.png){: width="240"}
+
+# Split Pea Soup (from Bill)
+
+## Ingredients
+
+* 2 1/2 L water
+* 2 1/4 C green split peas ; dried
+* 2 onion ; chopped finely
+* 2 celery ribs ; chopped finely
+* 2 carrots ; chopped finely
+* 2 potatoes ; peeled and chopped
+* 4 bouillon cubes
+
+## Steps
+
+In a large stock pot, bring the water to a boil. Add the rest of the ingredients.
+
+Simmer, covered, for 45 minutes to 1 hour, until the vegetables are soft. Using an immersion blender, blend the soup a bit to create a creamy, smoother consistency.
+
+![Split pea soup](/assets/images/split-pea-soup.jpeg)
