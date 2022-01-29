@@ -56,7 +56,7 @@ plugins:
 
 header_pages:
   - food.md
-  - principles
+  - principles.md
   - production.md
   - quotes.md
   - reading.md
