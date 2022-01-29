@@ -10,7 +10,7 @@ permalink: /food/
 * [Tuscan Pappa al Pomodoro (Tomato and Bread Soup) Recipe](https://www.seriouseats.com/tuscan-tomato-bread-soup-pappa-al-pomodoro-recipe)
 * [Homemade Pizza Dough for Beginners](https://sallysbakingaddiction.com/homemade-pizza-crust-recipe/)
 * [Easy Butter Paneer With Spinach Recipe](https://www.seriouseats.com/easy-butter-paneer-spinach-recipe)
-* [Split Pea Soup (From Bill)](https://cleskowsky.github.io/2022/01/29/links.html)
+* [Split Pea Soup (From Bill)](/recipes/pea-soup.md)
 
 # Restaurants
 
