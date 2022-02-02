@@ -426,6 +426,10 @@ svn merge -c x ^/operations
 svn log -l 1
 {% endhighlight %}
 
+* Convention at cog
+    * For a merge commit message, start with "Merged from <branch>"
+    * Add a re #<ticket number>
+
 # Tailwindcss
 
 {% highlight bash %}
