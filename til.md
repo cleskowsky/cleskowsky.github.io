@@ -8,20 +8,21 @@ Today I Learned!
 
 # Tools
 
-* [ansible](#ansible) 
-* [aws](#aws) 
-* [bash](#bash) 
-* [frontend](#frontend) 
-* [java](#java) 
-* [linux](#linux) 
-* [macos](#macos) 
+* [ansible](#ansible)
+* [aws](#aws)
+* [bash](#bash)
+* [frontend](#frontend)
+* [java](#java)
+* [linux](#linux)
+* [macos](#macos)
 * [mongodb](#mongodb)
 * [ngrok](#ngrok)
-* [postfix](#postfix) 
-* [perf](#perf) 
-* [python](#python) 
-* [resilience](#resilience) 
+* [postfix](#postfix)
+* [perf](#perf)
+* [python](#python)
+* [resilience](#resilience)
 * [ssh](#ssh)
+* [subversion](#subversion)
 * [tailwindcss](#tailwindcss)
 * [yum](#yum)
 
@@ -162,7 +163,7 @@ FGC - full garbage collections
 FGCT - full garbage collection time
 GCT - garbage collection time
 
-Collect 20 samples, from java process with pid 1002, at 250ms intervals, 
+Collect 20 samples, from java process with pid 1002, at 250ms intervals,
 and reprint the header every 10 lines of output
 
 No header line
@@ -267,21 +268,21 @@ Links
 
 {% highlight bash %}
 # DNS seed list (Mongodb > 3.6)
-# We can setup a srv record that contains many or all hosts in a mongodb 
+# We can setup a srv record that contains many or all hosts in a mongodb
 # replica set
 mongodb+srv://db.cluster.env/dbname
-# This will pull a list of ips,ports from that srv record and connect to 
-# one host. After successfully connecting to the replicaset it will ask the 
+# This will pull a list of ips,ports from that srv record and connect to
+# one host. After successfully connecting to the replicaset it will ask the
 # rs for further hosts
 #
-# There are options that can be passed along with this (standard ones) and 
-# this mode can also lookup a corresponding TXT record to get the replicaset 
+# There are options that can be passed along with this (standard ones) and
+# this mode can also lookup a corresponding TXT record to get the replicaset
 # name + authdb
 
 # Standard connection string
 mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[database][?options]]
 # You can explicitly list all members of a replica set using this method
-# I believe the driver only needs to find one replica set member and then 
+# I believe the driver only needs to find one replica set member and then
 # can discover others and even follow mongo elections
 {% endhighlight %}
 
@@ -333,11 +334,11 @@ _Email leaving postfix_
 Reverse DNS (ptr) records
 
 > Mail servers will cross-check your SMTP server’s advertised HELO hostname against the PTR record for the connecting IP address, and then check that the returned name has an address record matching the connecting IP address. If any of these checks fail, then your outgoing mail may be rejected or marked as spam.
-> 
+>
 > So, you need to set all three consistently: The server’s hostname and the name in the PTR record must match, and that name must resolve to the same IP address.
-> 
+>
 > Note that these do not have to be the same as the domain names for which you are sending mail, and it’s common that they are not.
-> 
+>
 > [Reverse dns records (ptr)](https://serverfault.com/questions/815054/reverse-dns-setup-for-an-ip-with-multiple-domains): A discussion of how they’re used. The first comment is the most helpful (Included here for posterity :))
 
 # Perf
@@ -407,12 +408,22 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 {% highlight bash %}
 # ControlMaster
 #
-# Reuse connections when re-connecting to a host with an already established 
+# Reuse connections when re-connecting to a host with an already established
 # one. (Note: The directory ~/.ssh/sockets must already exist.)
 Host *
     ControlMaster auto
     ControlPath ~/.ssh/sockets/%r@%h-%p
     ControlPersist 600
+{% endhighlight %}
+
+# Subversion
+
+{% highlight bash %}
+# Cherry pick a changeset from the specified branch in the repo
+svn merge -c x ^/operations
+
+# Show the most recent commit
+svn log -l 1
 {% endhighlight %}
 
 # Tailwindcss
