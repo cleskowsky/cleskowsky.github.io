@@ -33,6 +33,9 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 10
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -62,5 +65,3 @@ header_pages:
   - reading.md
   - til.md
   - work.md
-
-paginate: 10
