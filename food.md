@@ -13,6 +13,7 @@ permalink: /food/
 * [Easy Tomato Soup](#easy-tomato-soup-recipe)
 * [Split Pea Soup (from Bill)](#split-pea-soup-from-bill)
 * [Baba Ghanoush](#baba-ghanoush)
+* [Leek and Swiss Chard Soup](#leek-and-swiss-chard-soup)
 
 # Restaurants
 
@@ -63,3 +64,7 @@ Simmer, covered, for 45 minutes to 1 hour, until the vegetables are soft. Using 
 * Put in a bit of tahini - start with 2 or 3 tablespoons
 * Not too thick
 * Salt, lemon, garlic powder to taste
+
+# Leek and Swiss Chard Soup
+
+![leek and swiss chard soup](/assets/images/leek_and_swiss_chard_soup.jpeg)
