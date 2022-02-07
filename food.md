@@ -10,9 +10,12 @@ permalink: /food/
 * [Tuscan Pappa al Pomodoro (Tomato and Bread Soup) Recipe](https://www.seriouseats.com/tuscan-tomato-bread-soup-pappa-al-pomodoro-recipe)
 * [Homemade Pizza Dough for Beginners](https://sallysbakingaddiction.com/homemade-pizza-crust-recipe/)
 * [Easy Butter Paneer With Spinach Recipe](https://www.seriouseats.com/easy-butter-paneer-spinach-recipe)
+* [Baba Ghanoush](#baba-ghanoush)
+
+# Recipes - Our Favourite Soups
+
 * [Easy Tomato Soup](#easy-tomato-soup-recipe)
 * [Split Pea Soup (from Bill)](#split-pea-soup-from-bill)
-* [Baba Ghanoush](#baba-ghanoush)
 * [Leek and Swiss Chard Soup](#leek-and-swiss-chard-soup)
 
 # Restaurants
