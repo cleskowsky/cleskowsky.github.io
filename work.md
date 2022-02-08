@@ -4,8 +4,19 @@ title: Work
 permalink: /work/
 ---
 
-* [Hiring Notes](/2021/09/14/hiring-notes.html)
+* [Code](#code)
+* [Process](#process)
 * [Project Management](#projectmanagement)
+* [SRE](#sre)
+* [Security](#security)
+
+# People
+
+* [1 on 1s](#1-on-1s)
+* [Burnout](#burnout)
+* [Growth](#growth)
+* [Hiring Notes](/2021/09/14/hiring-notes.html)
+* [Tech Leads](#tech-leads)
 
 # Tech Leads
 
@@ -69,3 +80,22 @@ It's super important for teams to be aware that this sort of thing can be (and p
 - [Stuck? Do something.](https://world.hey.com/jamis/stuck-do-something-c54521ab)
 
 ![Liz Fong-Jones on being a principle engineer](/assets/images/liz_fongjones_principle_engineer.png)
+
+# 1 on 1s
+
+Some questions I've found revealing in the past:
+
+* What's on your mind? is a good starter. It's open ended. It lets the other participant lead with anything they're thinking about.
+* How do you like your work to be recognized? Publicly, privately, within the group?
+* What's your favourite pastry? Nice little ice breaker and gives you an idea of something to bring in for the team at some point. :)
+
+Stuff to ask once or twice a year:
+
+* How would you like to grow in your skills, job, career?
+* Are you feeling a sense of purpose in what you're doing?
+* What are we doing as a team / company that you think could be improved?
+* What are we not doing?
+
+Other 1 on 1 truths
+
+* If there's nothing to say that's find too. Just agree to skip this time and reconnect for the next
