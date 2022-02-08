@@ -5,6 +5,9 @@ permalink: /quotes/
 ---
 
 <br>
+![charity majors on the cost of new tools](/assets/images/charity_majors_cost_of_new_tools.png)
+
+<br>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Don’t curse your dead ends and failures. They’re the key element of the work you are doing. We find our way by getting lost. Anything other than that is called reading a map.<br><br>—Seth Godin <a href="https://t.co/1k7Dv147ET">pic.twitter.com/1k7Dv147ET</a></p>&mdash; Aletheia Délivré 🌳 (@delivreal) <a href="https://twitter.com/delivreal/status/1439643197353906180?ref_src=twsrc%5Etfw">September 19, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br>
