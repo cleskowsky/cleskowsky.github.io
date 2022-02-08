@@ -14,6 +14,8 @@ permalink: /principles/
 6. Listen
 7. ["In the beginner’s mind there are many possibilities, in the expert’s mind there are few."](https://en.wikipedia.org/wiki/Shoshin) The quicker I get to solutioning, the sooner I leave the land of possibilities!
 
+![If I try](/assets/images/if_i_try.jpeg)
+
 # Quotes
 
 > A calm and modest life brings more happiness than the pursuit of success combined with constant restlessness – Albert Einstein
