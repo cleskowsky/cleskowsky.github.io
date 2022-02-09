@@ -5,6 +5,8 @@ title: "The cost of new tools"
 
 An amazing thread by Charity majors here. I already added the start of the thread to my quotes page but there's so much more good stuff being said that I wanted to capture more!
 
+![charity majors on the cost of new tools](/assets/images/charity_majors_cost_of_new_tools.png)
+
 [Source](https://twitter.com/mipsytipsy/status/1490229218755579904)
 
 This statement started it: 
