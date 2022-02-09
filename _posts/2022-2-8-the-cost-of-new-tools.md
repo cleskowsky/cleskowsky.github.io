@@ -5,6 +5,8 @@ title: "The cost of new tools"
 
 An amazing thread by Charity majors here. I already added the start of the thread to my quotes page but there's so much more good stuff being said that I wanted to capture more!
 
+[Source](https://twitter.com/mipsytipsy/status/1490229218755579904)
+
 This statement started it: 
 
 * I think I read this from @mipsytipsy (paraphrasing) unless a new tool brings about a 10x improvement in productivity, you might want to reconsider doing it.
