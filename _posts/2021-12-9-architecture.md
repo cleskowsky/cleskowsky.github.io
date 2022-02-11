@@ -6,6 +6,8 @@ title: "Architecture"
 # Keep it simple
 
 * [Choose boring technology](https://mcfunley.com/choose-boring-technology): Bringing in a new technology is expensive to a business, and a team. Everyone has to learn how it works, how to support it, and how it fails. Make sure you do this for good reasons
+* [Single dependency stacks](https://brandur.org/fragments/single-dependency-stacks): This sounds delightful. Code + db. That's it!
+* [Monolith first](https://martinfowler.com/bliki/MonolithFirst.html): I'm currently in the monolith first camp. At the most recent 2 companies I've had the privilege of working at, one went to microservices too quickly and was quickly followed by pain (eg monitoring strategy wasn't sufficient for lots of tiny services). The other company built a well factored monolith that has been a joy to work with, run in prod and debug!
 
 # Batch jobs
 

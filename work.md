@@ -4,6 +4,7 @@ title: Work
 permalink: /work/
 ---
 
+* [Architecture](/2021/12/09/architecture.html)
 * [Code](#code)
 * [Process](#process)
 * [Project Management](#projectmanagement)
