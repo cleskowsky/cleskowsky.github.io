@@ -343,6 +343,17 @@ Reverse DNS (ptr) records
 
 # Perf
 
+**Strace**
+
+{% highlight bash %}
+strace
+    -e trace=open,pread64 Trace only open and pread64
+    -p <pid> The process id to attach to. Optional
+    -s 2000 Event line length to print
+    -f Strace should follow subprocesses
+    [command] Strace will run this command and begin a trace
+{% endhighlight %}
+
 **First 60 seconds: What to look at first when diagnosing a performance issue on a linux vm**
 
 {% highlight bash %}
