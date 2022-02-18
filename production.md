@@ -202,4 +202,13 @@ I'll fill in this section more as I go but for now I'm going to start collecting
   * Recency: I'm looking into a production issue right now when I open up a monitoring tool. (BI systems look back much further)
   * Execution time: BI queries can takes many seconds to minutes to get an answer. Monitoring systems usually give you back something pretty quickly
   * Structure: Data warehousing usually implies structure in your dataset. The questions you're asking about the data are well known. (How many shoes did I sell in Ontario in January 2022?) Given the queries you want to run and there isn't a lot of adhoc querying you're better off structuring your data more than you would in an observability tool that wants to ingest arbitrarily wide events without necessarily a lot of structure
+* [Unpacking Observability: The Paradigm Shift from APM to Observability](https://adri-v.medium.com/unpacking-observability-the-paradigm-shift-from-apm-to-observability-707735953c75):
+  * Logs as we have used them don't always make it easy to slice and dice monitoring data by user
+    * My thought: Logs are fine for many systems. Monolithic ones more so. Can capture attributes of a request in a way that is searchable. eg userId=1, ...
+  * Traces can be better if we're collecting the right data as we generate them
+  * Traces can capture context in a way that we can reasonably search and retrieve info (eg key=val)
+  * Traces show you where a request spends time during processing
+  * Not all monitoring backends are created equal
+    * High cardinatlity data handling
+    * How well can you dig into your data during analysis
   
