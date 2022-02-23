@@ -59,6 +59,7 @@ paginate: 8
 
 header_pages:
   - food.md
+  - health.md
   - principles.md
   - production.md
   - quotes.md
