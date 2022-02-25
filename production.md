@@ -11,6 +11,7 @@ permalink: /production/
 * [Logging](#logging)
 * [Observability](#observability)
 * [Production Readiness](#checklist-production-readiness)
+* [SRE](#sre)
 
 # Incident Response
 
@@ -212,3 +213,17 @@ I'll fill in this section more as I go but for now I'm going to start collecting
     * High cardinatlity data handling
     * How well can you dig into your data during analysis
   
+# SRE
+
+* [How Honeycomb defines SRE work](https://www.honeycomb.io/blog/how-we-define-sre-work/): 
+  * Fred Hebert defines 3 aspects
+    * Reliability roadmap: His team largely helps by providing feedback from production, figuring out practices that lead to better operational outcomes, champion continuous improvement around uptime and reliability
+    * Incident response: Help think about how the team responds to incidents. Learn and evolve by identifying good practice. Make sure work and the system are managed sustainably
+      * I have to think about the other aspect of this ... influence work upstream and downstream of incidents
+    * Tools, assistance, feedback from production: develop software to improve reliability of the system. Eliminate toil + improve / support daily work of team! Help back operational excellence into the design of the things we build
+  * These aspects are balanced somewhat but the energy allocation can change from month to month:
+    * Period: Reliability, Incident response, tools + assistance eg splits
+      * Feb-March: 45%, 50%, 5%
+      * April-May: 35%, 20%, 45%
+      * June-July: 20%, 15%, 65%
+      * ...
