@@ -75,8 +75,29 @@ I'm trying to get at basic understanding here rather than familiarity with speci
 * Tell me about a time when you saved your production environment. How did you identify the problem? How did you fix it? What did you do to make sure it didn’t recur? Diagram the system you currently run. Do you have any criticism of the architecture you just outlined?
 * Tell me about the last time you caused a production outage. What happened, how did you find out, how was it resolved, and what did you learn?
 
+## Questions from incident.io
+
+I really like these!
+
+* What's an example of an interesting problem, which you've really enjoyed solving?
+* What’s an example of a time when you’ve made compromises to deliver something quickly? How did you decide on the approach?
+* How would you improve our product?
+* We all collect valuable experiences throughout our careers. What’s an example of something you’ve learned, feel pretty strongly about, and would want to share with the team here?
+* What does "having impact" mean for you, and what do you do that has the biggest impact in your current job?
+
+Prep tips
+
+* Come with great examples which you’d be happy and comfortable talking about in depth, rather than pre-polished or rehearsed responses. We usually ask several follow-up questions.
+* Try and answer honestly and from your own perspective. We want to hear how you think and what you care about, not what you think we care about.
+* These questions touch on things which matter to us, the way we work and the work we do, and we imagine they’ll probably matter to you, too. While we’ll be leading the conversation, we love getting questions in return!
+
+Incident's process isn't far off our at CMD for hiring in the Ops team.
+
+![incident hiring process](/assets/images/incidentio_hiring_process.png)
+
 **Links**
 
 * [Why every software engineering interview should include ops questions](https://charity.wtf/2021/08/21/why-every-software-engineering-interview-should-include-ops-questions/)
+* [Our engineering interview process](https://incident.io/blog/our-engineering-interview-process)
 
 # Live Coding
