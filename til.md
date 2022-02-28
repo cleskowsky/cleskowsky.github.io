@@ -17,6 +17,7 @@ Today I Learned!
 * [macos](#macos)
 * [mongodb](#mongodb)
 * [ngrok](#ngrok)
+* [nodejs](#nodejs)
 * [postfix](#postfix)
 * [perf](#perf)
 * [python](#python)
@@ -470,3 +471,8 @@ yum update --security
 # get info about a package
 yum info python3
 {% endhighlight %}
+
+# NodeJS
+
+* npx serve - Runs a tiny webserver in the current directory. Very handy!
+* npm install -g npx - Installs npx assuming you have npm :)
