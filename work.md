@@ -7,7 +7,7 @@ permalink: /work/
 * [Architecture](/2021/12/09/architecture.html)
 * [Code](#code)
 * [Process](#process)
-* [Project Management](#projectmanagement)
+* [Project Management](#project-management)
 * [SRE](#sre)
 * [Security](#security)
 
@@ -73,6 +73,16 @@ It's super important for teams to be aware that this sort of thing can be (and p
   * Attainable: The team can actually do it. (Necessary partners and other assets / resources are in play and can be reached!)
   * Relevant: The needle will be moved in terms of what the business is trying to achieve
   * Time boxed: projects have to end and should deliver value to make the time investment worthwhile!
+
+![Product management advice less is more](/assets/images/product_management_advice_aakash.png)
+
+* Principle 1: More is not better
+  * Start with the minimal, most important information:
+  * user story
+  * success criteria
+  * design/ mock
+  * Then, add in additional layers.
+  * Fewer people will read long specs.  And even fewer will walk away with the right takeaways.
 
 # Growth
 
