@@ -221,6 +221,7 @@ keytool -list -v -keystore /etc/pki/ca-trust/extracted/java/cacerts -alias digic
 * `dd if=/dev/zero of=a.txt bs=1024 count=10240`: Create a 10m “empty” file for testing (10k chunks, at 1024 bytes per chunk)
 * `pstree -s tomcat`: Show processes containing tomcat in their commandline (brew install pstree)
 * `split -l 50 filename`: Splits file into 50 line chunks names xaa, xab, xac, ...
+* `mkfs.xfs /dev/sdc`: Make an xfs filesystem
 
 # MacOS
 
