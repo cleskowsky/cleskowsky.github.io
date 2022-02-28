@@ -5,6 +5,17 @@ title:  "How to send email reliably on the internet"
 
 This is a work in progress. Sending email reliably isn't an easy thing to do. These are some of my personal notes of things that have worked for me as well as some reference articles from other people who have also spent a lot of time working on this problem.
 
+# Email auth headers
+
+![auth headers example](/assets/images/email_auth_headers_example.png)
+
+* dkim=pass DKIM signature check passed on the receiving esp side
+* spf=pass SPF check passed on the receiving esp side
+* dmarc=pass (p=NONE sp=NONE dis=NONE)
+  * policy=NONE Can be either NONE, QUARANTINE or REJECT. Usually when you turn on dmarc you start in policy mode NONE so you can start collecting reports on how well you are aligned with you message from header, return-path (for spf) and dkim signature header
+  * sp=NONE tells the receiving esp whether to apply dmarc policy to subdomains
+  * dis=NONE Gmail specific extension (Are others doing it?) saying policy=. was ignored (Happens when mail is forwarded?) [source](http://lists.dmarc.org/pipermail/dmarc-discuss/2013-April/001848.html)
+
 * DNS
   * Sending email
     * Reverse (PTR "pointer" records): A ptr record must be setup mapping an ip address to the email sending domain (hence the "reverse" dns part since dns usually takes a domain and returns 1 or more ip addresses). For AWS and Azure I can set this up myself but less progressive hosting providers may need a phone call and a special request
