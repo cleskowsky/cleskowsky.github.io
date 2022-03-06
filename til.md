@@ -6,26 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-# Tools
-
-* [ansible](#ansible)
-* [aws](#aws)
-* [bash](#bash)
-* [frontend](#frontend)
-* [java](#java)
-* [linux](#linux)
-* [macos](#macos)
-* [mongodb](#mongodb)
-* [ngrok](#ngrok)
-* [nodejs](#nodejs)
-* [postfix](#postfix)
-* [perf](#perf)
-* [python](#python)
-* [resilience](#resilience)
-* [ssh](#ssh)
-* [subversion](#subversion)
-* [tailwindcss](#tailwindcss)
-* [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [ngrok](#ngrok), [nodejs](#nodejs), [postfix](#postfix), [perf](#perf), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -345,18 +326,7 @@ Reverse DNS (ptr) records
 
 # Perf
 
-**Strace**
-
-{% highlight bash %}
-strace
-    -e trace=open,pread64 Trace only open and pread64
-    -p <pid> The process id to attach to. Optional
-    -s 2000 Event line length to print
-    -f Strace should follow subprocesses
-    [command] Strace will run this command and begin a trace
-{% endhighlight %}
-
-**First 60 seconds: What to look at first when diagnosing a performance issue on a linux vm**
+*First 60 seconds: What to look at first when diagnosing a performance issue on a linux vm**
 
 {% highlight bash %}
 # load averages
@@ -428,6 +398,20 @@ Host *
     ControlPath ~/.ssh/sockets/%r@%h-%p
     ControlPersist 600
 {% endhighlight %}
+
+# Strace
+
+{% highlight bash %}
+strace
+-e trace=open,pread64 Trace only open and pread64
+-p <pid> The process id to attach to. Optional
+-s 2000 Event line length to print
+-f Strace should follow subprocesses
+[command] Strace will run this command and begin a trace
+{% endhighlight %}
+
+![Comic page 1](/assets/images/2022/strace_1.jpeg)
+![Comic page 2](/assets/images/2022/strace_2.jpeg)
 
 # Subversion
 
