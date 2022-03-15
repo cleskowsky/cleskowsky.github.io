@@ -240,6 +240,9 @@ mongoexport --db <db> --collection <coll> --type=csv --query "{ x: value, y: val
 # Mongodb for v3.4 -> v4.2
 db.adminCommand( { replSetGetStatus: 1, initialSync: 1 } )
 
+# Add an element to an array on an existing doc
+# Use the $push operator :)
+db.collection.update({ filter criteria }, { $push: arrayName: 'new item' } })
 {% endhighlight %}
 
 Links
