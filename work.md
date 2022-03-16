@@ -6,10 +6,17 @@ permalink: /work/
 
 * [Architecture](/2021/12/09/architecture.html)
 * [Code](#code)
+  * [Reviewing Code](/code/2021/09/02/reviewing-code.html)
+  * [APIs](/code/2021/08/29/apis.html)
+  * [VIDEO: Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0)
+  * [4 + 1 Architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model#:~:text=4%2B1%20is%20a%20view,system%20engineers%2C%20and%20project%20managers.)
 * [Process](#process)
 * [Project Management](#project-management)
 * [SRE](#sre)
 * [Security](#security)
+  * Input validation (Anti-corruption layer)
+  * Output encoding
+  * [Vulnerability Scanning](/videos/2021/08/29/vulnerability-scanning.html)
 
 # People
 
@@ -22,22 +29,6 @@ permalink: /work/
 # Tech Leads
 
 * [Tom's learnings after becoming a tech lead](https://tomgamon.com/posts/things-i-have-learned-new-tech-lead/): I like these. I bet he was feeling like an imposter for quite awhile before coming to these insights. Going from an individual contributor to a leader can be a bumpy road ...
-
-# Security
-
-* Input validation (Anti-corruption layer)
-* Output encoding
-* [Vulnerability Scanning](/videos/2021/08/29/vulnerability-scanning.html)
-
-# Code
-
-* [Reviewing Code](/code/2021/09/02/reviewing-code.html)
-* [APIs](/code/2021/08/29/apis.html)
-* [VIDEO: Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0)
-
-**Links**
-
-* [4 + 1 Architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model#:~:text=4%2B1%20is%20a%20view,system%20engineers%2C%20and%20project%20managers.)
 
 # Burnout
 
