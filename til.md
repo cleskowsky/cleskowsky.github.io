@@ -208,6 +208,7 @@ keytool -list -v -keystore /etc/pki/ca-trust/extracted/java/cacerts -alias digic
 
 * `cmd + shift + .` Reveals hidden files in a finder window. eg ~/.sdkman/
 * `cmd + .` Is a special key combo for the physical escape key on the iPad magic keyboard
+* `cmd + ctrl + space` Pops up the emoji keyboard on a mac
 
 # MongoDB
 
