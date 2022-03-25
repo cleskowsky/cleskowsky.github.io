@@ -66,6 +66,11 @@ Stuff I think about when I’m getting a new application ready to run in prod. T
     * Sharing
 * Level 2: You write it, you run it!
 
+## Shared Ownership of Production
+
+* [Shared reliability collab model @ booking.com](https://www.honeycomb.io/blog/how-teams-collaborate-at-booking-com/): A very neat walk through of a model of managing production that involves dev teams and ops.
+  * [My post](https://cleskowsky.github.io/2022/02/03/bookingcom-reliability-collaboration-model.html)
+
 ## DORA Reports
 
 ![Productivity](/assets/images/dora-productivity.png)

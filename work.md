@@ -42,6 +42,9 @@ It's super important for teams to be aware that this sort of thing can be (and p
 
 ![google sre in a nutshell](/assets/images/google_sre_in_a_nutshell.jpg)
 
+* [Shared reliability collab model @ booking.com](https://www.honeycomb.io/blog/how-teams-collaborate-at-booking-com/): A very neat walk through of a model of managing production that involves dev teams and ops.
+  * [My post](https://cleskowsky.github.io/2022/02/03/bookingcom-reliability-collaboration-model.html)
+
 # Process
 
 * [Cut Out Time Estimates on Roadmaps: Get Into a Product Delivery Rhythm](https://www.honeycomb.io/blog/product-strategy-and-roadmap-timing/): Product delivery process used at Honeycomb. Tight deadlines for most things are de-emphasized a bit it seems. Work is picked up in chunks of varying size and progress updated at regular cadences (the idea is with this kind of process spending time drilling into trying to figure out exactly how long something will take to complete is a fool's errand):
