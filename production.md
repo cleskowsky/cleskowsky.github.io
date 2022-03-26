@@ -4,6 +4,16 @@ title: Production
 permalink: /production/
 ---
 
+# My Current Platform Priorities
+
+* Security, privacy
+* Availability
+* Performance
+* Operational simplicity (minimize burden on production support teams)
+* Cost
+
+# Sections
+
 * [Architecture](https://cleskowsky.github.io/2021/12/09/architecture.html)
 * [Comics](#comics)
 * [DevOps](#devops)
