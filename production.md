@@ -16,7 +16,7 @@ permalink: /production/
 
 And idea I first heard about in a talk by LizTheGrey. Here are some slides I found at some point:
 
-![Production excellence slides](/assets/images/2022/Production_Excellence_LizTheGrey.pdf)
+* [Slides](/assets/images/2022/Production_Excellence_LizTheGrey.pdf)
 
 # Sections
 
