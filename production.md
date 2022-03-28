@@ -12,6 +12,12 @@ permalink: /production/
 * Operational simplicity (minimize burden on production support teams)
 * Cost
 
+# Production Excellence
+
+And idea I first heard about in a talk by LizTheGrey. Here are some slides I found at some point:
+
+![Production excellence slides](/assets/images/2022/Production_Excellence_LizTheGrey.pdf)
+
 # Sections
 
 * [Architecture](https://cleskowsky.github.io/2021/12/09/architecture.html)
