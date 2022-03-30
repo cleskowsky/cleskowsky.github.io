@@ -60,6 +60,7 @@ paginate: 8
 header_pages:
   - food.md
   - health.md
+  - inspire.md
   - principles.md
   - production.md
   - quotes.md
