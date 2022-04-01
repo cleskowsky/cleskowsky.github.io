@@ -104,3 +104,16 @@ Stuff to ask once or twice a year:
 Other 1 on 1 truths
 
 * If there's nothing to say that's find too. Just agree to skip this time and reconnect for the next
+
+Are 1-1's a waste of time?
+
+* They're not a status update. You have other places to get project status. They're time for your direct report to talk goals, feedback and mid- long- term things
+* The direct report should own the agenda. You can share a doc of past topics but if there's nothing to say it's ok to cancel
+* Good questions start conversations
+  * How do you think that went?
+  * What will you do differently next time?
+  * What’s the consequence if we don’t do that?
+  * What other approaches have you tried?
+* It's ok to be light and casual sometimes (Don't have to always be heavy!)
+
+[Source](https://lauratacho.com/blog/how-can-i-make-my-1-1s-less-boring)
