@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [ngrok](#ngrok), [nodejs](#nodejs), [postfix](#postfix), [perf](#perf), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [ngrok](#ngrok), [nodejs](#nodejs), [postfix](#postfix), [perf](#perf), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -437,6 +437,24 @@ svn log -l 1
 # Quick and dirty launch tailwind cli (using springboot here)
 # Note: This is not appropriate for inclusion in a build script (Use postcss or some such for that)
 npx tailwindcss -i ./src/main/resources/static/css/site.css -o ./target/classes/static/css/site.css --watch
+{% endhighlight %}
+
+# Terraform
+
+{% highlight bash %}
+# Use tfenv to install multiple versions of terraform at once
+# See : https://github.com/tfutils/tfenv
+
+# Install with
+brew install tfenv
+
+# Install a version of tf
+tfenv list-remote
+tfenv install <v from output of list-remote>
+
+# Make the new installed version of tf current
+# Switch between versions of tf with `tfenv use`
+tfenv use <v>
 {% endhighlight %}
 
 # Yum
