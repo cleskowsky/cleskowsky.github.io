@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 8
+paginate: 20
 
 # Exclude from processing.
 # The following items will not be processed, by default.
