@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [ngrok](#ngrok), [nodejs](#nodejs), [postfix](#postfix), [perf](#perf), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [postfix](#postfix), [perf](#perf), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -280,6 +280,23 @@ Links
 * [Another blog post about service discovery](https://www.mongodb.com/blog/post/server-discovery-and-monitoring-next-generation-mongodb-drivers): This one is particularly good. Walks you through a connection lifecycle in pyMongo. (I’m assuming a recent java driver is similar) There’s a formal service discovery protocol it sounds like
 * [db.isMaster()](https://docs.mongodb.com/manual/reference/command/hello/): The query drivers send to the mongo host they’re configured with to learn about the topology of a mongo cluster
 
+# Network
+
+{% highlight bash %}
+# Visualize cidr blocks with ipcalc
+christian@Christians-Mac-mini cleskowsky.github.io % ipcalc 10.1.2.0/16
+Address:   10.1.2.0             00001010.00000001. 00000010.00000000
+Netmask:   255.255.0.0 = 16     11111111.11111111. 00000000.00000000
+Wildcard:  0.0.255.255          00000000.00000000. 11111111.11111111
+=>
+Network:   10.1.0.0/16          00001010.00000001. 00000000.00000000
+HostMin:   10.1.0.1             00001010.00000001. 00000000.00000001
+HostMax:   10.1.255.254         00001010.00000001. 11111111.11111110
+Broadcast: 10.1.255.255         00001010.00000001. 11111111.11111111
+Hosts/Net: 65534                 Class A, Private Internet
+
+{% endhighlight %}
+
 # Ngrok
 
 * [ngrok](https://ngrok.com/): A tool to create a public tunnel to a tcp service running on localhost
@@ -455,6 +472,11 @@ tfenv install <v from output of list-remote>
 # Make the new installed version of tf current
 # Switch between versions of tf with `tfenv use`
 tfenv use <v>
+
+# Enable verbose logging
+# https://www.terraform.io/internals/debugging
+# TF_LOG=[TRACE, DEBUG, INFO, WARN or ERROR]
+TF_LOG=DEBUG terraform plan -out a.plan
 {% endhighlight %}
 
 # Yum
