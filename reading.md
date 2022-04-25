@@ -4,6 +4,10 @@ title: Reading
 permalink: /reading/
 ---
 
+# 2022
+
+- The Kaiju Preservation Society
+
 # 2021
 
 Some of these are audiobooks if the performance is well done and the rest I'm usually reading on a Kindle. Turning to audiobooks more and more as their production values just continue to go up!
