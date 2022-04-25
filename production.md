@@ -5,8 +5,8 @@ layout: page title: Production permalink: /production/
 # My Current Platform Priorities
 
 * Security, privacy
-* Availability
-* Performance
+* Durability
+* Performance, Availability
 * Operational simplicity (minimize burden on production support teams)
 * Cost
 
@@ -261,6 +261,7 @@ I'll fill in this section more as I go but for now I'm going to start collecting
             * As well as what these different roles should have access too
     * Environments
     * Workloads
+* ![csa delivery pipeline](/assets/images/2022/csa_devsecops_delivery_pipeline.png)
 
 # SRE
 
