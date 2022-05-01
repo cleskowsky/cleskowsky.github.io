@@ -1,13 +1,15 @@
 ---
-layout: page title: Production permalink: /production/
+layout: page 
+title: Production
+permalink: /production/
 ---
 
-# My Current Platform Priorities
+# Platform Concerns
 
 * Security, privacy
-* Durability
+* Durable
 * Performance, Availability
-* Operational simplicity (minimize burden on production support teams)
+* Easy to operate (minimize burden on production support teams)
 * Cost
 
 # Production Excellence
