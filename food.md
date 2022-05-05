@@ -71,3 +71,8 @@ Simmer, covered, for 45 minutes to 1 hour, until the vegetables are soft. Using 
 # Leek and Swiss Chard Soup
 
 ![leek and swiss chard soup](/assets/images/leek_and_swiss_chard_soup.jpeg)
+
+# Italian Pork Meatball Minestrone
+
+![page 1](/assets/images/2022/minestrone_1.jpg)
+![page 2](/assets/images/2022/minestrone_2.jpg)
