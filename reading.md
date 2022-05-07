@@ -7,6 +7,7 @@ permalink: /reading/
 # 2022
 
 - The Kaiju Preservation Society
+- Interview with the Robot
 
 # 2021
 
