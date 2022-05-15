@@ -297,6 +297,10 @@ Hosts/Net: 65534                 Class A, Private Internet
 
 {% endhighlight %}
 
+## Tools
+
+* [NetSpot](https://www.netspotapp.com/): Map out areas of strong vs weak wifi signal strength to help you decide where to put wireless access points. There's a free version!
+
 # Ngrok
 
 * [ngrok](https://ngrok.com/): A tool to create a public tunnel to a tcp service running on localhost
