@@ -6,8 +6,14 @@ permalink: /reading/
 
 # 2022
 
+## Books
+
 - The Kaiju Preservation Society
 - Interview with the Robot
+
+## Articles
+
+- [OpenTelemetry and the Ghost of Provisioning Past](https://metal.equinix.com/blog/opentelemetry-provisioning-observability-distributed-tracing/): In which Amy talks about the road to opentelemetry in a system she was tasked with bringing better observability to. Quite the journey. Bit of a reminder to me that there is a cost to a migration like this. (Hopefully not always as painful as this story but certainly non-zero.)
 
 # 2021
 
