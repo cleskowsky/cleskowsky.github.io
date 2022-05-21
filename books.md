@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Reading
-permalink: /reading/
+title: Books
+permalink: /books/
 ---
 
 # 2022
