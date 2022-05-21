@@ -58,12 +58,12 @@ paginate: 20
 #   - vendor/ruby/
 
 header_pages:
+  - books.md
   - food.md
   - health.md
   - inspire.md
   - principles.md
   - production.md
   - quotes.md
-  - reading.md
   - til.md
   - work.md

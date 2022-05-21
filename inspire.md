@@ -6,7 +6,13 @@ permalink: /inspire/
 
 # Collections
 
-[email](#email), [icons](#icons)
+[architecture diagrams](#architecture diagrams) [email](#email), [icons](#icons)
+
+# Architecture Diagrams
+
+* ![AWS multi-az](/assets/images/inspire/aws_multiaz_diagram.png)
+* ![Single-az multi-region](/assets/images/inspire/singleaz_multiregion_diagram.png)
+* ![Slack architecture diagram](/assets/images/inspire/slack_architecture_diagram.png)
 
 # Email
 
