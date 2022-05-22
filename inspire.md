@@ -6,7 +6,7 @@ permalink: /inspire/
 
 # Collections
 
-[architecture diagrams](#architecture diagrams) [email](#email), [icons](#icons)
+[architecture diagrams](#architecture diagrams), [email](#email), [icons](#icons)
 
 # Architecture Diagrams
 
