@@ -13,6 +13,7 @@ permalink: /inspire/
 * ![AWS multi-az](/assets/images/inspire/aws_multiaz_diagram.png)
 * ![Single-az multi-region](/assets/images/inspire/singleaz_multiregion_diagram.png)
 * ![Slack architecture diagram](/assets/images/inspire/slack_architecture_diagram.png)
+* ![Stripe apps architecture diagram](/assets/images/inspire/stripe_apps_arch.png)
 
 # Email
 
