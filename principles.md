@@ -19,3 +19,5 @@ permalink: /principles/
 # Quotes
 
 > A calm and modest life brings more happiness than the pursuit of success combined with constant restlessness – Albert Einstein
+
+![Farnam Street](/assets/images/2022/fs_quote.png)
