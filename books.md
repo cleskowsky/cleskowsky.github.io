@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- The Wizard's Crown, Michael Manning
 - The Kaiju Preservation Society
 - Interview with the Robot
 
