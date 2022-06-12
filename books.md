@@ -17,6 +17,7 @@ permalink: /books/
 - [OpenTelemetry and the Ghost of Provisioning Past](https://metal.equinix.com/blog/opentelemetry-provisioning-observability-distributed-tracing/): In which Amy talks about the road to opentelemetry in a system she was tasked with bringing better observability to. Quite the journey. Bit of a reminder to me that there is a cost to a migration like this. (Hopefully not always as painful as this story but certainly non-zero.)
 - [Microservices to macro](https://twitter.com/copyconstruct/status/1525860086685478912): This sounds right to me. I guess we don't really want microservices per se. What we want is to be able to safely deploy new code / bug fixes whenever we want, and we'd like to be able to tell whether our code is healthy or not.
   - "Microservices are hard!"
+- [Coordination avoidance](https://brooker.co.za/blog/2021/01/22/cloud-scale.html): Scaling out a distributed system is achieved by breaking up work and can be done with replication, sharding, caching and possibly other things I can't think of now or remember. Something I would not consider is the gains related to avoiding the cost of coordination altogether!
 
 # 2021
 

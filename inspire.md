@@ -14,6 +14,7 @@ permalink: /inspire/
 * ![Single-az multi-region](/assets/images/inspire/singleaz_multiregion_diagram.png)
 * ![Slack architecture diagram](/assets/images/inspire/slack_architecture_diagram.png)
 * ![Stripe apps architecture diagram](/assets/images/inspire/stripe_apps_arch.png)
+* ![Cloudflare zone builder architecture diagram](/assets/images/inspire/cf_zonebuilder_arch.png)
 
 # Email
 
