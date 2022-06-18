@@ -15,6 +15,7 @@ permalink: /inspire/
 * ![Slack architecture diagram](/assets/images/inspire/slack_architecture_diagram.png)
 * ![Stripe apps architecture diagram](/assets/images/inspire/stripe_apps_arch.png)
 * ![Cloudflare zone builder architecture diagram](/assets/images/inspire/cf_zonebuilder_arch.png)
+* ![Pixar tractor architecture diagram](/assets/images/inspire/pixar_tractor.png)
 
 # Email
 
