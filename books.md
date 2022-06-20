@@ -8,6 +8,8 @@ permalink: /books/
 
 ## Books
 
+- The Line of Illeniel, Michael Manning
+- The Blacksmith's Son, Michael Manning
 - The Wizard's Crown, Michael Manning
 - The Kaiju Preservation Society
 - Interview with the Robot
