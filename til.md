@@ -331,6 +331,20 @@ _Email entering postfix queues_
 _Email leaving postfix_
 ![Outbound email](/assets/images/postfix_queues_2.png)
 
+
+## Postfix log entry
+
+```
+# Message delivery time stamps
+# delays=a/b/c/d, where
+#   a = time before queue manager, including message transmission
+#   b = time in queue manager
+#   c = connection setup including DNS, HELO and TLS;
+#   d = message transmission time
+```
+
+* [The postfix logfile entry](https://serverfault.com/questions/24121/understanding-a-postfix-log-file-entry): Postfix feature # 20051103 added the following (from the 2.3.13 release notes): Better insight into the nature of performance bottle necks, with detailed logging of delays in various stages of message delivery. Postfix logs additional delay information as "delays=a/b/c/d" where a=time before queue manager, including message transmission; b=time in queue manager; c=connection setup time including DNS, HELO and TLS; d=message transmission time.
+
 ## A few more links about postfix :)
 
 * [Postfix architecture (input handlers, queues, output handlers)](http://www.postfix.org/OVERVIEW.html): Fairly important for understanding how postfix works
