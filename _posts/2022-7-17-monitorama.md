@@ -16,3 +16,12 @@ Monitorama US 2022 happened in June and the videos have just become available on
 * There's an economic model that says if you spend 1Mill$ on the cloud your footprint is 159 tonnes or some such. Crude and a bit simplistic but it's a starting place and something auditors are currently accepting
 
 Great talk ! :)
+
+# Monitorama PDX 2022 - Sophia Russell - The little SLI that could
+
+* [Source](https://vimeo.com/730488164?embedded=false&source=vimeo_logo&owner=6548926)
+* Central sre team championed the use of slis, slos to dev teams
+* Hard to get buy in for lots of instrumentation work / training on ideas and how to implement them in existing code. There were other things to do!
+* Simplified the goal (start with slis around latency, errors, availability)
+* Simplified the system - fewer components, frameworks, different ways of doing the same thing
+* Had a false start by trying to go in with custom metrics
