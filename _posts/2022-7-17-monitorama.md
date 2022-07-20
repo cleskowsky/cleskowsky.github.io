@@ -25,3 +25,16 @@ Great talk ! :)
 * Simplified the goal (start with slis around latency, errors, availability)
 * Simplified the system - fewer components, frameworks, different ways of doing the same thing
 * Had a false start by trying to go in with custom metrics
+
+# Monitorama PDX 2022 - Joy Scharmen - Starting smart and planning for growth what I wish I knew
+
+* [Source](https://vimeo.com/730487793?embedded=false&source=vimeo_logo&owner=6548926)
+* Lovely talk with a small number of things that will make running small, important services much more joyful. I suspect these practices scale up well beyond small systems but I digress ...
+* Keep the system simple. You probably don't actually need kubernetes and can get away with an autoscaling group
+* Document your decisions (Decision journal)
+* Monitoring, alerts
+* Instrument your code
+* When in doubt don't wake up a human
+* What is one metric from your system that says you're up / down?
+* Resilience without human intervention. It doesn't scale
+* "Start your platform small and grow from there ..."
