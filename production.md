@@ -39,7 +39,7 @@ And idea I first heard about in a talk by LizTheGrey. Here are some slides I fou
         * Who was affected?
         * What happened?
         * What we're doing to make sure it doesn't happen again?
-* [On call](/assets/2022-06-16-sapphire-oncall-sucking-45min.pdf)
+* [On call](/assets/2022-06-16-sapphire-oncall-sucking-45min.pdf): Slide deck from Charity majors about running a healthy oncall practice. (2022) Ownership / shared responsibility factored largely as well as prioritizing resilience work and observability.
 
 # Checklist: Production Readiness
 
