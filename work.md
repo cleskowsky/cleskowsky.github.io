@@ -25,6 +25,7 @@ permalink: /work/
 * [Growth](#growth)
 * [Hiring Notes](/2021/09/14/hiring-notes.html)
 * [Tech Leads](#tech-leads)
+* [How gitlab onboards engineers](https://about.gitlab.com/blog/2022/07/21/quickly-onboarding-engineers-successfully/): This is a great high level overview of how gitlab onboards new team members
 
 # Tech Leads
 
