@@ -17,6 +17,7 @@ permalink: /work/
   * Input validation (Anti-corruption layer)
   * Output encoding
   * [Vulnerability Scanning](/videos/2021/08/29/vulnerability-scanning.html)
+* [UI/UX](#ui/ux)
 
 # People
 
@@ -118,3 +119,11 @@ Are 1-1's a waste of time?
 * It's ok to be light and casual sometimes (Don't have to always be heavy!)
 
 [Source](https://lauratacho.com/blog/how-can-i-make-my-1-1s-less-boring)
+
+# UI/UX
+
+Adding a few of my favourite links for UI related concerns for now
+
+* [Designing for different states in the UI](https://uxdesign.cc/designing-for-different-ui-states-87d60130f85f)
+* [Hick's Law: Time to make a decision vs complexity of choices to choose from](https://lawsofux.com/en/hicks-law/)
+* [A note on inclusion in design from the apple human interface guidelines](https://developer.apple.com/design/human-interface-guidelines/foundations/inclusion)
