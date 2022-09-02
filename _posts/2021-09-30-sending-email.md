@@ -5,6 +5,17 @@ title:  "How to send email reliably on the internet"
 
 This is a work in progress. Sending email reliably isn't an easy thing to do. These are some of my personal notes of things that have worked for me as well as some reference articles from other people who have also spent a lot of time working on this problem.
 
+# Sample dkim header
+
+```
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=0; d=mail.greatclips.com; h=Message-ID:List-Unsubscribe:MIME-Version:From:To:Date:Subject:Content-Type; i=greatclips@mail.greatclips.com; bh=ygnW58q8p3EZxckvuXDdtK0cs26o6UfWAMzbc4CrfNo=; b=CgNvr+0AqaCGICrXG9kkS24/yyCLGiw1JopyxHKpGucuQSlOcWXoRfkF6e58YD60A7wh9OvjRnax vLQSq5B18D8ajwVrKtEU83dUp7H8BUkUjL3Y3Ae0LmsOkDphc1fEaFPnayfIauE5NYNNICJZfn74 Km+XB06HaADLkD2ETfg=
+```
+
+* d: Domain: The email domain you're sending email on behalf of (eg mail.greatclips.com)
+* s: Selector: A public key can be found at $s._domainkey.domain
+* The public key is stored in a TXT type dns record
+* Fetch the record with `dig 0._domainkey.mail.greatclips.com txt` in this example
+
 # Email auth headers
 
 ![auth headers example](/assets/images/email_auth_headers_example.png)
