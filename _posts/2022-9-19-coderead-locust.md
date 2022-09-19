@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Coderead: Locust"
+categories: coderead
 ---
 
 * [Github](https://github.com/locustio/locust?ck_subscriber_id=185275687)
