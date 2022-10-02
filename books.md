@@ -8,6 +8,8 @@ permalink: /books/
 
 ## Books
 
+- The Golden Enclaves, Naomi Novik
+- Systems Performance, Brendan Gregg
 - The Line of Illeniel, Michael Manning
 - The Blacksmith's Son, Michael Manning
 - The Wizard's Crown, Michael Manning
