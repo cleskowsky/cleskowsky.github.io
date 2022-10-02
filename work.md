@@ -5,7 +5,7 @@ permalink: /work/
 ---
 
 * [Architecture](/2021/12/09/architecture.html)
-* [Code](#code)
+* [Code](/2021/12/09/code.html)
   * [Reviewing Code](/code/2021/09/02/reviewing-code.html)
   * [APIs](/code/2021/08/29/apis.html)
   * [VIDEO: Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0)
