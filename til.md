@@ -196,6 +196,26 @@ keytool -list -v -keystore /etc/pki/ca-trust/extracted/java/cacerts -alias digic
 * [Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
 * [Java logging](https://www.loggly.com/ultimate-guide/java-logging-basics/): sl4j, apache commons logging, log4j, java.util.logging … All the logs! Nice overview of logging in java with increasing degrees of complexity depending on need
 
+**PKCS12, keystore**
+
+```
+# Sometimes you need to put a secret in a vault to make it available programatically
+
+View keys in a key store
+keytool -list -v -keystore a.p12 \
+    -storepass changeme \
+    -storetype PKCS12
+
+Extract key
+openssl pkcs12 -info -in a.p12 -nodes -nocerts
+
+Extract cert
+openssl pkcs12 -info -in a.p12 -nokeys
+
+Make a keystore
+openssl pkcs12 -export -in cert.pem -inkey key.pem -out a.p12
+```
+
 # Linux
 
 * `zip -er a.zip a/`: Creates an encrypted zipfile of contents with folders from a/
