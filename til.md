@@ -224,6 +224,10 @@ openssl pkcs12 -export -in cert.pem -inkey key.pem -out a.p12
 * `split -l 50 filename`: Splits file into 50 line chunks names xaa, xab, xac, ...
 * `mkfs.xfs /dev/sdc`: Make an xfs filesystem
 
+## Links
+
+* [Tcpdump](https://danielmiessler.com/study/tcpdump/): A great guide to using tcpdump to investigate network traffic in a vm running a relatively modern version of linux.
+
 # MacOS
 
 * `cmd + shift + .` Reveals hidden files in a finder window. eg ~/.sdkman/
