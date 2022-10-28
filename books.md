@@ -24,6 +24,10 @@ permalink: /books/
   - "Microservices are hard!"
 - [Coordination avoidance](https://brooker.co.za/blog/2021/01/22/cloud-scale.html): Scaling out a distributed system is achieved by breaking up work and can be done with replication, sharding, caching and possibly other things I can't think of now or remember. Something I would not consider is the gains related to avoiding the cost of coordination altogether!
 
+## Videos
+
+* [Ryan Singer: Designing from start to finish](https://vimeo.com/16814487): This is great. I like watch people who are great at their craft make things. Doesn't have to be software related but this is.
+
 # 2021
 
 Some of these are audiobooks if the performance is well done and the rest I'm usually reading on a Kindle. Turning to audiobooks more and more as their production values just continue to go up!
