@@ -542,6 +542,13 @@ yum update --security
 
 # get info about a package
 yum info python3
+
+# Purge old package information. Can get chunky sometimes!
+yum clean packages
+yum clean headers
+yum clean metadata
+
+yum clean all # this is probably all I need :)
 {% endhighlight %}
 
 # NodeJS
