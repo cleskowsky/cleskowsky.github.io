@@ -48,6 +48,7 @@ Stuff I think about when I’m getting a new application ready to run in prod. T
 * How critical is it to the business? (Should an engineer be woken up in the middle of the night if it goes down?)
 * Monitoring
     * Metrics for a webapp: traffic volume, latency, and errors
+    * What are the pageable aspects of this service? **Remember these choices will potentially cause a human to be woken up in the middle of the night.** There shouldn't be many of them and they should all be urgent and actionable. Most things are probably important-not urgent, handle next business day. (At least with the right amount of consideration towards failover, resilience, fault isolation, etc.)
     * Logs are being shipped to a central place where we can setup filters and alerts on them
         * Are logs being rotated? Should they be?
     * Exceptions are being captured and reviewed by somebody
