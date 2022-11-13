@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- Elder Races, Adrian Tchaikovsky
 - The Golden Enclaves, Naomi Novik
 - Systems Performance, Brendan Gregg
 - The Line of Illeniel, Michael Manning
