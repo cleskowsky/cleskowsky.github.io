@@ -5,7 +5,7 @@ title:  "BangBangCon Notes, !!Con"
 
 I look forward to this conference every year now. (I've been to the last 3 including this year's.) Such a great group of people that get together to talk about very personal, different and interesting projects + learnings around computers.
 
-Day 1
+# Day 1
 
 A bunch of talks today. I didn't write down much here. There were great ideas shared certainly.
 
@@ -14,7 +14,7 @@ A bunch of talks today. I didn't write down much here. There were great ideas sh
 - Not all programmers speak english. Wouldn't it be great if code could be written in one's native language. Not always an easy leap to think in english. It's not just code though - all our communities and documentation targets an english audience.
 - There was a fun talk about the evolution of typography, letter pressing, the font files and the kinds of information people are stuffing into them now. (Weight, style, letter glyphs, non-letter glyphs :))
 
-Day 2
+# Day 2
 
 This was a workshop day. I attended one lead by Char Stiles about shaders and performative art with code, shaders and music. Super cool! I'm going to have to play with some of these pointers she gave us in the 2hr session. I like how graphics programming is tangible ... you can see what your code change did.
 
