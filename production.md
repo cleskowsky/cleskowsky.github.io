@@ -23,6 +23,7 @@ And idea I first heard about in a talk by LizTheGrey. Here are some slides I fou
 * [Architecture](https://cleskowsky.github.io/2021/12/09/architecture.html)
 * [Comics](#comics)
 * [DevOps](#devops)
+* [On Call](#on-call)
 * [Incident Response](#incident-response)
 * [Logging](#logging)
 * [Observability](#observability)
@@ -281,3 +282,12 @@ I'll fill in this section more as I go but for now I'm going to start collecting
             * April-May: 35%, 20%, 45%
             * June-July: 20%, 15%, 65%
             * ...
+
+# On Call
+
+## Series of articles @ Honeycomb by Fred Hebert
+
+* [OnCallogy Sessions](https://www.honeycomb.io/blog/oncallogy-sessions-best-practices/): How HC increases awareness of the system and how it works through the team. Ongoing teaching sessions (did he say weekly?) where they talk about some aspect of the system or their practice. Very neat idea.
+* [Tracking On-Call Health](https://www.honeycomb.io/blog/tracking-on-call-health/): Tracking the health of an oncall process is hard. You can't just say we haven't had an incident in 3 months so we must be doing great. The bad thing about oncall is about getting the call overnight, it's having to carry the pager and the implication that you can't do what you want. It's impossible to eliminate all fall alarms or pages. You can reduce anxiety and stress though. Things that should be measured somehow:
+  * Response, Monitoring, Learning, Anticipation
+  * Further reading: [RAG – Resilience Analysis Grid](https://erikhollnagel.com/onewebmedia/RAG%20Outline%20V2.pdf)
