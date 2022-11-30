@@ -10,12 +10,13 @@ permalink: /inspire/
 
 # Architecture Diagrams
 
-* ![AWS multi-az](/assets/images/inspire/aws_multiaz_diagram.png)
-* ![Single-az multi-region](/assets/images/inspire/singleaz_multiregion_diagram.png)
-* ![Slack architecture diagram](/assets/images/inspire/slack_architecture_diagram.png)
-* ![Stripe apps architecture diagram](/assets/images/inspire/stripe_apps_arch.png)
-* ![Cloudflare zone builder architecture diagram](/assets/images/inspire/cf_zonebuilder_arch.png)
-* ![Pixar tractor architecture diagram](/assets/images/inspire/pixar_tractor.png)
+![AWS multi-az](/assets/images/inspire/aws_multiaz_diagram.png)
+![Single-az multi-region](/assets/images/inspire/singleaz_multiregion_diagram.png)
+![Slack architecture diagram](/assets/images/inspire/slack_architecture_diagram.png)
+![Stripe apps architecture diagram](/assets/images/inspire/stripe_apps_arch.png)
+![Cloudflare zone builder architecture diagram](/assets/images/inspire/cf_zonebuilder_arch.png)
+![Pixar tractor architecture diagram](/assets/images/inspire/pixar_tractor.png)
+![Changelog webapp architecture diagram](/assets/images/2022/changelog_server_architecture_diagram.png)
 
 # Email
 
