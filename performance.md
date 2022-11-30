@@ -4,9 +4,9 @@ title: Performance
 permalink: /performance/
 ---
 
-# Performance Mantras
+# Performance Mantras Methodology
 
-Found these in System Performance by Brendan Gregg. I'm writing them out for easier reference and as a way to further burn them into my mind. Order is from most impactful to least.
+Found these in Systems Performance by Brendan Gregg. I'm writing them out for easier reference and as a way to further burn them into my mind. Order is from most impactful to least.
 
 1. Don't do it. (Eliminate unnecessary work)
 2. Do it, but don't do it again. (Cache it)
