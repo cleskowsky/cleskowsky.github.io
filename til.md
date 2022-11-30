@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [postfix](#postfix), [perf](#perf), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -387,45 +387,6 @@ Reverse DNS (ptr) records
 > Note that these do not have to be the same as the domain names for which you are sending mail, and it’s common that they are not.
 >
 > [Reverse dns records (ptr)](https://serverfault.com/questions/815054/reverse-dns-setup-for-an-ip-with-multiple-domains): A discussion of how they’re used. The first comment is the most helpful (Included here for posterity :))
-
-# Perf
-
-*First 60 seconds: What to look at first when diagnosing a performance issue on a linux vm**
-
-{% highlight bash %}
-# load averages
-uptime
-
-# kernel messages can be helpful sometimes
-dmesg | tail
-
-# rolling process, memory stats
-vmstat 1
-
-# rolling cpu states on multicore systems
-mpstat -P ALL 1
-
-# rolling ps aux (only shows non-idle processes)
-pidstat 1
-
-# rolling disk performance metrics
-iostat -xz 1
-
-# available memory, used, swap
-free -m
-
-# network visibility
-sar -n DEV 1
-sar -n TCP,ETCP 1
-
-# running processes in a system
-top
-{% endhighlight %}
-[Source](https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)
-
-**And other helpful commands**
-
-* `pidstat 2 [n]`: Samples process resource utilization like top at 2s intervals (n times if specified)
 
 # Python
 
