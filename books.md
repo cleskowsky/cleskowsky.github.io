@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- Sandman Audio Book Part 3, Neil Gaiman
 - Elder Races, Adrian Tchaikovsky
 - The Golden Enclaves, Naomi Novik
 - Systems Performance, Brendan Gregg
