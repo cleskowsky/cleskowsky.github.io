@@ -5,6 +5,12 @@ permalink: /quotes/
 ---
 
 <br>
+![Writing structure](/assets/images/2022/on_writing.jpg)
+
+<br>
+![Farnam Street](/assets/images/2022/fs_quote.png)
+
+<br>
 ![charity majors on the cost of new tools](/assets/images/charity_majors_cost_of_new_tools.png)
 
 <br>
