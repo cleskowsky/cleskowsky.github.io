@@ -248,6 +248,11 @@ I'll fill in this section more as I go but for now I'm going to start collecting
 
 # Security
 
+* [An introduction to approachable threat modeling](https://increment.com/security/approachable-threat-modeling/): A personal favourite of mine. Presented in this article is a way to think about threat modelling of a system that is straightforward and doesn't add a lot of overhead that is avoided.
+    * Principles, (who is interested in this system being up)
+    * Goals, (What do we want the system to be able to do, within what constraints)
+    * Adversities, (What could happen that would interfere with our goals)
+    * Invariants (What should also be true in the system to ensure applied workloads make progress)
 * Getting started with AWS
     * The root account
         * Create an IAM user
