@@ -395,6 +395,7 @@ Reverse DNS (ptr) records
 # Python
 
 * `python3 -m http.server 8000`: Runs an http server in the current dir
+* `python3 -m site`: Lists python's module load path
 
 # Resilience
 
