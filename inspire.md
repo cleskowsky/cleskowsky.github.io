@@ -4,6 +4,10 @@ title: Inspire
 permalink: /inspire/
 ---
 
+# Notes
+
+* [Website Design Notes for Tock](/2023/1/8/design_tock.html)
+
 # Collections
 
 [architecture diagrams](#architecture diagrams), [email](#email), [icons](#icons)
