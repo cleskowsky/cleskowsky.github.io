@@ -11,7 +11,7 @@ permalink: /work/
   * [VIDEO: Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0)
   * [4 + 1 Architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model#:~:text=4%2B1%20is%20a%20view,system%20engineers%2C%20and%20project%20managers.)
 * [Process](#process)
-* [Production](/2023/1/8/production.html)
+* [Production](/2023/01/08/production.html)
 * [Project Management](#project-management)
 * [SRE](#sre)
 * [Security](#security)
