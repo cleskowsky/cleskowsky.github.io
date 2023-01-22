@@ -8,6 +8,14 @@ permalink: /books/
 
 - [Tomorrow, and tomorrow, and tomorrow](https://www.amazon.ca/Tomorrow-novel-Gabrielle-Zevin/dp/0735243344), Gabrielle Zevin
 
+## Articles
+
+- [Above the Line, Below the Line](https://queue.acm.org/detail.cfm?id=3380777): So many good ideas here.
+  - Mental model is often not quite right because the system is changing constantly
+  - Collaborative effort is needed to operate systems
+  - People and views of a system work above a line of representations (different points of view of status / state)
+  - A system includes the people that operate it - not just the code
+
 # 2022
 
 ## Books
