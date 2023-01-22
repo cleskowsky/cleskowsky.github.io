@@ -11,6 +11,8 @@ permalink: /food/
 * [Homemade Pizza Dough for Beginners](https://sallysbakingaddiction.com/homemade-pizza-crust-recipe/)
 * [Easy Butter Paneer With Spinach Recipe](https://www.seriouseats.com/easy-butter-paneer-spinach-recipe)
 * [Baba Ghanoush](#baba-ghanoush)
+* [Turkish Pea Stew](https://heartfultable.com/turkish-pea-stew/)
+  * ![Pdf printed website](/assets/2023/Turkish_Pea_Stew_HeartfulTable.pdf)
 
 # Recipes - Our Favourite Soups
 
