@@ -15,7 +15,7 @@ permalink: /books/
   - Collaborative effort is needed to operate systems
   - People and views of a system work above a line of representations (different points of view of status / state)
   - A system includes the people that operate it - not just the code
-- ![Jakob's 10 Usability Heuristics](/assets/2023/jakob_neilsen_ten_usability_heuristics.pdf): Beautiful presentation of important ideas
+- [Jakob's 10 Usability Heuristics](/assets/2023/jakob_neilsen_ten_usability_heuristics.pdf): Beautiful presentation of important ideas
 
 # 2022
 
