@@ -18,6 +18,7 @@ permalink: /books/
 - [Jakob's 10 Usability Heuristics](/assets/2023/jakob_neilsen_ten_usability_heuristics.pdf): Beautiful presentation of important ideas
 - [Delivery Hero's Reliability Manifesto](https://tech.deliveryhero.com/our-reliability-manifesto/?ck_subscriber_id=185275687)
   - [PDF printed copy of above](/assets/2023/Delivery_Hero_Reliability_Manifesto.pdf)
+- [10 technical strategies to avoid when scaling your startup (and 5 to embrace)](https://www.intercom.com/blog/ten-technical-strategies-to-avoid-when-scaling-your-startup-and-five-to-embrace/): I'm sure I've bookmarked this before, but it's just so good.
 
 # 2022
 
