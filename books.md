@@ -16,6 +16,8 @@ permalink: /books/
   - People and views of a system work above a line of representations (different points of view of status / state)
   - A system includes the people that operate it - not just the code
 - [Jakob's 10 Usability Heuristics](/assets/2023/jakob_neilsen_ten_usability_heuristics.pdf): Beautiful presentation of important ideas
+- [Delivery Hero's Reliability Manifesto](https://tech.deliveryhero.com/our-reliability-manifesto/?ck_subscriber_id=185275687)
+  - [PDF printed copy of above](/assets/2023/Delivery_Hero_Reliability_Manifesto.pdf)
 
 # 2022
 
