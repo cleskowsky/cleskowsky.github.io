@@ -8,7 +8,7 @@ title:  "Hiring Notes"
 * How I currently think about [**Interview Structure**](#interview-structure)
 * A few of my favourite [**Interview Questions**](#interview-questions) I like to ask
 * How I've done [**Live Coding**](#live-coding) before and how it's worked / not worked
-* ![Impactful Interviews](/assets/2023/Impact_Interview_1page_Guide.pdf)
+* [Impactful Interviews](/assets/2023/Impact_Interview_1page_Guide.pdf)
 
 # Values
 
