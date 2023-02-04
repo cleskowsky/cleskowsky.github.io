@@ -18,6 +18,13 @@ Today I Learned!
 * `ansible-playbook -i "localhost" playbook-nagios.yml --list-tasks`: Lists plays that will be run by ansible
 * `ansible hostgroup -i inv -m shell -a "command"`: Execute task <command> across all hosts in group hostgroup in inventory inv
 
+{% highlight bash %}
+
+# Don't make any changes but print a diff of what would have changed
+# Note: It's not always possible to do a check run
+ansible-playbook -i inv pb.yml --check --diff
+{% endhighlight %}
+
 # AWS
 
 * `aws sts get-caller-identity`: Gets the apiuser for my current apikey
@@ -97,6 +104,11 @@ done
 * [Java links that are my favourites](/2022/10/23/java.html)
 * [Db migrations in java](https://flywaydb.org/): Incredibly Spring data doesn’t have a story for db migrations out of the box (It seems to have everything else!)
 * [Elasticsearch's guidance for setting java's heap size](https://www.elastic.co/guide/en/elasticsearch/reference/current/advanced-configuration.html#set-jvm-heap-size): 50% of main memory available in a system is a recommendation I've read in a couple of places now
+
+{% highlight bash %}
+# Show information about jvm vendor
+java -XshowSettings:properties -version
+{% endhighlight %}
 
 ## Performance analysis
 
