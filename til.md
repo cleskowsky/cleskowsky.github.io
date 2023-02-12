@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -346,6 +346,33 @@ Hosts/Net: 65534                 Class A, Private Internet
 
 * [ngrok](https://ngrok.com/): A tool to create a public tunnel to a tcp service running on localhost
 
+# OpenSSL
+
+Cross posted a few ssh things here because I can never remember where in this doc I put stuff like this ...
+
+{% highlight bash %}
+# Check a certificate
+openssl x509 -in server.crt -text -noout
+
+# Check a key
+openssl rsa -in server.key -check
+
+# Check a csr
+openssl req -text -noout -verify -in server.csr
+
+# Generate a private key in pem format
+openssl genrsa -out key.pem 2048
+
+# Then do this if I need a public key too
+openssl rsa -in key.pem -outform PEM -pubout -out public.pem
+
+# Generate a public/private key in rsa format (Can be used with github + SSH)
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+# Github recommends creating a key with the ed25519 algorithm
+ssh-keygen -t ed25519 -C "your_email@example.com"
+{% endhighlight %}
+
 # Postfix
 
 * [My random notes about sending email on the internet!](/2021/09/30/sending-email.html)
@@ -371,7 +398,6 @@ _Email entering postfix queues_
 
 _Email leaving postfix_
 ![Outbound email](/assets/images/postfix_queues_2.png)
-
 
 ## Postfix log entry
 
@@ -426,6 +452,15 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # Github recommends creating a key with the ed25519 algorithm
 ssh-keygen -t ed25519 -C "your_email@example.com"
+
+# Check a certificate
+openssl x509 -in server.crt -text -noout
+
+# Check a key
+openssl rsa -in server.key -check
+
+# Check a csr
+openssl req -text -noout -verify -in server.csr
 {% endhighlight %}
 
 ~/.ssh/config
