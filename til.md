@@ -108,6 +108,16 @@ done
 {% highlight bash %}
 # Show information about jvm vendor
 java -XshowSettings:properties -version
+
+# Interpreting a garbage collection line
+2023-02-12T16:58:32.425-0500: 154220.773: [GC (Allocation Failure) [PSYoungGen: 5152746K->150498K(5278720K)] 8630240K->3628228K(9599488K), 0.1430319 secs] [Times: user=0.21 sys=0.01, real=0.14 secs]
+* This is a detailed gc event log that includes info about Eden (YoungGen) and Tenured (OldGen). Start the jvm with '-verbose:gc -XX:+PrintGCDetails'. There are other settings that specify where to write log events.
+* Allocation failure means no space is left in Eden
+* [PSYoungGen: n -> m(x)]: Size of eden before collection -> Size of eden after collection(Total eden size)
+* [] n -> m(x): Size of tenured before collection -> Size of tenured after collection(Total tenured size)
+* Followed by gc event time in seconds
+* Is this considered a minor collection or full? I think minor because the event starts with GC (...). Full collection starts with FULL GC (...).
+* [Source](https://www.baeldung.com/java-verbose-gc)
 {% endhighlight %}
 
 ## Performance analysis
