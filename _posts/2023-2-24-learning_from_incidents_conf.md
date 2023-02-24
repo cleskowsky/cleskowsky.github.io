@@ -15,6 +15,7 @@ title: "Notes from Learning From Incidents (LFI) 2023 talks"
 * The importance of using modern tooling around systems
 
 ![A vertical bar chart showing the growing cost of a bug being discovered and fixed in later stages of the software delivery lifecycle. Bugs that make it into production are much more expensive to remediate compared to bugs found during development](/assets/2023/charity_majors.png)
+
 ![Developers report spending almost half of their work lives refactoring, debugging issues, and trying to reproduce them](/assets/2023/charity_majors_2.png)
 
 # Jessica Kerr
