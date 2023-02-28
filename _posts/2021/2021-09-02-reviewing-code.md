@@ -6,8 +6,7 @@ category: code
 
 # The most important advice I've ever read about reviewing code ...
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The best PR reviews I’ve ever got included comments on: <br><br>- concurrency bugs<br>- software layering<br>- how to write better tests<br><br>The worst PR review I’ve ever got told me to make functions smaller. <br><br>That’s why I get so triggered whenever “clean code” is wheeled out in PR reviews.</p>&mdash; Cindy Sridharan (@copyconstruct) <a href="https://twitter.com/copyconstruct/status/1317277666823741440?ref_src=twsrc%5Etfw">October 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<br>
+![The most important advice I've ever read about reviewing code comes from Cindy Sridharan. The best comments were about concurrency bugs, software layering, and how to write better tests. The worst talked about making functions smaller and clean code.](/assets/2023/reviewing_code.png)
 
 # Reading
 
