@@ -12,7 +12,7 @@ title:  "Hiring Notes"
 
 # Values
 
-A few great ones to ingraine in team culture:
+A few great ones to ingrain in team culture:
 
 * Candor
 * Diversity
