@@ -12,6 +12,7 @@ permalink: /books/
 
 ## Articles
 
+- [Gov.uk design system](https://design-system.service.gov.uk/): A thorough guide to designing web applications / pages that are accessible and consistent. Very well put together and thought through.
 - [Above the Line, Below the Line](https://queue.acm.org/detail.cfm?id=3380777): So many good ideas here.
   - Mental model is often not quite right because the system is changing constantly
   - Collaborative effort is needed to operate systems
