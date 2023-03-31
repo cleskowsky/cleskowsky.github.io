@@ -10,6 +10,10 @@ permalink: /books/
 
 - [Tomorrow, and tomorrow, and tomorrow](https://www.amazon.ca/Tomorrow-novel-Gabrielle-Zevin/dp/0735243344), Gabrielle Zevin
 
+## Slides
+
+- [Why Cloud Zombies Are Destroying the Planet and How You Can Stop Them](/assets/2023/zombies.pdf): Absolutely fantastic. Turn it off! LightSwitchOps - turning off and back on again should be easy and just work. Don't make it hard for people to get servers - they won't give them back! (Attachment.)
+
 ## Articles
 
 - [Gov.uk design system](https://design-system.service.gov.uk/): A thorough guide to designing web applications / pages that are accessible and consistent. Very well put together and thought through.
