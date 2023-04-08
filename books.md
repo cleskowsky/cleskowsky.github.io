@@ -8,6 +8,7 @@ permalink: /books/
 
 # Books
 
+- [Wizard in Exile (Wrath of the Stormking Book 1)](https://www.amazon.ca/Wizard-Exile-Wrath-Stormking-Book-ebook/dp/B0BZQKT5BT)
 - [Tomorrow, and tomorrow, and tomorrow](https://www.amazon.ca/Tomorrow-novel-Gabrielle-Zevin/dp/0735243344), Gabrielle Zevin
 
 ## Slides
