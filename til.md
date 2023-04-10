@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -98,6 +98,13 @@ done
 * [html5boilerplate](https://html5boilerplate.com/) a reasonable starting point for frontend projects. Pretty much everything you could ever be worried about is here 🙂 [This is similar but much simpler](https://www.matuzo.at/blog/html-boilerplate/)
 * [Vue instance lifecycle events](https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram)
 * [Setting up Vue computed properties for unit tests with vue-test-utils](https://stackoverflow.com/questions/50437699/setting-up-vue-computed-properties-for-unit-tests-with-vue-test-utils) In the past, I have had to override a computed value to create specific test context
+
+# Intellij
+
+## Shortcuts
+
+* Cmd+Shift+V Choose from previous n clipboards values and paste
+* Ctrl+g Multi select the word under the cursor (need to press multiple times)
 
 # Java
 
