@@ -254,6 +254,10 @@ openssl pkcs12 -export -in cert.pem -inkey key.pem -out a.p12
 * `pstree -s tomcat`: Show processes containing tomcat in their commandline (brew install pstree)
 * `split -l 50 filename`: Splits file into 50 line chunks names xaa, xab, xac, ...
 * `mkfs.xfs /dev/sdc`: Make an xfs filesystem
+* After initializing a volume with a filesystem, get its UUID by running `sudo blkid` and update /etc/fstab. Don't use the device file in fstab. (eg /dev/nvme1n1) Device name to volume mapping can change between restarts depending on which volume comes up first when multiple volumes are attached to a server.
+* Background long running tasks started in a login shell
+  * Run `bg` then `disown -h` to tell your shell not to send the terminate signal to processes started under it. (Ignore SIGHUP?) Suspend the program first with ctrl-z.
+  * Run `nohup <cmd>` to launch a command not bound to the lifetime of the current shell.
 
 ## Links
 

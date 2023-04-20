@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Brunch: Cafe Landwer"
+categories: brunch
 ---
 
 First of our at least monthly brunches with Carmen today at Cafe Landwer. The food was beyond excellent. We'd definitely go back. I think this might be my first try of the dish shakshuka. Eggs, tomato sauce, and halloumi cheese. :)
