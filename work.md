@@ -28,6 +28,7 @@ permalink: /work/
 * [Hiring Notes, Interviews, Interviewing](/2021/09/14/hiring-notes.html)
 * [Tech Leads](#tech-leads)
 * [How gitlab onboards engineers](https://about.gitlab.com/blog/2022/07/21/quickly-onboarding-engineers-successfully/): This is a great high level overview of how gitlab onboards new team members
+* [Defining a Distinguished Engineer](https://blog.jessfraz.com/post/defining-a-distinguished-engineer/): How to be a better senior engineer
 
 # Tech Leads
 
