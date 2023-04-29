@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 10
+paginate: 50
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -60,7 +60,6 @@ paginate: 10
 header_pages:
   - books.md
   - food.md
-  - health.md
   - inspire.md
   - quotes.md
   - performance.md

@@ -17,6 +17,16 @@ permalink: /books/
 
 ## Articles
 
+- [Questions for a new technology](https://kellanem.com/notes/new-tech): Love these. There should be some friction to adding a new technology to a team / system. Ongoing maintenance and operational burn trumps dev cost:
+  1. What problem are we trying to solve? (Tech should never be introduced as an end to itself)
+  2. How could we solve the problem with our current tech stack? (If the answer is we can’t, then we probably haven’t thought about the problem deeply enough)
+  3. Are we clear on what new costs we are taking on with the new technology? (monitoring, training, cognitive load, etc)
+  4. What about our current stack makes solving this problem in a cost-effective manner (in terms of money, people or time) difficult?
+  5. If this new tech is a replacement for something we currently do, are we committed to moving everything to this new technology in the future? Or are we proliferating multiple solutions to the same problem? (aka “Will this solution kill and eat the solution that it replaces?”)
+  6. Who do we know and trust who uses this tech? Have we talked to them about it? What did they say about it? What don’t they like about it? (if they don’t hate it, they haven’t used it in depth yet)
+  7. What’s a low risk way to get started?
+  8. Have you gotten a mixed discipline group of senior folks together and thrashed out each of the above points? Where is that documented?
+- [12 factor app](https://12factor.net/): Good practices here in terms of architecting and operating an application.
 - [Gov.uk design system](https://design-system.service.gov.uk/): A thorough guide to designing web applications / pages that are accessible and consistent. Very well put together and thought through.
 - [Above the Line, Below the Line](https://queue.acm.org/detail.cfm?id=3380777): So many good ideas here.
   - Mental model is often not quite right because the system is changing constantly
