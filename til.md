@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [intellij](#intellij), [java](#java), [openssl](#openssl), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -187,7 +187,7 @@ sudo jstat -gcutil <pid> 250 7
 
 A program that ships with the jdk that lets you introspect a running java process. (You can see exposed jmx beans, heap memory, threads, and a few other things) I usually use it to look at jmx beans
 
-{% highlight bash %}
+```shell
 # Figure out the pid of your java process doing something like this or pidof ...
 ps aux | grep java
 
@@ -195,20 +195,22 @@ ps aux | grep java
 jconsole
 
 # JConsole will display a list of java processes it finds on your system. Pick the one you want!
-{% endhighlight %}
+```
 
 Note: I have only ever done this in dev
 
-**SDK Man**
+**Links**
 
-Install and run with several jdk versions (And other tools I think)
+* [How root / intermediate certs work, and how they’re protected](https://security.stackexchange.com/questions/119460/do-i-put-my-subordinate-intermediate-or-root-ca-certificate-in-my-truststore)
+* [A list of tutorials from Baeldung.com. This is a really good resource!](https://www.baeldung.com/java-tutorial)
+* [Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
+* [Java logging](https://www.loggly.com/ultimate-guide/java-logging-basics/): sl4j, apache commons logging, log4j, java.util.logging … All the logs! Nice overview of logging in java with increasing degrees of complexity depending on need
 
-Links
-* [SDKMan!](https://sdkman.io/)
+# Openssl
 
-**Cacerts, trust store, root certs**
+## Cacerts, keystores, trust, pkcs12, trust anchors, WebPKI
 
-{% highlight bash %}
+```shell
 # View trusted root certs in centos
 keytool -list -keystore /etc/pki/ca-trust/extracted/java/cacerts -storepass changeit
 
@@ -218,24 +220,11 @@ openssl s_client -showcerts -connect telusemrapi.telushealth.com:443
 # View a particular cert in my trust store
 # Get alias from the cert list command above
 keytool -list -v -keystore /etc/pki/ca-trust/extracted/java/cacerts -alias digicertassuredidrootca -storepass changeit
-{% endhighlight %}
-
-**Links**
-
-* [How root / intermediate certs work, and how they’re protected](https://security.stackexchange.com/questions/119460/do-i-put-my-subordinate-intermediate-or-root-ca-certificate-in-my-truststore)
-* [A list of tutorials from Baeldung.com. This is a really good resource!](https://www.baeldung.com/java-tutorial)
-* [Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
-* [Java logging](https://www.loggly.com/ultimate-guide/java-logging-basics/): sl4j, apache commons logging, log4j, java.util.logging … All the logs! Nice overview of logging in java with increasing degrees of complexity depending on need
-
-**PKCS12, keystore**
-
-```
-# Sometimes you need to put a secret in a vault to make it available programatically
 
 View keys in a key store
 keytool -list -v -keystore a.p12 \
-    -storepass changeme \
-    -storetype PKCS12
+-storepass changeme \
+-storetype PKCS12
 
 Extract key
 openssl pkcs12 -info -in a.p12 -nodes -nocerts
