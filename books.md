@@ -8,6 +8,7 @@ permalink: /books/
 
 # Books
 
+- [Real world cryptography](https://www.amazon.ca/Real-World-Cryptography-David-Wong-ebook/dp/B09FR9YJWD/ref=sr_1_1?keywords=real+world+cryptography&qid=1684201379&sprefix=real+world+%2Caps%2C107&sr=8-1)
 - [Wizard in Exile (Wrath of the Stormking Book 1)](https://www.amazon.ca/Wizard-Exile-Wrath-Stormking-Book-ebook/dp/B0BZQKT5BT)
 - [Tomorrow, and tomorrow, and tomorrow](https://www.amazon.ca/Tomorrow-novel-Gabrielle-Zevin/dp/0735243344), Gabrielle Zevin
 
