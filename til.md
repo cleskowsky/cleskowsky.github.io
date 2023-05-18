@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [intellij](#intellij), [java](#java), [openssl](#openssl), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -42,6 +42,7 @@ ansible-playbook -i inv pb.yml --check --diff
 * [Documented bash ‘set’ shell modifiers](https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html) (eg What does set -e mean?)
 * [Best practices for writing bash](https://kvz.io/bash-best-practices.html)
 * [Anybody can write good bash](https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort)
+* [Google's style guide](https://google.github.io/styleguide/shellguide.html): Lots of great tips / things to think about here
 
 {% highlight bash %}
 #!/usr/bin/env bash
@@ -234,6 +235,26 @@ openssl pkcs12 -info -in a.p12 -nokeys
 
 Make a keystore
 openssl pkcs12 -export -in cert.pem -inkey key.pem -out a.p12
+
+# Generate a private key in pem format
+openssl genrsa -out key.pem 2048
+# Then do this if I need a public key too
+openssl rsa -in key.pem -outform PEM -pubout -out public.pem
+
+# Generate a public/private key in rsa format (Can be used with github + SSH)
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+# Github recommends creating a key with the ed25519 algorithm
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+# Check a certificate
+openssl x509 -in server.crt -text -noout
+
+# Check a key
+openssl rsa -in server.key -check
+
+# Check a csr
+openssl req -text -noout -verify -in server.csr
 ```
 
 # Linux
@@ -451,28 +472,6 @@ Reverse DNS (ptr) records
 * [Timeouts, retries and backoff with jitter](/2021/10/06/backoff-retries-jitter.html)
 
 # SSH
-
-{% highlight bash %}
-# Generate a private key in pem format
-openssl genrsa -out key.pem 2048
-# Then do this if I need a public key too
-openssl rsa -in key.pem -outform PEM -pubout -out public.pem
-
-# Generate a public/private key in rsa format (Can be used with github + SSH)
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-
-# Github recommends creating a key with the ed25519 algorithm
-ssh-keygen -t ed25519 -C "your_email@example.com"
-
-# Check a certificate
-openssl x509 -in server.crt -text -noout
-
-# Check a key
-openssl rsa -in server.key -check
-
-# Check a csr
-openssl req -text -noout -verify -in server.csr
-{% endhighlight %}
 
 ~/.ssh/config
 
