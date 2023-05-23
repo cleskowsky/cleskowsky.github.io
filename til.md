@@ -43,6 +43,7 @@ ansible-playbook -i inv pb.yml --check --diff
 * [Best practices for writing bash](https://kvz.io/bash-best-practices.html)
 * [Anybody can write good bash](https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort)
 * [Google's style guide](https://google.github.io/styleguide/shellguide.html): Lots of great tips / things to think about here
+* [Difference between \[ and \[\[](https://www.baeldung.com/linux/bash-single-vs-double-brackets): Always have to look this up
 
 {% highlight bash %}
 #!/usr/bin/env bash
@@ -92,6 +93,15 @@ while getopts "hp:i:" opt ; do
             ;;
     esac
 done
+
+# Check that a file exists
+if [[ -f /path/to/file ]]; then
+    echo "file exists"
+elif [[ -f /path/to/file1 ]]; then
+    echo "file1 exists"
+else
+    echo "file does not exist"
+fi
 {% endhighlight %}
 
 # Frontend
