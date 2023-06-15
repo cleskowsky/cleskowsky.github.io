@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [passwords](#passwords), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -414,6 +414,14 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # Github recommends creating a key with the ed25519 algorithm
 ssh-keygen -t ed25519 -C "your_email@example.com"
 {% endhighlight %}
+
+# Passwords
+
+Generate a random secret on linux / mac:
+
+```shell
+dd if=/dev/urandom bs=16 count=1 2> /dev/null | xxd -p
+```
 
 # Postfix
 
