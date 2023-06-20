@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [passwords](#passwords), [postfix](#postfix), [python](#python), [resilience](#resilience), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [security](#security), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -278,6 +278,7 @@ openssl req -text -noout -verify -in server.csr
 * Background long running tasks started in a login shell
   * Run `bg` then `disown -h` to tell your shell not to send the terminate signal to processes started under it. (Ignore SIGHUP?) Suspend the program first with ctrl-z.
   * Run `nohup <cmd>` to launch a command not bound to the lifetime of the current shell.
+* Disk utilization per process with pidstat `pidstat -dl 20` batches and reports disk use (r/w) every 20s [source](https://serverfault.com/questions/169676/how-to-check-disk-i-o-utilization-per-process)
 
 ## Links
 
@@ -415,14 +416,6 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ssh-keygen -t ed25519 -C "your_email@example.com"
 {% endhighlight %}
 
-# Passwords
-
-Generate a random secret on linux / mac:
-
-```shell
-dd if=/dev/urandom bs=16 count=1 2> /dev/null | xxd -p
-```
-
 # Postfix
 
 * [My random notes about sending email on the internet!](/2021/09/30/sending-email.html)
@@ -488,6 +481,15 @@ Reverse DNS (ptr) records
 # Resilience
 
 * [Timeouts, retries and backoff with jitter](/2021/10/06/backoff-retries-jitter.html)
+
+# Security, cryptography, whatever
+
+* Choosing good cryptographic constructs for specific circustances [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html)
+* Generate a random secret on linux / mac:
+
+```shell
+dd if=/dev/urandom bs=16 count=1 2> /dev/null | xxd -p
+```
 
 # SSH
 
