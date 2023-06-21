@@ -482,7 +482,8 @@ Reverse DNS (ptr) records
 
 * [Timeouts, retries and backoff with jitter](/2021/10/06/backoff-retries-jitter.html)
 
-# Security, cryptography, whatever
+# Security
+## Security, cryptography, whatever
 
 * Choosing good cryptographic constructs for specific circustances [Cryptographic Right Answers](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html)
 * Generate a random secret on linux / mac:
