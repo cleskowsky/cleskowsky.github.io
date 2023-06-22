@@ -279,6 +279,7 @@ openssl req -text -noout -verify -in server.csr
   * Run `bg` then `disown -h` to tell your shell not to send the terminate signal to processes started under it. (Ignore SIGHUP?) Suspend the program first with ctrl-z.
   * Run `nohup <cmd>` to launch a command not bound to the lifetime of the current shell.
 * Disk utilization per process with pidstat `pidstat -dl 20` batches and reports disk use (r/w) every 20s [source](https://serverfault.com/questions/169676/how-to-check-disk-i-o-utilization-per-process)
+* [Filesystem Hierarchy Standard](https://www.pathname.com/fhs/pub/fhs-2.3.html): Where to put things in the linux file system
 
 ## Links
 
