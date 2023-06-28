@@ -335,6 +335,8 @@ Links
 
 * [Update arrays in a document](https://docs.mongodb.com/drivers/node/fundamentals/crud/write-operations/embedded-arrays/): Modify an array in a document using $ and $[] notation
 * [Design Patterns for MongoDB](https://towardsdatascience.com/design-patterns-for-mongodb-894767315905)
+* [Compact command concerns](https://www.mongodb.com/community/forums/t/compact-command-concerns/13696)
+* [Mongodb manual - compact](https://www.mongodb.com/docs/manual/reference/command/compact/#std-label-compact-cmd-replica-sets)
 
 **Connection Strings**
 
