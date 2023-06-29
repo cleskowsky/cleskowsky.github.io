@@ -510,6 +510,16 @@ Host *
     ControlPersist 600
 {% endhighlight %}
 
+Create an ssh tunnel to allow access to an internal service where I do have a jump host and can connect to another machine that can see the internal service
+
+{% highlight bash %}
+ssh -L 10000:[vm.internal:443] [jump.host]
+
+* 10000 Local port to bind ssh to (Point browser here)
+* vm.internal:443 Internal service host:port
+* jump.host A bastion vm I can ssh to
+{% endhighlight %}
+
 # Strace
 
 {% highlight bash %}
