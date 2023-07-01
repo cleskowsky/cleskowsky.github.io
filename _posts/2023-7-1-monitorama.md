@@ -18,7 +18,7 @@ I'll write down a few thoughts across the 3 days worth of talks that are things 
 
 # Live streams from the event
 
-* [2023 Monitorama Live Stream Day 1](https://www.youtube.com/watch?v=CRJcc1TqBhM)
+* [2023 Monitorama Live Stream Day 1](https://www.youtube.com/watch?v=CRJcc1TqBhM)w
 * [2023 Monitorama Live Stream Day 2](https://www.youtube.com/watch?v=AAkUKsLRlu8)
 
 # And a few slides that I like a lot
