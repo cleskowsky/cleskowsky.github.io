@@ -500,6 +500,13 @@ dd if=/dev/urandom bs=16 count=1 2> /dev/null | xxd -p
 ~/.ssh/config
 
 {% highlight bash %}
+# Create an vm alias that's easier to remember than an ip
+# Then use it thusly: ssh m
+Host m
+    Hostname <ip address>
+    User <login user>
+    IdentityFile ~/.ssh/<key file>
+
 # ControlMaster
 #
 # Reuse connections when re-connecting to a host with an already established
