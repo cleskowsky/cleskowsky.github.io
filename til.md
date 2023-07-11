@@ -329,6 +329,14 @@ db.collection.update({ filter criteria }, { $push: arrayName: 'new item' } })
 # Eval a command from the command line
 # Stuff like 'show dbs' doesn't work but js commands do. Sometimes this is helpful in script work
 mongo ocean --eval 'db.audit.count()'
+
+# Get top 5 sizes of docs in collection coll
+# For some reason I can't find official documentation for bsonsize(...) !!
+var x = [];
+db.coll.find().forEach(function (p) {
+        x.push(bsonsize(p));
+});
+print(x.sort().reverse().slice(0, 5));
 {% endhighlight %}
 
 Links
