@@ -8,6 +8,7 @@ permalink: /books/
 
 # Books
 
+- [That Time I Loved You](https://www.amazon.ca/That-Time-I-Loved-You/dp/1443452866/ref=sr_1_1?keywords=that+time+i+loved+you&qid=1691325785&sprefix=that+time+i+lov%2Caps%2C90&sr=8-1), Carrianne Leung (Recommended by Cecil at work. His sister wrote it! Enjoyed quite a bit.)
 - [Real world cryptography](https://www.amazon.ca/Real-World-Cryptography-David-Wong-ebook/dp/B09FR9YJWD/ref=sr_1_1?keywords=real+world+cryptography&qid=1684201379&sprefix=real+world+%2Caps%2C107&sr=8-1)
 - [Wizard in Exile (Wrath of the Stormking Book 1)](https://www.amazon.ca/Wizard-Exile-Wrath-Stormking-Book-ebook/dp/B0BZQKT5BT)
 - [Tomorrow, and tomorrow, and tomorrow](https://www.amazon.ca/Tomorrow-novel-Gabrielle-Zevin/dp/0735243344), Gabrielle Zevin
