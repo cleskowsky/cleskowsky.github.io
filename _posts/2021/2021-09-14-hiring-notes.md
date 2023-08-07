@@ -104,3 +104,7 @@ Incident's process isn't far off our at CMD for hiring in the Ops team.
 # Live Coding
 
 * [Six Coding Interview Formats to Replace LeetCode Bullshit](https://hoffm.medium.com/six-coding-interview-formats-to-replace-leetcode-84f3c770b5c1): Live coding styles that do not include advent of code style problems with brute force + optimal solutions that must be found. More in line with what people will actually be doing in their day.
+
+# Design question
+
+* Let's work on a build pipeline together! What should go in there? What do we need to worry about? It's an open-ended question so let it go wherever it will.
