@@ -152,6 +152,26 @@ java -XshowSettings:properties -version
 * [Source](https://www.baeldung.com/java-verbose-gc)
 {% endhighlight %}
 
+# Set default java on macos
+
+{% highlight bash %}
+# Get a list of installed java versions
+/usr/libexec/java_home -V
+
+christian@Christians-Mac-mini cleskowsky.github.io % /usr/libexec/java_home -V
+Matching Java Virtual Machines (15):
+19.0.2 (arm64) "Amazon.com Inc." - "Amazon Corretto 19" /Users/christian/Library/Java/JavaVirtualMachines/corretto-19.0.2/Contents/Home
+17.0.7 (arm64) "Amazon.com Inc." - "Amazon Corretto 17" /Users/christian/Library/Java/JavaVirtualMachines/corretto-17.0.7/Contents/Home
+17.0.6 (arm64) "Amazon.com Inc." - "Amazon Corretto 17" /Users/christian/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home
+17.0.1 (arm64) "Azul Systems, Inc." - "Zulu 17.30.15" /Users/christian/Library/Java/JavaVirtualMachines/azul-17.0.1/Contents/Home
+17.0.1 (x86_64) "Amazon.com Inc." - "Amazon Corretto 17" /Users/christian/Library/Java/JavaVirtualMachines/corretto-17.0.1/Contents/Home
+11.0.11 (arm64) "Azul Systems, Inc." - "Zulu 11.48.21" /Users/christian/Library/Java/JavaVirtualMachines/azul-11.0.11/Contents/Home
+...
+
+# Then pick the version this way
+export JAVA_HOME=`/usr/libexec/java_home -v 17.0.7`
+{% endhighlight %}
+
 ## Performance analysis
 
 **CPU**
@@ -293,6 +313,7 @@ openssl req -text -noout -verify -in server.csr
   * Run `nohup <cmd>` to launch a command not bound to the lifetime of the current shell.
 * Disk utilization per process with pidstat `pidstat -dl 20` batches and reports disk use (r/w) every 20s [source](https://serverfault.com/questions/169676/how-to-check-disk-i-o-utilization-per-process)
 * [Filesystem Hierarchy Standard](https://www.pathname.com/fhs/pub/fhs-2.3.html): Where to put things in the linux file system
+* `nc -l 8080 -k` starts a tiny echo server that prints incoming client messages
 
 ## Links
 
