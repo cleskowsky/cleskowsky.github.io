@@ -4,6 +4,8 @@ title: Quotes
 permalink: /quotes/
 ---
 
+![Mr Rogers on helpers others win and slowing down to do it](/assets/2023/mister_rogers.png)
+
 ![Writing structure](/assets/images/2022/on_writing.jpg)
 
 ![Farnam Street](/assets/images/2022/fs_quote.png)
