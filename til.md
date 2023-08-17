@@ -152,6 +152,8 @@ java -XshowSettings:properties -version
 * [Source](https://www.baeldung.com/java-verbose-gc)
 {% endhighlight %}
 
+A full garbage collection is triggered when a copy from newgen to oldgen fails because there isn't enough available memory.
+
 # Set default java on macos
 
 {% highlight bash %}
