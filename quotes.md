@@ -4,6 +4,8 @@ title: Quotes
 permalink: /quotes/
 ---
 
+> Most decisions should probably be made with somewhere around 70% of the information you wish you had. If you wait for 90%, in most cases, you’re probably being slow. Plus, either way, you need to be good at quickly recognizing and correcting bad decisions. If you’re good at course correcting, being wrong may be less costly than you think, whereas being slow is going to be expensive for sure. - Jeff Bezos, 2016 Letter to Shareholders
+
 ![Mr Rogers on helpers others win and slowing down to do it](/assets/2023/mister_rogers.png)
 
 ![Writing structure](/assets/images/2022/on_writing.jpg)
