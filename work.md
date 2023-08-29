@@ -19,6 +19,7 @@ permalink: /work/
   * Output encoding
   * [Vulnerability Scanning](/videos/2021/08/29/vulnerability-scanning.html)
 * [UI/UX](#ui/ux)
+* [Devtools](#devtools)
 
 # People
 
@@ -133,3 +134,18 @@ Adding a few of my favourite links for UI related concerns for now
 * [Designing for different states in the UI](https://uxdesign.cc/designing-for-different-ui-states-87d60130f85f)
 * [Hick's Law: Time to make a decision vs complexity of choices to choose from](https://lawsofux.com/en/hicks-law/)
 * [A note on inclusion in design from the apple human interface guidelines](https://developer.apple.com/design/human-interface-guidelines/foundations/inclusion)
+
+# Devtools
+
+Things a developer tooling engineer may find themselves involved in:
+
+* Fully automated developer onboarding and local developer environments
+* Comprehensive documentation strategies, testing strategies
+* Building out Progressive Delivery as a capability - ability to rollback deploys, deploy feature flags, and drive feature flag driven development
+* Build system performance improvements and reliability improvements
+* Roll out a comprehensive philosophy and approach to observability, including (but not limited to): cost consciousness, performance, distributed tracing in production and CI
+* Finding one cross-functional collaboration point, automate aspects of it, and reduce friction there
+* Nothing says “I know how to improve things where it actually hurts” like bringing more visibility into tickets and making it easier to open and close them
+* Find a new project a team is about to do, sit in on planning, and take notes. Look for opportunities to notice when multiple teams are trying to solve the same problem, and bridge that communication gap.
+
+[Source](https://hazelweakly.me/blog/so-you-want-to-hire-for-developer-tooling/)
