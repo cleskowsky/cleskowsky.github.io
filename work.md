@@ -10,6 +10,7 @@ permalink: /work/
   * [APIs](/code/2021/08/29/apis.html)
   * [VIDEO: Simplicity Matters by Rich Hickey](https://www.youtube.com/watch?v=rI8tNMsozo0)
   * [4 + 1 Architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model#:~:text=4%2B1%20is%20a%20view,system%20engineers%2C%20and%20project%20managers.)
+  * [Logging](#logging)
 * [Process](#process)
 * [Production](/2023/01/08/production.html)
 * [Project Management](#project-management)
@@ -149,3 +150,45 @@ Things a developer tooling engineer may find themselves involved in:
 * Find a new project a team is about to do, sit in on planning, and take notes. Look for opportunities to notice when multiple teams are trying to solve the same problem, and bridge that communication gap.
 
 [Source](https://hazelweakly.me/blog/so-you-want-to-hire-for-developer-tooling/)
+
+# Logging
+
+Try to learn as much as you can about request processing system and related systems. After a request returns, it's too late to get this kind of insight about a request ...
+
+```java
+public GetProductInfoResponse getProductInfo(GetProductInfoRequest request) {
+
+  // Which product are we looking up?
+  // Who called the API? What product category is this in?
+
+  // Did we find the item in the local cache?
+  ProductInfo info = localCache.get(request.getProductId());
+  
+  if (info == null) {
+    // Was the item in the remote cache?
+    // How long did it take to read from the remote cache?
+    // How long did it take to deserialize the object from the cache?
+    info = remoteCache.get(request.getProductId());
+	
+    // How full is the local cache?
+    localCache.put(info);
+  }
+  
+  // finally check the database if we didn't have it in either cache
+  if (info == null) {
+    // How long did the database query take?
+    // Did the query succeed? 
+    // If it failed, is it because it timed out? Or was it an invalid query? Did we lose our database connection?
+    // If it timed out, was our connection pool full? Did we fail to connect to the database? Or was it just slow to respond?
+    info = db.query(request.getProductId());
+	
+    // How long did populating the caches take? 
+    // Were they full and did they evict other items? 
+    localCache.put(info);
+    remoteCache.put(info);
+  }
+  
+  // How big was this product info object? 
+  return info;
+}
+```
