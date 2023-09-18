@@ -15,6 +15,7 @@ permalink: /inspire/
 
 # Architecture Diagrams
 
+* ![Open telemetry architecture diagram](/assets/2023/otel_architecture_diagram.png)
 * ![Ars Technica aws architecture diagram](/assets/2023/ars-aws-vpc-and-ci-cd-300-1.png)
 * ![AWS multi-az](/assets/images/inspire/aws_multiaz_diagram.png)
 * ![Single-az multi-region](/assets/images/inspire/singleaz_multiregion_diagram.png)
