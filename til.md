@@ -245,12 +245,25 @@ jconsole
 
 Note: I have only ever done this in dev
 
+**Maven**
+
+```shell
+# Compute dependency tree for a package in a java program that was brought in by a maven dependency either directly or indirectly
+
+# All dependencies
+mvn dependency:tree
+
+# Filter output from above
+mvn dependency:tree -Dincludes=org.yaml
+```
+
 **Links**
 
 * [How root / intermediate certs work, and how they’re protected](https://security.stackexchange.com/questions/119460/do-i-put-my-subordinate-intermediate-or-root-ca-certificate-in-my-truststore)
 * [A list of tutorials from Baeldung.com. This is a really good resource!](https://www.baeldung.com/java-tutorial)
 * [Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
 * [Java logging](https://www.loggly.com/ultimate-guide/java-logging-basics/): sl4j, apache commons logging, log4j, java.util.logging … All the logs! Nice overview of logging in java with increasing degrees of complexity depending on need
+* [Analyzing maven dependency tree](https://maven.apache.org/plugins/maven-dependency-plugin/examples/filtering-the-dependency-tree.html)
 
 # Openssl
 
