@@ -8,6 +8,7 @@ permalink: /books/
 
 # Books
 
+- [Ikigai](https://www.amazon.ca/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722/ref=sr_1_1?crid=2HEOLEQ2RQ7CA&keywords=ikigai&qid=1697626132&sprefix=iki%2Caps%2C88&sr=8-1), Héctor García & Francesc Miralles
 - [That Time I Loved You](https://www.amazon.ca/That-Time-I-Loved-You/dp/1443452866/ref=sr_1_1?keywords=that+time+i+loved+you&qid=1691325785&sprefix=that+time+i+lov%2Caps%2C90&sr=8-1), Carrianne Leung (Recommended by Cecil at work. His sister wrote it! Enjoyed quite a bit.)
 - [Real world cryptography](https://www.amazon.ca/Real-World-Cryptography-David-Wong-ebook/dp/B09FR9YJWD/ref=sr_1_1?keywords=real+world+cryptography&qid=1684201379&sprefix=real+world+%2Caps%2C107&sr=8-1)
 - [Wizard in Exile (Wrath of the Stormking Book 1)](https://www.amazon.ca/Wizard-Exile-Wrath-Stormking-Book-ebook/dp/B0BZQKT5BT)
@@ -23,6 +24,7 @@ permalink: /books/
 
 ## Articles
 
+- [Influence: Lessons from a Staff Engineer and ex-Twitter 8-year Tech Lead](/assets/papers_we_love/Lessons%20from%20a%20Staff%20Engineer%20and%20ex-Twitter%208-year%20Tech%20Lead.pdf): Aligns very well with how I think about working with others, well written. Will probably re-read this from time to time to help me remember.
 - [Questions for a new technology](https://kellanem.com/notes/new-tech): Love these. There should be some friction to adding a new technology to a team / system. Ongoing maintenance and operational burn trumps dev cost:
   1. What problem are we trying to solve? (Tech should never be introduced as an end to itself)
   2. How could we solve the problem with our current tech stack? (If the answer is we can’t, then we probably haven’t thought about the problem deeply enough)
