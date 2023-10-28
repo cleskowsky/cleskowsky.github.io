@@ -4,6 +4,10 @@ title: Quotes
 permalink: /quotes/
 ---
 
+![When you're with someone you love, stay a little bit longer. Have coffee, and have a piece of cake.](/assets/2023/stay-a-little-bit-longer-have-cake-have-coffee-johnstamos.png)
+
+[Source for above](https://www.instagram.com/reel/Cyzsrfaus-N/?igshid=MzRlODBiNWFlZA%3D%3D)
+
 > Most decisions should probably be made with somewhere around 70% of the information you wish you had. If you wait for 90%, in most cases, you’re probably being slow. Plus, either way, you need to be good at quickly recognizing and correcting bad decisions. If you’re good at course correcting, being wrong may be less costly than you think, whereas being slow is going to be expensive for sure. - Jeff Bezos, 2016 Letter to Shareholders
 
 ![Mr Rogers on helpers others win and slowing down to do it](/assets/2023/mister_rogers.png)

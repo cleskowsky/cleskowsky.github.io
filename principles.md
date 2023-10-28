@@ -6,6 +6,8 @@ permalink: /principles/
 
 # Some big ideas that have been super beneficial to me in my life
 
+![Don't cry because it's over, smile because it happened - Doctor Seuss](/assets/2023/dont-cry-because-its-over.webp)
+
 1. Grateful. Being alive, today, and healthy with Carmen is a gift. What will I do with this new day I’ve been given?
 2. With intent. Pick my priorities carefully. Don’t let the world do this for me
 3. Subtract. Let go of things, and goals that don’t fill me up. Don’t ever take on too much. Is this thing bringing me joy?

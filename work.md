@@ -88,6 +88,16 @@ It's super important for teams to be aware that this sort of thing can be (and p
   * [A link to the gdc talk which was also excellent](https://www.gdcvault.com/play/1029361/The-Production-Secrets-of-Return)
   * Talk summary : Gain production insights from Return to Monkey Island's lead producer, Jenn Sandercock, about the two-year development cycle, working with an iconic IP, and building a no-crunch, fully remote team of 25 people in absolute secrecy. Learn the skills that allowed Return to Monkey Island to be completely playable within the first four months of development and the iterative process that followed.This talk is not a postmortem. It's a shipload of production-focused tips and techniques in small, digestible, rapid-fire, and actionable nuggets. All the tips will come with detailed, concrete examples of how we implemented them. Jenn will share internal Notion databases of tasks and art assets, cutscene pipeline details, meeting essentials, remote team building ideas like watercoolers, and more.
 
+## My 1-pager template I like to fill in for new projects (rfc)
+
+* About
+  * Problem
+* Goals
+* Non-goals
+* Stakeholders
+* Research notes
+* Discuss notes
+
 # Growth
 
 - [On Being A Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)

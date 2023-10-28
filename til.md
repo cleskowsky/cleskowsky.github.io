@@ -330,6 +330,18 @@ openssl req -text -noout -verify -in server.csr
 * [Filesystem Hierarchy Standard](https://www.pathname.com/fhs/pub/fhs-2.3.html): Where to put things in the linux file system
 * `nc -l 8080 -k` starts a tiny echo server that prints incoming client messages
 
+## Systemd
+
+Systemd stops mongodb by sending a sigterm signal. Sigterm is like asking a process to terminate itself gracefully. It’s the default when you do a kill <pid> or systemctl stop <svc>. Systemd waits 90s and then sends a stronger kill signal. (kill -9, sigkill) Kill -9 is not ideal. It’s like a hard stop.
+
+SIGTERM is the “normal” kill signal. The application will be given time to shut down cleanly (save its state, free resources such as temporary files, etc.), and an application that is programmed to not immediately terminate upon a SIGTERM signal may take a moment to be terminated.
+
+SIGKILL (also known as Unix signal 9)—kills the process abruptly, producing a fatal error. It is always effective at terminating the process, but can have unintended consequences. SIGTERM (also known as Unix signal 15)—tries to kill the process, but can be blocked or handled in various ways.
+
+https://stackoverflow.com/questions/42978358/how-does-the-systemd-stop-command-actually-work
+
+Always want to be doing sigterm.
+
 ## Links
 
 * [Tcpdump](https://danielmiessler.com/study/tcpdump/): A great guide to using tcpdump to investigate network traffic in a vm running a relatively modern version of linux.
