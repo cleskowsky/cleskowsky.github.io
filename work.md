@@ -90,13 +90,12 @@ It's super important for teams to be aware that this sort of thing can be (and p
 
 ## My 1-pager template I like to fill in for new projects (rfc)
 
-* About
-  * Problem
+* About (What)
+  * Problem (Why)
 * Goals
+* Success Criteria
 * Non-goals
-* Stakeholders
-* Research notes
-* Discuss notes
+* Notes
 
 # Growth
 
