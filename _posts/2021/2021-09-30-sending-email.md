@@ -106,3 +106,51 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=0; d=mail.greatclips.com
 ## Using email subdomains
 
 * [When and why to use them from Litmus](https://www.litmus.com/blog/email-subdomains/): Highly level overview of why / how you'd do it with real examples from internet companies actually doing it
+
+# Sample DMARC records
+
+```shell
+[cleskowsky@ip-10-0-10-192.ec2.internal opendkim]$ dig _dmarc.amazon.com txt
+
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-26.P2.el7_9.15 <<>> _dmarc.amazon.com txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45656
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.amazon.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.amazon.com.	273	IN	TXT	"v=DMARC1;" "p=quarantine;" "pct=100;" "rua=mailto:report@dmarc.amazon.com;" "ruf=mailto:report@dmarc.amazon.com"
+
+;; Query time: 1 msec
+;; SERVER: 10.0.0.2#53(10.0.0.2)
+;; WHEN: Fri Nov 17 18:00:18 EST 2023
+;; MSG SIZE  rcvd: 162
+```
+
+```shell
+[cleskowsky@ip-10-0-10-192.ec2.internal opendkim]$ dig _dmarc.google.com txt
+
+; <<>> DiG 9.11.4-P2-RedHat-9.11.4-26.P2.el7_9.15 <<>> _dmarc.google.com txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14921
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;_dmarc.google.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.google.com.	300	IN	TXT	"v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com"
+
+;; Query time: 6 msec
+;; SERVER: 10.0.0.2#53(10.0.0.2)
+;; WHEN: Fri Nov 17 18:00:31 EST 2023
+;; MSG SIZE  rcvd: 117
+```
