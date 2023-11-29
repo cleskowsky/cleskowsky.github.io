@@ -154,3 +154,9 @@ _dmarc.google.com.	300	IN	TXT	"v=DMARC1; p=reject; rua=mailto:mailauth-reports@g
 ;; WHEN: Fri Nov 17 18:00:31 EST 2023
 ;; MSG SIZE  rcvd: 117
 ```
+
+# Generate dkim signing key
+
+```shell
+opendkim-genkey -d leskowsky.net -s k1
+```
