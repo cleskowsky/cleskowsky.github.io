@@ -377,6 +377,9 @@ db.collection.insertOne({
 # Export all or part of a collection as CSV
 mongoexport --db <db> --collection <coll> --type=csv --query "{ x: value, y: value }" --fields "<field1>,<field2>,..." -u<user>
 
+# An export example with a date because I always have to look this up :'(
+mongoexport --db <db> --collection <coll> --type=csv --query '{ "creationDate": { "$gte": { "$date": "2023-11-01T00:00:00.000Z"} } }' --fields 'field1,field2,...' -usupport
+
 # Get status of replicaset member in startup2 state (Newly added to a replicaset and not fully synced)
 # Version dependent
 # [Source](https://docs.mongodb.com/manual/reference/command/replSetGetStatus/)
