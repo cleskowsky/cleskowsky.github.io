@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [frontend](#frontend), [homebrew](#homebrew), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [security](#security), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [elastic search](#elastic), [frontend](#frontend), [homebrew](#homebrew), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [security](#security), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -103,6 +103,33 @@ else
     echo "file does not exist"
 fi
 {% endhighlight %}
+
+# Elastic
+
+## CAT api
+
+Management urls in elastic that give cluster status, and index info
+
+* _cat/nodes return info about cluster nodes (jvm use, cpu, leader / follower + several other things) [elastic docs](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-nodes.html)
+* _cat/master return info about this cluster's leader node
+* _cat/indices return info about an index (number of primary+replica shards, disk use, health)
+* _cat/shards return shard stats (primary or replica, disk use, node)
+* _cat/allocation?v return shards to data nodes (disk use)
+
+?v prints columns with output and tries to line up data
+
+## Notes
+
+* Can add replicas easily but merging shards is hard
+* Dedicated leader nodes means less data copying during failover in aws
+* Production clusters should have an odd number of nodes (3 or 5 are common for small clusters. the latter tolerates 2 node failures while continuing to be operable)
+* Without dedicated leader nodes, a cluster can become very busy after a failure copying data (high network, cpu are observed)
+  * Cluster nodes should be "big enough" to handle this extra load
+* Running elastic with a high availability requirement in production is expensive $$$
+* 20% storage is reserved for elastic overhead by aws opensearch
+* Aws opensearch says cluster with standby has 99.99% avail and doesn't copy shards as aggressively (or at all?) during a failure
+  * This config automatically added dedicated leader nodes x3
+  * A cluster without standby has 99.9% avail
 
 # Frontend
 
