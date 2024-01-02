@@ -11,6 +11,10 @@ title: "Production"
 * Easy to operate (minimize burden on production support teams)
 * Cost
 
+# Mikey Dickerson's Ops Priority Pyramid
+
+![Ops priority pyramid](/assets/2024/mikey_dickerson_hierarchy_cocerns_operations.jpg)
+
 # Production Excellence
 
 And idea I first heard about in a talk by LizTheGrey. Here are some slides I found at some point:
