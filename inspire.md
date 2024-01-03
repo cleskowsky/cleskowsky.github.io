@@ -4,16 +4,11 @@ title: Inspire
 permalink: /inspire/
 ---
 
-# Website Design Notes
-
-* [2023-1-8 Exploretock.com](/2023/01/08/design_tock.html)
-* ![Hidde.blog](/assets/2023/hidde_blog_home.png)
-
 # Collections
 
-[architecture diagrams](#architecture), [email](#email), [icons](#icons), [login screens](#login)
+[architecture diagrams](#architecture-diagrams), [email](#email), [icons](#icons), [login screens](#login-screens), [web design notes](#website-design-notes)
 
-# Architecture
+# Architecture diagrams
 
 * ![Paging system architecture @ Dolthub.com](/assets/2023/automated_paging_at_dolthub.png)
 * ![Open telemetry architecture diagram](/assets/2023/otel_architecture_diagram.png)
@@ -35,6 +30,11 @@ permalink: /inspire/
 
 * [Hero Icons](https://heroicons.com/)
 
-# Login
+# Login screens
 
 * ![Buttondown.email](/assets/2024/buttondownemail_login_screen.png)
+
+# Website Design Notes
+
+* [2023-1-8 Exploretock.com](/2023/01/08/design_tock.html)
+* ![Hidde.blog](/assets/2023/hidde_blog_home.png)
