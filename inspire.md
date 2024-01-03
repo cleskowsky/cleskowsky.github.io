@@ -11,9 +11,9 @@ permalink: /inspire/
 
 # Collections
 
-[architecture diagrams](#architecture diagrams), [email](#email), [icons](#icons)
+[architecture diagrams](#architecture), [email](#email), [icons](#icons), [login screens](#login)
 
-# Architecture Diagrams
+# Architecture
 
 * ![Paging system architecture @ Dolthub.com](/assets/2023/automated_paging_at_dolthub.png)
 * ![Open telemetry architecture diagram](/assets/2023/otel_architecture_diagram.png)
@@ -34,3 +34,7 @@ permalink: /inspire/
 # Icons
 
 * [Hero Icons](https://heroicons.com/)
+
+# Login
+
+* ![Buttondown.email](/assets/2024/buttondownemail_login_screen.png)
