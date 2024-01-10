@@ -4,9 +4,15 @@ title: Books
 permalink: /books/
 ---
 
+# 2024
+
+## Videos
+
+* [Keynote: Linus Torvalds, Creator of Linux & Git, in Conversation with Dirk Hohndel](https://www.youtube.com/watch?v=OvuEYtkOH88): Conversation with Linus about linux past, present and future and how we currently relates to its evolution. Loved this one a lot this year!
+
 # 2023
 
-# Books
+## Books
 
 - [Ikigai](https://www.amazon.ca/Ikigai-Japanese-Secret-Long-Happy/dp/0143130722/ref=sr_1_1?crid=2HEOLEQ2RQ7CA&keywords=ikigai&qid=1697626132&sprefix=iki%2Caps%2C88&sr=8-1), Héctor García & Francesc Miralles
 - [That Time I Loved You](https://www.amazon.ca/That-Time-I-Loved-You/dp/1443452866/ref=sr_1_1?keywords=that+time+i+loved+you&qid=1691325785&sprefix=that+time+i+lov%2Caps%2C90&sr=8-1), Carrianne Leung (Recommended by Cecil at work. His sister wrote it! Enjoyed quite a bit.)
