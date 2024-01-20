@@ -6,7 +6,7 @@ permalink: /inspire/
 
 # Collections
 
-[architecture diagrams](#architecture-diagrams), [email](#email), [icons](#icons), [login screens](#login-screens), [web design notes](#website-design-notes)
+[architecture diagrams](#architecture-diagrams), [email](#email), [home pages](#home-pages), [icons](#icons), [login screens](#login-screens), [web design notes](#website-design-notes)
 
 # Architecture diagrams
 
@@ -25,6 +25,11 @@ permalink: /inspire/
 
 * I love this example of a simple maintenance window email from NorthPass. Clean. Short. Punchy. Gives me everything I need at a glance.
   * ![NorthPass scheduled maintenance email](/assets/images/inspire/northpass_scheduled_maint_email.png)
+
+# Home pages
+
+![Svelte society homepage](/assets/2024/svelte_society.png)
+I liked the simple, clean look of this page
 
 # Icons
 
