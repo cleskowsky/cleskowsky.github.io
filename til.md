@@ -102,6 +102,13 @@ elif [[ -f /path/to/file1 ]]; then
 else
     echo "file does not exist"
 fi
+
+# Declare a function, call a function
+greet () {
+    local name=$1
+    echo "hello, world $name"
+}
+greet 'Christian'
 {% endhighlight %}
 
 # Elastic
