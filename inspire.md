@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Inspire
@@ -29,8 +28,7 @@ permalink: /inspire/
 
 # Home pages
 
-![Svelte society homepage](/assets/2024/svelte_society.png)
-I liked the simple, clean look of this page
+* ![Svelte society homepage](/assets/2024/svelte_society.png)
 
 # Icons
 
