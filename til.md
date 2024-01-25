@@ -163,6 +163,8 @@ brew services stop [service]
 
 * Cmd+Shift+V Choose from previous n clipboards values and paste
 * Ctrl+g Multi select the word under the cursor (need to press multiple times)
+* Alt+Cmd+[ jumps to matching opening brace
+* Alt+Cmd+] jumps to matching closing brace
 
 # Java
 
