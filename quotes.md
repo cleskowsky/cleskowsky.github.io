@@ -4,6 +4,9 @@ title: Quotes
 permalink: /quotes/
 ---
 
+> The more experience I get building software, the more I believe that there is nothing that slows a project down more than not having a quick way to confirm if everything is still working or not
+> [Simon Willison @simon@simonwillison.net](https://mastodon.social/@simon@simonwillison.net/111819799565653752)
+
 ![When you're with someone you love, stay a little bit longer. Have coffee, and have a piece of cake.](/assets/2023/stay-a-little-bit-longer-have-cake-have-coffee-johnstamos.png)
 
 [Source for above](https://www.instagram.com/reel/Cyzsrfaus-N/?igshid=MzRlODBiNWFlZA%3D%3D)
