@@ -6,7 +6,7 @@ permalink: /inspire/
 
 # Collections
 
-[architecture diagrams](#architecture-diagrams), [email](#email), [home pages](#home-pages), [icons](#icons), [login screens](#login-screens), [web design notes](#website-design-notes)
+[architecture diagrams](#architecture-diagrams), [email](#email), [home pages](#home-pages), [icons](#icons), [login screens](#login-screens), [ui ux](#ui-ux), [website design](#website-design)
 
 # Architecture diagrams
 
@@ -38,7 +38,11 @@ permalink: /inspire/
 
 * ![Buttondown.email](/assets/2024/buttondownemail_login_screen.png)
 
-# Website Design Notes
+# Ui ux
+
+* ![Email invite to work together on something](/assets/2024/collab_invite.png)
+
+# Website Design
 
 * [2023-1-8 Exploretock.com](/2023/01/08/design_tock.html)
 * ![Hidde.blog](/assets/2023/hidde_blog_home.png)
