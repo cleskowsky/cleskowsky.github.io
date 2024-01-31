@@ -6,6 +6,10 @@ permalink: /books/
 
 # 2024
 
+## Books
+
+* [For all humankind](https://www.amazon.ca/All-Humankind-Stories-Landing-Inspired-ebook/dp/B08RWZWCJC), Tanya Harrison, Danny Bednar
+
 ## Videos
 
 * [Keynote: Linus Torvalds, Creator of Linux & Git, in Conversation with Dirk Hohndel](https://www.youtube.com/watch?v=OvuEYtkOH88): Conversation with Linus about linux past, present and future and how we currently relates to its evolution. Loved this one a lot this year!
