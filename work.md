@@ -12,7 +12,7 @@ permalink: /work/
   * [4 + 1 Architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model#:~:text=4%2B1%20is%20a%20view,system%20engineers%2C%20and%20project%20managers.)
   * [Logging](#logging)
 * [Process](#process)
-* [Production](/2023/01/08/production.html)
+* [Production](/production.html)
 * [Project Management](#project-management)
 * [SRE](#sre)
 * [Security](#security)
