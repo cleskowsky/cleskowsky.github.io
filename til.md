@@ -36,6 +36,7 @@ ansible-playbook -i inv pb.yml --check --diff
 * [gradlew](https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/gradlew)
 * [locust run-redistributed-headless.sh](https://github.com/locustio/locust/blob/master/scripts/run-disributed-headless.sh) This one has a nice capture of process ids in an array with looping
 * [Github checks ssh key encryption algorithm in use](https://github.com/github/ssh-key-algo/blob/main/ssh-key-algo)
+* [Zed script directory](https://github.com/zed-industries/zed/tree/main/script)
 
 **More links**
 
