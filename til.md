@@ -53,7 +53,7 @@ ansible-playbook -i inv pb.yml --check --diff
 #   A command fails
 #   A command in a pipeline fails
 set -o nounset
-set -o errexit
+set -o errexit (same as set -e)
 set -o pipefail
 
 # Default values for env variables
