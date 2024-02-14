@@ -455,7 +455,7 @@ db.coll.find().forEach(function (p) {
 print(x.sort().reverse().slice(0, 5));
 {% endhighlight %}
 
-Links
+## Links
 
 * [Update arrays in a document](https://docs.mongodb.com/drivers/node/fundamentals/crud/write-operations/embedded-arrays/): Modify an array in a document using $ and $[] notation
 * [Design Patterns for MongoDB](https://towardsdatascience.com/design-patterns-for-mongodb-894767315905)
@@ -484,12 +484,18 @@ mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[database][?opti
 # can discover others and even follow mongo elections
 {% endhighlight %}
 
-Links
+## Links
 
 * [Connection strings](https://docs.mongodb.com/v3.6/reference/connection-string/)
 * [Blog post about Mongo 3.6 and dns seeding](https://www.mongodb.com/developer/article/srv-connection-strings/)
 * [Another blog post about service discovery](https://www.mongodb.com/blog/post/server-discovery-and-monitoring-next-generation-mongodb-drivers): This one is particularly good. Walks you through a connection lifecycle in pyMongo. (I’m assuming a recent java driver is similar) There’s a formal service discovery protocol it sounds like
 * [db.isMaster()](https://docs.mongodb.com/manual/reference/command/hello/): The query drivers send to the mongo host they’re configured with to learn about the topology of a mongo cluster
+
+{% highlight bash %}
+# Find all users in a db cluster regardless of db they're created under
+PRIMARY> use admin
+PRIMARY> db.system.users.find()
+{% endhighlight %}
 
 # Network
 
