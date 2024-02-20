@@ -453,6 +453,11 @@ db.coll.find().forEach(function (p) {
         x.push(bsonsize(p));
 });
 print(x.sort().reverse().slice(0, 5));
+
+# Stats like storageSize, number of collections + indexes, avgObjSize, and a few other things
+use db
+db.stats()
+
 {% endhighlight %}
 
 ## Links
