@@ -458,6 +458,12 @@ print(x.sort().reverse().slice(0, 5));
 use db
 db.stats()
 
+# Get slowms option that logs queries slower than x milliseconds
+db.getProfilingStatus()
+
+# To change slowms
+db.setProfilingLevel(0, { slowms: x })
+
 {% endhighlight %}
 
 ## Links
