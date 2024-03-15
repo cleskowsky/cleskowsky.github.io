@@ -46,17 +46,10 @@ ansible-playbook -i inv pb.yml --check --diff
 * [Anybody can write good bash](https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort)
 * [Google's style guide](https://google.github.io/styleguide/shellguide.html): Lots of great tips / things to think about here
 * [Difference between \[ and \[\[](https://www.baeldung.com/linux/bash-single-vs-double-brackets): Always have to look this up
+* [Shell check for static analysis of scripts looking for common mistakes](https://www.shellcheck.net/)
 
 {% highlight bash %}
 #!/usr/bin/env bash
-
-# Fail when:
-#   Attempting to use a var that hasn't been set
-#   A command fails
-#   A command in a pipeline fails
-set -o nounset
-set -o errexit (same as set -e)
-set -o pipefail
 
 # Default values for env variables
 VERBOSE=${VERBOSE:-0}
@@ -126,7 +119,28 @@ export ZED_KUBE_NAMESPACE=$1
 pod=$(kubectl --namespace=${ZED_KUBE_NAMESPACE} get pods --selector=app=zed --output=jsonpath='{.items[*].metadata.name}')
 exec kubectl --namespace $ZED_KUBE_NAMESPACE exec --tty --stdin $pod -- /bin/bash
 
+# Debugging
+
+In the bash man page there is a section for 'set' type options ...
+The following set of defaults can be revealing. It will probably reveal passwords though in any output collected from a command. Be careful!
+
+set -euxo pipefail
+* e           exit immediately if a command exits with non-zero status
+* u           treat unset variables as an error during parameter expansion and exit
+* x           display all simple commands after parameter expansion
+* o pipefail  return value of a pipeline is the last command to exit with non-zero status
+
+# Fail when:
+#   Attempting to use a var that hasn't been set
+#   A command fails
+#   A command in a pipeline fails
+set -o nounset
+set -o errexit (same as set -e)
+set -o pipefail
+
 {% endhighlight %}
+
+![Bash debugging by Julia Evans](/assets/2024/bash-debugging.png)
 
 # Elastic
 
