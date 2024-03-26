@@ -481,13 +481,6 @@ db.setProfilingLevel(0, { slowms: x })
 
 {% endhighlight %}
 
-## Links
-
-* [Update arrays in a document](https://docs.mongodb.com/drivers/node/fundamentals/crud/write-operations/embedded-arrays/): Modify an array in a document using $ and $[] notation
-* [Design Patterns for MongoDB](https://towardsdatascience.com/design-patterns-for-mongodb-894767315905)
-* [Compact command concerns](https://www.mongodb.com/community/forums/t/compact-command-concerns/13696)
-* [Mongodb manual - compact](https://www.mongodb.com/docs/manual/reference/command/compact/#std-label-compact-cmd-replica-sets)
-
 **Connection Strings**
 
 {% highlight bash %}
@@ -516,6 +509,10 @@ mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[database][?opti
 * [Blog post about Mongo 3.6 and dns seeding](https://www.mongodb.com/developer/article/srv-connection-strings/)
 * [Another blog post about service discovery](https://www.mongodb.com/blog/post/server-discovery-and-monitoring-next-generation-mongodb-drivers): This one is particularly good. Walks you through a connection lifecycle in pyMongo. (I’m assuming a recent java driver is similar) There’s a formal service discovery protocol it sounds like
 * [db.isMaster()](https://docs.mongodb.com/manual/reference/command/hello/): The query drivers send to the mongo host they’re configured with to learn about the topology of a mongo cluster
+* [Update arrays in a document](https://docs.mongodb.com/drivers/node/fundamentals/crud/write-operations/embedded-arrays/): Modify an array in a document using $ and $[] notation
+* [Design Patterns for MongoDB](https://towardsdatascience.com/design-patterns-for-mongodb-894767315905)
+* [Compact command concerns](https://www.mongodb.com/community/forums/t/compact-command-concerns/13696)
+* [Mongodb manual - compact](https://www.mongodb.com/docs/manual/reference/command/compact/#std-label-compact-cmd-replica-sets)
 
 {% highlight bash %}
 # Find all users in a db cluster regardless of db they're created under
