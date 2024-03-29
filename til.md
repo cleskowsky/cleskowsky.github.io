@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [elastic search](#elastic), [frontend](#frontend), [homebrew](#homebrew), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [security](#security), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [docker](#docker), [elastic search](#elastic), [frontend](#frontend), [homebrew](#homebrew), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [security](#security), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -141,6 +141,20 @@ set -o pipefail
 {% endhighlight %}
 
 ![Bash debugging by Julia Evans](/assets/2024/bash-debugging.png)
+
+# Docker
+
+> The difference between entrypoint and cmd
+> 
+> The ENTRYPOINT specifies a command that will always be executed when the container starts.
+> 
+> The CMD specifies arguments that will be fed to the ENTRYPOINT.
+> 
+> If you want to make an image dedicated to a specific command you will use ENTRYPOINT ["/path/dedicated_command"]
+> 
+> Otherwise, if you want to make an image for general purpose, you can leave ENTRYPOINT unspecified and use CMD ["/path/dedicated_command"] as you will be able to override the setting by supplying arguments to docker run.
+
+[Source](https://stackoverflow.com/a/34245657)
 
 # Elastic
 
