@@ -64,6 +64,7 @@ while getopts "hp:i:" opt ; do
             kube::test::usage
             exit 0
             ;;
+
         p)
             PARALLEL="${OPTARG}"
             if ! isnum "${PARALLEL}" || [[ "${PARALLEL}" -le 0 ]]; then
@@ -71,18 +72,22 @@ while getopts "hp:i:" opt ; do
                 kube::test::usage
                 exit 1
             fi
-        ;;
+            ;;
+
         i)
             kube::log::usage "'$0': use GOFLAGS='-count <num-iterations>'"
             kube::test::usage
             exit 1
-        ;;
+            ;;
+
         :)
             kube::log::usage "Option -${OPTARG} <value>"
             kube::test::usage
             exit 1
-        ;;
-        ?)
+            ;;
+
+        *)
+            # default case if nothing above matches
             kube::test::usage
             exit 1
             ;;
