@@ -4,6 +4,14 @@ title: Work
 permalink: /work/
 ---
 
+# I update these pages all the time:
+
+* [Production](/production)
+* [Today I Learned](/til)
+* [Tools](/tools)
+
+# A few other entry points into my work life notebook that have been handy
+
 * [Architecture](/2021/12/09/architecture.html)
 * [Code](/2021/12/09/code.html)
   * [Reviewing Code](/code/2021/09/02/reviewing-code.html)

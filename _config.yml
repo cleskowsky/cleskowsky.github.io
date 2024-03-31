@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 50
+paginate: 15
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -65,7 +65,4 @@ header_pages:
   - quotes.md
   - performance.md
   - principles.md
-  - production.md
-  - til.md
-  - tools.md
   - work.md

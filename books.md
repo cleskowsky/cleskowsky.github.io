@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* [Starter Villain](https://www.amazon.com/Audible-Starter-Villain/dp/B0C6FR3JN1/ref=sr_1_1), John Scalzi: What a great little book. It's been awhile since I've read a book for fun. This was perfect. :)
 * [For all humankind](https://www.amazon.ca/All-Humankind-Stories-Landing-Inspired-ebook/dp/B08RWZWCJC), Tanya Harrison, Danny Bednar
 
 ## Videos

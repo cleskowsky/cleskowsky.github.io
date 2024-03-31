@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Production"
+permalink: /production/
 ---
 
 # Platform Concerns

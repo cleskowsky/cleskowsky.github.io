@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "OceanMD News"
+title:  "Ocean"
+permalink: /ocean/
 ---
 
 * [Three digital health tools to help combat clinic burnout](https://www.oceanmd.com/news/digital-health-tools-combat-clinic-burnout/): Online booking, patient forms, and the referral network. All help streamline (and make safer) interactions between health clinics and their patients.
