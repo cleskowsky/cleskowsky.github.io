@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Making my bookmarks app"
+title:  "Side project: Read later web app"
 ---
 
-# 2024-3-11
+# 2024-4-23
 
-* Security rules should be default deny with specific allows. I learned this when I discovered the h2 console was public because I forget to make a specific deny rule for it. We shouldn't have to remember all our protected urls and have to be really careful this way. Nothing is available by default except for a few public things like the login, and signup pages.
-* Websites have public pages and protected pages. Even on public pages there may be controls that only logged in users can see. It's probably a good idea to think about this up front.
+* Updated styling for better reading on my iphone mini 12. I use my reading list on my phone, ipad and a 27" desktop screen. Hopefully this will be nice across all 3. (I tested on the phone and desktop screen) Thinking about responsive design is definitely a thing! :) Tailwind made this incredibly easy. A little too easy. What's the catch they wonder ... ?! 
+
+![Small screen screenshot](/assets/2024/bookmarks_small.png)
+![Large screen screenshot](/assets/2024/bookmarks_large.png)
 
 # 2024-4-21
 
@@ -16,3 +18,8 @@ title:  "Making my bookmarks app"
 * 100% test coverage is hard and might not be a good goal. Find the tests that matter and create real safety
 
 ![test trophy](/assets/2024/test_tropy.webp)
+
+# 2024-3-11
+
+* Security rules should be default deny with specific allows. I learned this when I discovered the h2 console was public because I forget to make a specific deny rule for it. We shouldn't have to remember all our protected urls and have to be really careful this way. Nothing is available by default except for a few public things like the login, and signup pages.
+* Websites have public pages and protected pages. Even on public pages there may be controls that only logged in users can see. It's probably a good idea to think about this up front.
