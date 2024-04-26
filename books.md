@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* [The Android's Dream](https://www.amazon.ca/The-Androids-Dream/dp/B0725MFFJH/ref=sr_1_1): John Scalzi, To save the earth, Creek must save the sheep
 * [Star Trek Countdown](https://www.amazon.ca/Star-Trek-Countdown-Vol-1-ebook/dp/B008O7V15E/ref=sr_1_3): Prequel graphic novel to Star Trek the movie (2009)
 * [Starter Villain](https://www.amazon.com/Audible-Starter-Villain/dp/B0C6FR3JN1/ref=sr_1_1), John Scalzi: What a great little book. It's been awhile since I've read a book for fun. This was perfect. :)
 * [For all humankind](https://www.amazon.ca/All-Humankind-Stories-Landing-Inspired-ebook/dp/B08RWZWCJC), Tanya Harrison, Danny Bednar
