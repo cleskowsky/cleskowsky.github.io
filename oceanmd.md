@@ -13,3 +13,5 @@ permalink: /ocean/
 * [NSH ereferrals (provider version)](https://vimeo.com/925147388/5aaa073de4): Nova Scotia video speaking to the new electronic referrals system and why it is worth the energy getting there.
 
 ![Nova scotia referrals transition provider video](/assets/2024/nova-scotia-referrals.png)
+
+* [CognisantMD responds to a concerned patient on reddit](https://www.reddit.com/r/toronto/comments/5subvm/someone_gave_amateurs_access_to_our_health_records/): Years ago the company had to respond to a comment by a patient concerned with privacy, security and what the company does and that those 2 things couldn't be more deeply rooted in the founders dna.
