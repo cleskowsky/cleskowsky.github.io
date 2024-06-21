@@ -442,7 +442,8 @@ Always want to be doing sigterm.
 
 {% highlight bash %}
 # Takes a logical backup
-mongodump --archive=a.gz --gzip --db <dbname>
+mongodump --archive=a.gz --gzip --db a
+mongodump --uri "$(get_db_uri a)" --archive=a.gz --gzip --db a
 
 # Restores a logical db backup
 mongorestore --archive=a.gz --gzip
