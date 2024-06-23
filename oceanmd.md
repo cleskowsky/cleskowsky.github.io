@@ -15,3 +15,4 @@ permalink: /ocean/
 ![Nova scotia referrals transition provider video](/assets/2024/nova-scotia-referrals.png)
 
 * [CognisantMD responds to a concerned patient on reddit](https://www.reddit.com/r/toronto/comments/5subvm/someone_gave_amateurs_access_to_our_health_records/): Years ago the company had to respond to a comment by a patient concerned with privacy, security and what the company does and that those 2 things couldn't be more deeply rooted in the founders dna.
+* [Health Matters: New e-referral system launches](https://globalnews.ca/video/10582515/health-matters-new-e-referral-system-launches-the-dangers-of-wildfire-smoke/): BC health simple adopts OceanMD for eReferrals and eOrders.
