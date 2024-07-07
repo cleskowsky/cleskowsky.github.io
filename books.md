@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* [The Library at Mount Char](https://www.amazon.ca/Library-at-Mount-Char/dp/0553418629/ref=sr_1_1): Scott Hawkins
 * [All Systems Red](https://www.amazon.ca/All-Systems-Red-Murderbot-Diaries/dp/0765397536/ref=sr_1_1): Martha Wells
 * [The Android's Dream](https://www.amazon.ca/The-Androids-Dream/dp/B0725MFFJH/ref=sr_1_1): John Scalzi, To save the earth, Creek must save the sheep
 * [Star Trek Countdown](https://www.amazon.ca/Star-Trek-Countdown-Vol-1-ebook/dp/B008O7V15E/ref=sr_1_3): Prequel graphic novel to Star Trek the movie (2009)
