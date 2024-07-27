@@ -19,6 +19,10 @@ permalink: /books/
 
 * [Keynote: Linus Torvalds, Creator of Linux & Git, in Conversation with Dirk Hohndel](https://www.youtube.com/watch?v=OvuEYtkOH88): Conversation with Linus about linux past, present and future and how we currently relates to its evolution. Loved this one a lot this year!
 
+## Articles
+
+* [Software Managers’ Guide to Operational Excellence](/assets/2024/Software%20Managers%20Guide%20to%20Operational%20Excellence.pdf)
+
 # 2023
 
 ## Books
