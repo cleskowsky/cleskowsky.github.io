@@ -665,7 +665,11 @@ Reverse DNS (ptr) records
 * Generate a random secret on linux / mac:
 
 ```shell
+Alpha numeric
 dd if=/dev/urandom bs=16 count=1 2> /dev/null | xxd -p
+
+Uppercase, lowercase, numbers, +, =, /
+head -c 32 /dev/urandom | base64
 ```
 
 # SSH
