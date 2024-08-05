@@ -6,7 +6,7 @@ permalink: /til/
 
 Today I Learned!
 
-[ansible](#ansible), [aws](#aws), [bash](#bash), [docker](#docker), [elastic search](#elastic), [frontend](#frontend), [homebrew](#homebrew), [intellij](#intellij), [java](#java), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [security](#security), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
+[ansible](#ansible), [aws](#aws), [bash](#bash), [docker](#docker), [elastic search](#elastic), [frontend](#frontend), [homebrew](#homebrew), [intellij](#intellij), [java](#java), [jenkins](#jenkins), [linux](#linux), [macos](#macos), [mongodb](#mongodb), [network](#network), [ngrok](#ngrok), [nodejs](#nodejs), [openssl](#openssl), [postfix](#postfix), [python](#python), [resilience](#resilience), [security](#security), [ssh](#ssh), [strace](#strace), [subversion](#subversion), [tailwindcss](#tailwindcss), [terraform](#terraform), [yum](#yum)
 
 # Services I have helped run in the past
 
@@ -400,6 +400,12 @@ openssl rsa -in server.key -check
 # Check a csr
 openssl req -text -noout -verify -in server.csr
 ```
+
+# Jenkins
+
+* [How to build a single project in a monorepo on a change](/2024/08/05/links.html), Related:
+    * [How to manage Monorepos within a Jenkinsfile in CloudBees CI](https://docs.cloudbees.com/docs/cloudbees-ci-kb/latest/client-and-managed-controllers/how-to-build-monorepos-in-cloudbees-ci)
+    * [Jenkins pipeline 'when'](https://www.jenkins.io/doc/book/pipeline/syntax/#when)
 
 # Linux
 
