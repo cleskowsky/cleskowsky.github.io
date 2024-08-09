@@ -4,6 +4,8 @@ title: Quotes
 permalink: /quotes/
 ---
 
+![Love is for life, Foxes in love](/assets/2024/foxes_in_love_love_is_for_life.jpeg)
+
 > The more experience I get building software, the more I believe that there is nothing that slows a project down more than not having a quick way to confirm if everything is still working or not
 > [Simon Willison @simon@simonwillison.net](https://mastodon.social/@simon@simonwillison.net/111819799565653752)
 
