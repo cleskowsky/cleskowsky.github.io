@@ -4,6 +4,8 @@ title: Quotes
 permalink: /quotes/
 ---
 
+![Onboarding @ Zapier](/assets/2024/onboarding-at-zapier.jpg)
+
 ![Love is for life, Foxes in love](/assets/2024/foxes_in_love_love_is_for_life.jpeg)
 
 > The more experience I get building software, the more I believe that there is nothing that slows a project down more than not having a quick way to confirm if everything is still working or not

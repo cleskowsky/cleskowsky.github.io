@@ -470,6 +470,9 @@ db.collection.insertOne({
 # Export all or part of a collection as CSV
 mongoexport --db <db> --collection <coll> --type=csv --query "{ x: value, y: value }" --fields "<field1>,<field2>,..." -u<user>
 
+# Exports using a uri connection string
+mongoexport --uri="mongodb+srv://user:password@host/db?replicaSet=rs0&ssl=false" --collection col --type=csv --fields "field1,field2"
+
 # An export example with a date because I always have to look this up :'(
 mongoexport --db <db> --collection <coll> --type=csv --query '{ "creationDate": { "$gte": { "$date": "2023-11-01T00:00:00.000Z"} } }' --fields 'field1,field2,...' -usupport
 
