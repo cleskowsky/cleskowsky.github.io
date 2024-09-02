@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* [Version Control with Git](https://www.amazon.ca/Version-Control-Git-collaborative-development/dp/1449316387/ref=sr_1_5): Matthew McCullough, Jon Loeliger
 * [The Library at Mount Char](https://www.amazon.ca/Library-at-Mount-Char/dp/0553418629/ref=sr_1_1): Scott Hawkins
 * [All Systems Red](https://www.amazon.ca/All-Systems-Red-Murderbot-Diaries/dp/0765397536/ref=sr_1_1): Martha Wells
 * [The Android's Dream](https://www.amazon.ca/The-Androids-Dream/dp/B0725MFFJH/ref=sr_1_1): John Scalzi, To save the earth, Creek must save the sheep
