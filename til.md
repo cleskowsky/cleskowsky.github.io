@@ -453,6 +453,7 @@ mongodump --uri "$(get_db_uri a)" --archive=a.gz --gzip --db a
 
 # Restores a logical db backup
 mongorestore --archive=a.gz --gzip
+mongorestore --archive=<db dump>.gz --gzip --nsFrom='<source_db>.*’ --nsTo='<target_db>.*’
 
 # List engine type (default should be WiredTiger since 3.2+)
 db.serverStatus().storageEngine
