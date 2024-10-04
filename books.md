@@ -23,7 +23,7 @@ permalink: /books/
 
 ## Articles
 
-* [Software Managers’ Guide to Operational Excellence](/assets/2024/Software%20Managers%20Guide%20to%20Operational%20Excellence.pdf)
+* [Software Managers’ Guide to Operational Excellence](/assets/papers_we_love/Software_Managers_Guide_to_Operational_Excellence.pdf)
 
 # 2023
 
