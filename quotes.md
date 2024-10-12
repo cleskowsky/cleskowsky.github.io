@@ -4,6 +4,8 @@ title: Quotes
 permalink: /quotes/
 ---
 
+![Getting started with a new team](/assets/2024/broken_shelf_approach_ceo.png)
+
 ![Onboarding @ Zapier](/assets/2024/onboarding-at-zapier.jpg)
 
 ![Love is for life, Foxes in love](/assets/2024/foxes_in_love_love_is_for_life.jpeg)
