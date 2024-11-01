@@ -4,6 +4,8 @@ title: Quotes
 permalink: /quotes/
 ---
 
+![Expert gamedev tactic](/assets/2024/expert_gamedev_tactic.png)
+
 ![Getting started with a new team](/assets/2024/broken_shelf_approach_ceo.png)
 
 ![Onboarding @ Zapier](/assets/2024/onboarding-at-zapier.jpg)
