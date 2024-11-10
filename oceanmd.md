@@ -4,6 +4,7 @@ title:  "Ocean"
 permalink: /ocean/
 ---
 
+* [2024-11-10 Health information systems still not integrated leaving data stranded between doctors offices](https://www.cbc.ca/news/health/connected-care-1.7377139): My doctor not having my entire medical history including visits to specialists at hand because those notes don't move freely between EMR systems was one if the big problems CognisantMD was trying to solve through API access to PSS, Accuro and Oscar when I started with the company 5 years ago. It is still a problem.
 * [2024-7-17 Automate and Save Time for Busy Consulting Practice - Digital Health Virtual Symposium 2024](https://vimeo.com/962699925/16b491320b): A doctor shares how she uses Ocean for appointment bookings, secure messaging with eforms and automatic uploading of collected patient information to PSS emr. 
 * [Three digital health tools to help combat clinic burnout](https://www.oceanmd.com/news/digital-health-tools-combat-clinic-burnout/): Online booking, patient forms, and the referral network. All help streamline (and make safer) interactions between health clinics and their patients.
 * [OceanMD is 10 years old](https://www.oceanmd.com/news/introducing-oceanmd/): We're having a positive impact on healthcare in the province, and recently, the rest of Canada too.
