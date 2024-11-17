@@ -71,6 +71,14 @@ It's super important for teams to be aware that this sort of thing can be (and p
 
 # Project Management
 
+## Signs that a project is struggling
+* Analysis paralysis
+* Burn out
+* Production health (# of incidents)
+* Little or no progress
+* How does the team feel
+* People putting in lots of overtime hours
+
 ![This is probably a bit more about product management but it's so good! :)](/assets/images/alethia_delivre_product_management.png)
 
 ![Peter Bourgon on starting a new project](/assets/images/peter_bourgon_new_project.png)
