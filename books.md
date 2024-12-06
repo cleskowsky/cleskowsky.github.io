@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* [Daughter of the Dragon](https://www.amazon.ca/Daughter-Dragon-Wrath-Stormking-Book-ebook/dp/B0DMYV5ZT7): Michael Manning 
 * [The Terraformers](https://www.amazon.ca/Terraformers-Annalee-Newitz/dp/1250228026)
 * [Witch King (The Rising World Book 1)](https://www.amazon.ca/Witch-King-Martha-Wells-ebook/dp/B0B9KVV7JH/ref=sr_1_1): Martha Wells
 * [Version Control with Git](https://www.amazon.ca/Version-Control-Git-collaborative-development/dp/1449316387/ref=sr_1_5): Matthew McCullough, Jon Loeliger
