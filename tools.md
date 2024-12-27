@@ -12,3 +12,4 @@ permalink: /tools/
     * tabliss for a new tab photo with quick links
     * 1password is the password manager I'm using these days
     * ublock origin because there are way too many ads on the internet
+* [Bruno api client](https://www.usebruno.com/): Send authenticated test requests to an api and read back responses during development
