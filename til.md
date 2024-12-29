@@ -258,6 +258,9 @@ Matching Java Virtual Machines (15):
 
 # Then pick the version this way
 export JAVA_HOME=`/usr/libexec/java_home -v 17.0.7`
+
+# Maven skip tests
+mvn package -DskipTests
 {% endhighlight %}
 
 ## Performance analysis
