@@ -7,10 +7,12 @@ permalink: /production/
 # Platform Concerns
 
 * Security, privacy
-* Durable
+* Durability
 * Performance, Availability
 * Easy to operate (minimize burden on production support teams)
 * Cost
+
+> 2 primary concerns for an operations team: uptime (availability), cost - Rob Brown
 
 # Mikey Dickerson's Ops Priority Pyramid
 
