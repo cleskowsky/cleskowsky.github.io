@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Ocean"
-permalink: /ocean/
+title:  "OceanMD"
+permalink: /oceanmd/
 ---
 
 * [2024-11-10 Health information systems still not integrated leaving data stranded between doctors offices](https://www.cbc.ca/news/health/connected-care-1.7377139): My doctor not having my entire medical history including visits to specialists at hand because those notes don't move freely between EMR systems was one if the big problems CognisantMD was trying to solve through API access to PSS, Accuro and Oscar when I started with the company 5 years ago. It is still a problem.
