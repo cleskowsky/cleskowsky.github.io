@@ -4,6 +4,10 @@ title: Books
 permalink: /books/
 ---
 
+# 2025
+
+## Books
+
 # 2024
 
 ## Books
