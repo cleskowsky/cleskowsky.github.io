@@ -11,7 +11,7 @@ permalink: /production/
 * Performance, Availability
 * Easy to operate (minimize burden on production support teams)
   * Debugging in production
-    * [Logs](/2025/1/20/logs.html)
+    * [Logs](/2025/01/20/logs.html)
 * Cost
 
 > 2 primary concerns for an operations team: uptime (availability), cost - Rob Brown
