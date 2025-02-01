@@ -12,6 +12,10 @@ permalink: /books/
 
 * [Top REST API Design Pitfalls by Victor Rentea](https://www.youtube.com/watch?v=CNlLWCvazcQ): Fun talk about bad things you can do when designing an api
 
+## Articles
+
+* [A Framework for Responsible Innovation](https://multithreaded.stitchfix.com/blog/2019/08/19/framework-for-responsible-innovation/): Excellent guide to starting something new and deciding when to use new tools and do things in novel ways for us. There is a variable cost to building things and sometimes that comes back to choices made during planning that don't add a lot of value.
+
 # 2024
 
 ## Books

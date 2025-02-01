@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)https://multithreaded.stitchfix.com/blog/2019/08/19/framework-for-responsible-innovation/ -->
+<html class=" js flexbox borderradius fontface" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Framework for Responsible Innovation | Stitch Fix Technology – Multithreaded</title>
+  <meta name="description" content="How can a successful technology organization balance the need to innovate with the desire to maintain a lean, consistent tech stack?">
+
+  <meta name="og:title" content="A Framework for Responsible Innovation | Stitch Fix Technology – Multithreaded">
+  <meta name="og:description" content="How can a successful technology organization balance the need to innovate with the desire to maintain a lean, consistent tech stack?">
+
+  <meta property="og:image" content="https://multithreaded.stitchfix.com/assets/images/logomark-linkedin.jpg">
+
+  <meta property="og:image" content="https://multithreaded.stitchfix.com/assets/images/logomark-facebook.jpg">
+
+  <meta name="twitter:image" content="https://multithreaded.stitchfix.com/assets/images/logomark-twitter.jpg">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@StitchFixEng">
+
+
+  <link rel="stylesheet" href="./A Framework for Responsible Innovation _ Stitch Fix Technology – Multithreaded_files/main.css">
+  <link rel="canonical" href="https://multithreaded.stitchfix.com/blog/2019/08/19/framework-for-responsible-innovation/">
+  <link rel="alternate" type="application/rss+xml" title="Stitch Fix Technology – Multithreaded" href="https://multithreaded.stitchfix.com/feed.xml">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://multithreaded.stitchfix.com/favicon.ico">
+  <script async="" src="./A Framework for Responsible Innovation _ Stitch Fix Technology – Multithreaded_files/analytics.js"></script><script async="" src="./A Framework for Responsible Innovation _ Stitch Fix Technology – Multithreaded_files/gtm.js"></script><script src="./A Framework for Responsible Innovation _ Stitch Fix Technology – Multithreaded_files/modernizr.custom.51181.js"></script>
+  <script>
+      var RimgOptions = {
+          breakpoint:
+                  '-tiny 320w 1x,    -tiny-retina 320w 2x,' +
+                  '-small 480w 1x,   -small-retina 480w 2x,' +
+                  '-medium 600w 1x,  -medium-retina 600w 2x,' +
+                  '-regular 768w 1x, -regular-retina 768w 2x,' +
+                  '-large 1024w 1x,  -large-retina 1024w 2x,' +
+                  '-huge 1200w 1x,   -huge-retina 1200w 2x'
+      }
+  </script>
+  <script src="./A Framework for Responsible Innovation _ Stitch Fix Technology – Multithreaded_files/rimg.min.js"></script>
+
+  <!-- Google Tag Manager -->
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+   })(window,document,'script','dataLayer','GTM-7RWHC');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-7RWHC" height="0" width="0" style="display:none;visibility:hidden">
+  </iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+  <body class="blog-post"><div id="MathJax_Message" style="display: none;"></div>
+    
+<nav class="global-nav">
+  <ul class="hidden-gtxs list-flex">
+    <li>
+      <a href="https://multithreaded.stitchfix.com/" class="logo global-nav__item global-nav__item--logo left">
+        <img src="A%20Framework%20for%20Responsible%20Innovation%20_%20Stitch%20Fix%20Technology%20–%20Multithreaded_files/logo-monogram-navy.svg" alt="Stitch Fix logomark">
+      </a>
+    </li>
+    
+      
+      
+      
+      
+        <li class="flex-4 ">
+          <a href="https://multithreaded.stitchfix.com/engineering" class="global-nav__item ">
+            Engineering
+          </a>
+        </li>
+    
+      
+      
+      
+      
+        <li class="flex-4 ">
+          <a href="https://multithreaded.stitchfix.com/algorithms" class="global-nav__item ">
+            Algorithms
+          </a>
+        </li>
+    
+      
+      
+      
+      
+        <li class="flex-3 nav-algorithms-tour">
+          <a href="http://algorithms-tour.stitchfix.com/" class="global-nav__item ">
+            Algorithms Tour
+          </a>
+        </li>
+    
+      
+      
+      
+      
+        <li class="flex-3 nav-tour">
+          <a href="http://algorithms-tour.stitchfix.com/" class="global-nav__item ">
+            Tour
+          </a>
+        </li>
+    
+      
+      
+      
+      
+        <li class="flex-3 ">
+          <a href="https://www.stitchfix.com/careers/jobs" class="global-nav__item ">
+            Careers
+          </a>
+        </li>
+    
+      
+      
+      
+      
+        <li class="flex-3 ">
+          <a href="https://multithreaded.stitchfix.com/blog" class="global-nav__item current">
+            Blog
+          </a>
+        </li>
+    
+  </ul>
+  <div class="hidden-xs container flex">
+    <a href="https://multithreaded.stitchfix.com/" class="logo global-nav__item global-nav__item--logo left">
+      <img src="A%20Framework%20for%20Responsible%20Innovation%20_%20Stitch%20Fix%20Technology%20–%20Multithreaded_files/logov6.svg" alt="Stitch Fix logo">
+    </a>
+    <div class="right">
+      
+        
+        
+          <a href="https://multithreaded.stitchfix.com/engineering" class="global-nav__item  ">
+            Engineering
+          </a>
+      
+        
+        
+          <a href="https://multithreaded.stitchfix.com/algorithms" class="global-nav__item  ">
+            Algorithms
+          </a>
+      
+        
+        
+          <a href="http://algorithms-tour.stitchfix.com/" class="global-nav__item  nav-algorithms-tour">
+            Algorithms Tour
+          </a>
+      
+        
+        
+          <a href="http://algorithms-tour.stitchfix.com/" class="global-nav__item  nav-tour">
+            Tour
+          </a>
+      
+        
+        
+          <a href="https://www.stitchfix.com/careers/jobs" class="global-nav__item  ">
+            Careers
+          </a>
+      
+        
+        
+          <a href="https://multithreaded.stitchfix.com/blog" class="global-nav__item current ">
+            Blog
+          </a>
+      
+    </div>
+  </div>
+</nav>
+
+    <div class="container contain-to-sm">
+      <header class="mt6 mb2">
+        <h1 class="h1 mb1 text-c h-limited">A Framework for Responsible Innovation</h1>
+
+        <div style="display: flex; justify-content: center;">
+          <div style="margin: 0 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <aside class="authors-row">
+               
+                                                                                                                                                                                                                       
+              <img src="A%20Framework%20for%20Responsible%20Innovation%20_%20Stitch%20Fix%20Technology%20–%20Multithreaded_files/coraline.jpg" class="blog-post__author-image circleimage" alt="Blog post by Coraline Ada Ehmke">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+            </aside>
+
+            <div class="blog-meta">
+              <h6 class="h6 heading--impact m1">
+                
+                Coraline Ada Ehmke
+                
+              </h6>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <aside class="authors-row">
+              
+            </aside>
+            
+          </div>
+        </div>
+
+        <div class="blog-meta">
+          <h6 class="thin text-c">
+            <time datetime="2019-08-19">August 19, 2019</time>
+            
+            <span class="location"> - Chicago, IL </span>
+            
+          </h6>
+        </div>
+
+        <div class="thin text-c m1">
+          <a href="https://twitter.com/intent/tweet?text=A%20Framework%20for%20Responsible%20Innovation&amp;url=https://multithreaded.stitchfix.com/blog/2019/08/19/framework-for-responsible-innovation/&amp;via=StitchFixEng" target="_" class="social-share">
+  <span class="icon twitter"></span>
+  <span>Tweet this post!</span>
+</a>
+
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://multithreaded.stitchfix.com/blog/2019/08/19/framework-for-responsible-innovation/&amp;title=A%20Framework%20for%20Responsible%20Innovation&amp;summary=How%20can%20a%20successful%20technology%20organization%20balance%20the%20need%20to%20innovate%20with%20the%20desire%20to%20maintain%20a%20lean,%20consistent%20tech%20stack?&amp;source=Stitch%20Fix%20Technology%20%E2%80%93%20Multithreaded" target="_" class="social-share">
+  <span class="icon linkedin"></span>
+  <span>Post on LinkedIn</span>
+</a>
+
+
+        </div>
+      </header>
+    </div>
+    <div class="container contain-to-sm pos-rel">
+      <article>
+        <section class="text-content">
+          <p>Stitch Fix’s engineering efforts are guided by the pragmatic question, “What problem are you trying to solve?” We want to encourage experimentation and innovation within the constraints of our significant investments in our existing tech stack by iterating, improving, and integrating new tools and techniques. Our core languages and platforms are robust and well-supported both internally and externally, leaving plenty of room for creative and effective adaptation to our evolving business needs. But as new needs arise and new technologies emerge, we needed to consider how we can innovate in a responsible way.</p>
+
+<p>A successful engineering culture encourages autonomy and problem-solving. But as we explore the use of different tools that may have value to our organization, we realized that we needed a clear process for ensuring that we stay current with the industry, make good decisions, and understand the impact of adopting new technologies.</p>
+
+<p>Our Responsible Innovation Framework breaks this down into three primary activities:</p>
+
+<ul>
+  <li><strong>Evaluating the need and potential</strong> of a new technology,</li>
+  <li>Testing the technology through <strong>responsible experimentation</strong>, and</li>
+  <li>Consistently following a scope-based <strong>decision-making matrix</strong> for the change that we want to make.</li>
+</ul>
+
+<h1 id="evaluating-the-need-and-potential-for-new-technologies">Evaluating the Need and Potential for New Technologies</h1>
+
+<p>We consider exploring alternatives to our typical toolset when we encounter significant friction or come across a new technology or approach that may serve us better in the long term. The level of urgency for finding an alternative technology solution is determined by weighing the relative costs of doing nothing, waiting for an opportune time to explore and adopt something new, or making the necessary investment in the near term to better solve the specific problem we are facing.</p>
+
+<h2 id="understanding-the-problem-space">Understanding the Problem Space</h2>
+<p>We begin by clearly articulating the problem that we’re trying to solve, and evaluating how our current technologies can be leveraged to solve that problem. This involves asking the following questions:</p>
+
+<ul>
+  <li>Why is this new problem a priority?</li>
+  <li>What business needs or decisions make this problem relevant?</li>
+  <li>Is the utility or flexibility of our current technologies lacking in response to this problem?</li>
+  <li>Have we used our current technology to its full benefit?</li>
+  <li>Did we adopt our current technology solution under significantly different constraints or operating conditions?</li>
+  <li>How costly would it be to apply our current technology versus adoption a new technology to solve the problem?</li>
+</ul>
+
+<p>Answering these questions often involves discussions with our teammates to get agreement that the problem warrants attention, and that we have a good idea of how much of a priority the problem really is.</p>
+
+<h2 id="strengthening-efforts-vs-growth-focused-efforts">Strengthening Efforts vs Growth-Focused Efforts</h2>
+
+<p>Considering the answers to these questions, we move on to determining a general approach to meeting our technology need. The decision comes down to committing to a strengthening effort or a growth-focused effort.</p>
+
+<p>A strengthening effort requires a careful analysis of the potential of our current tools to solve the problem and finding ways to adapt them to meet the new need. This may involve some degree of re-engineering, including process changes or extending the existing functionality of tools that we have already built.</p>
+
+<p>A growth-focused effort requires evaluation of new potential options, considering the adoption costs and the overall benefit of each alternative carefully weighed against each other.</p>
+
+<h2 id="examining-alternatives">Examining Alternatives</h2>
+
+<p>If it is determined that our current tools are not well-suited to the emerging problem, and that a growth-focused effort is the appropriate way forward, we move on to evaluating alternative technologies that have the potential to solve it and choose the option that delivers maximum value for minimal effort.</p>
+
+<p>For this, we can turn to a technology adoption model that combines an assessment of the ease of adoption and the utility of a new technology:</p>
+
+<p><img src="A%20Framework%20for%20Responsible%20Innovation%20_%20Stitch%20Fix%20Technology%20–%20Multithreaded_files/acceptance_grid.png" alt="Technology adoption grid"></p>
+
+<p>Ease of adoption encompasses a number of considerations:</p>
+
+<ul>
+  <li>Does the new technology enhance and fit well with our existing processes?</li>
+  <li>Will it be easy for our existing staff to learn to use effectively?</li>
+  <li>Is there good documentation and prior art that we can learn from?</li>
+  <li>Is it flexible in comparison to our existing tools?</li>
+  <li>Does the technology have a strong security story?</li>
+  <li>Have we considered the overall cost to other teams that need to support the new technology?</li>
+</ul>
+
+<p>Usefulness can be determined with this series of questions:</p>
+
+<ul>
+  <li>Does the new technology enhance the performance of our teams?</li>
+  <li>Does it positively impact the performance, stability, and reliability of our application infrastructure?</li>
+  <li>Is it well-maintained, with an active user base and readily available support resources?</li>
+  <li>Does it solve the problem more effectively than our current toolset?</li>
+</ul>
+
+<p>This matrix guides our decision-making process. Technologies that are difficult to adopt and provide limited utility can be rejected outright. Easy to adopt solutions that provide limited value are not likely to be adopted but still may be worth exploring through ‘play’ (e.g. reading documentation and making simple proofs of concept), as they can create learning opportunities and help us gain a new perspective on the problem space. Technologies that provide utility but are difficult to adopt fall into the wait category; they may be candidates for future adoption, once the technology matures to the point that tooling and training exists to make onboarding easier. And solutions that are easy to adopt and accommodate a wide range of use cases are the most appropriate to explore, and can move on to the next phase: experimentation.</p>
+
+<h1 id="responsible-experimentation">Responsible Experimentation</h1>
+<p>In our daily work we are often faced with novel situations to which existing patterns of solutions don’t always perfectly apply. As creative professionals, we need to strike a balance between consistency and standardization, and creative problem-solving. We operate according to our shared values of trust and being motivated by a challenge, and as engineers we feel empowered to explore solutions from a practical, pragmatic, and customer-centered perspective.</p>
+
+<p>To inform and guide the evolution of our solutions within an environment of pragmatic innovation and creativity, we sometimes need to experiment with new ways of doing things. So how do we safely experiment?</p>
+
+<h2 id="characteristics-of-a-responsible-exploratory-experiment">Characteristics of a Responsible Exploratory Experiment</h2>
+<p>How we approach exploring a new technology has a huge bearing on its likelihood of being adopted as a standard. So what makes a safe and responsible technology experiment?</p>
+
+<p>A responsible experiment has:</p>
+
+<ul>
+  <li>A clearly defined problem statement;</li>
+  <li>A well-understood and well-documented use case;</li>
+  <li>Minimal impact on our own and other engineering teams’ priorities;</li>
+  <li>Minimal impact on other applications and systems;</li>
+  <li>Well-defined boundaries;</li>
+  <li>Buy-in from the team and its manager;</li>
+  <li>Success and failure criteria against which it can be measured;</li>
+  <li>Clear and concise documentation;</li>
+  <li>Evidence of thinking about alternatives and tradeoffs;</li>
+  <li>Analysis of the impact on operations, security, scalability, and observability;</li>
+  <li>A constrained time and cost; and</li>
+  <li>The ability to be undone or rolled back with a minimum of cost and effort; the artifacts of such an experiment are likely to be short-lived and replaced with more maintainable and production-ready code.</li>
+</ul>
+
+<p>Every technology decision that we make has ripple effects beyond the code in which it manifests. New frameworks have an operational cost and associated security concerns. Third-party solutions must be analyzed for their long-term sustainability and likelihood of being properly updated and maintained. Esoteric or highly specialized technologies may have an associated learning curve (and a limited number of engineers capable of maintaining and extending the solution, which impacts hiring and staffing.) In short, we must recognize that decisions made by an individual developer or small group of developers may have an impact beyond that team’s domain.</p>
+
+<p>After carefully experimenting with a new technology, and seeing the benefits of its adoption, it’s time to move into the decision-making phase.</p>
+
+<h1 id="responsible-decision-making">Responsible Decision-Making</h1>
+
+<p>Our engineering culture is designed to empower our engineers and grant individuals and teams great latitude in their approach to creating technology solutions to meet our business needs. But understanding that some of these decisions have a wider impact, we must be careful and thoughtful about their widespread adoption.</p>
+
+<p>We need to strike a balance between our desire to be consensus-driven and our need to be thoughtful, pragmatic, and deliberate about the decisions we make. We must rely on a clear and efficient decision-making process that both rewards creativity and innovation, and draws on the hard-won experience and insight of senior engineers and managers.</p>
+
+<h2 id="decision-making-framework">Decision-Making Framework</h2>
+
+<p>Who is responsible for making technology decisions? It comes down to a question scope: asking ourselves, who is impacted by this decision? This is where an emphasis on partnership becomes critical.</p>
+
+<h3 id="team-scope">Team Scope</h3>
+
+<p>When the impact is limited to a single application or team, individual developers are trusted to make the right decisions about their approach to solving a problem.</p>
+
+<p>As an example, a developer may explore the use of an architectural pattern that would be relevant to solving the problem at hand, even if its application is novel in the context of the team’s prior work.</p>
+
+<p>In cases like these, we discuss our idea with our teammates to ensure that our change is acceptable and will be understood and documented well enough that it can be effectively supported by our team.</p>
+
+<ul>
+  <li>
+    <p><strong>Responsible:</strong> An individual engineer (or small group of engineers) leads the effort. They are doing the work on the implementation and making sure that it adheres to the guidelines of a responsible experiment.</p>
+  </li>
+  <li>
+    <p><strong>Accountable:</strong> The team’s manager, in collaboration with senior engineers, is ultimately accountable and has the power to decide if the experiment will be put into production.</p>
+  </li>
+  <li>
+    <p><strong>Consulted:</strong> The entire team should be kept informed as to the setup, execution, and evaluation of the experiment. Feedback may be collected by reaching out to members of the team and through code reviews.</p>
+  </li>
+  <li>
+    <p><strong>Informed:</strong> The responsible engineer should take responsibility for socializing the experiment to the broader engineering organization in case it applies to problems that other teams are facing.</p>
+  </li>
+</ul>
+
+<h3 id="cross-team-scope">Cross-Team Scope</h3>
+
+<p>When a change we want to make impacts one or more other teams or applications, we document our proposed solution and share that documentation with owners of those applications, including managers and representative engineers from those teams.</p>
+
+<p>An example of cross-team scope is the extraction and integration of a new service that has potential use by multiple teams. We collaborate and iterate until we have agreed on an approach that meets the needs of all of the people who are affected by the decision.</p>
+
+<ul>
+  <li>
+    <p><strong>Responsible:</strong> A small group of engineers representing multiple teams lead the experiment. The experiment should be well-documented, and the documentation should be thorough enough for anyone to read and understand what is being tested, why it is being tested, and what the impact of the technology will be if it is successfully adopted.</p>
+  </li>
+  <li>
+    <p><strong>Accountable:</strong> The managers and senior engineers of the affected teams have the ultimate decision-making authority.</p>
+  </li>
+  <li>
+    <p><strong>Consulted:</strong> Senior engineers from all affected teams should be consulted in the design, execution, and evaluation of the experiment. Note that the new pattern, tool, or technology may have unexpected impact on infrastructure and security concerns, so the people responsible for these areas should be consulted as well. The team leading the experiment should also solicit input from other engineers who have an interest in the topic, and regularly report back to them on the status of the experiment.</p>
+  </li>
+  <li>
+    <p><strong>Informed:</strong> The engineers leading the experiment have the responsibility to socialize it to the broader engineering organization.</p>
+  </li>
+</ul>
+
+<h3 id="engineering-wide-scope">Engineering-Wide Scope</h3>
+
+<p>When a change impacts multiple teams, requires operational support in terms of infrastructure or security, significantly changes our approach to solving a certain set of problems, is costly in terms of time, effort, or price, or has broad business implications, we need to draw on a larger group to leverage their relevant experience and insight into the problem and proposed solution.</p>
+
+<p>For example, if we were interested in adopting a new testing framework or adopting GraphQL API interfaces, this effort would only be successful by securing buy-in from our most senior engineers and managers well before we explore integrating these technologies.</p>
+
+<ul>
+  <li>
+    <p><strong>Responsible:</strong> The working group of engineers leading the experiment.</p>
+  </li>
+  <li>
+    <p><strong>Accountable:</strong> One or more senior engineers and managers (and potentially product partners or even executives, in the case of a large-scale adoption proposal) are ultimately accountable and have the authority over the final decision to adopt or not adopt the new tool, framework, or language.</p>
+  </li>
+  <li>
+    <p><strong>Consulted:</strong> The experiment team should be in regular communication with senior engineering staff.</p>
+  </li>
+  <li>
+    <p><strong>Informed:</strong> The team should take responsibility for socializing the experiment in the broader engineering organization. They should schedule presentations and Q&amp;A sessions to fully inform other engineers and managers about the change and how it will impact them.</p>
+  </li>
+</ul>
+
+<h2 id="striking-a-balance">Striking a Balance</h2>
+
+<p>To preserve a culture of broad participation in decision-making, we must do our best to communicate clearly about the problems we face and how we can solve those problems in new ways. Partnering with our peers improves our chances of success, not only during the experiment but also as we move into the adoption phase for a new tool or technology.</p>
+
+<p>We must also recognize the limits of driving toward consensus. Ultimately, we rely on our managers, senior engineers, architects, or other project sponsors to evaluate and approve significant changes to our tools, processes, patterns, and infrastructure. We trust that the decisions that they make will be informed by the results of our responsible research and experiments, the comprehensive documentation we have prepared, and the input and buy-in we have secured from across the engineering organization.</p>
+
+<p>Regardless of the scope of the change we want to introduce, if we have done our jobs with due diligence, we can trust that the accountable individuals are well-equipped and empowered to make an informed decision that we can all believe in and support moving forward.</p>
+
+<h1 id="final-thoughts">Final Thoughts</h1>
+
+<p>We understand that changes to our tools (and the resulting infrastructure implications) can have significant impact outside of our own individual or team domains. In order to stay most focused on delivering value to our clients, rather than getting lost in the details of complex technical problems, we want to keep the number of different technologies we use to a manageable and effective minimum.</p>
+
+<p>Success is predicated on being deliberate and methodical in the way that we experiment with new technologies and how we make decisions about which technologies and techniques we will adopt.</p>
+
+<p>We want to preserve the balance between pragmatism, creativity, and autonomy. In order to do this, we need to be deliberate about how we explore, experiment with, and choose to adopt new tools and technologies. We have to balance our attraction to the new and novel with realism and deliberation. And we need to trust our technical leaders to make informed decisions.</p>
+
+<p>In short, we need to recognize that real and sustainable innovation is a team effort.</p>
+
+        </section>
+      </article>
+    </div>
+
+    <div class="thin text-c mt2">
+      <a href="https://twitter.com/intent/tweet?text=A%20Framework%20for%20Responsible%20Innovation&amp;url=https://multithreaded.stitchfix.com/blog/2019/08/19/framework-for-responsible-innovation/&amp;via=StitchFixEng" target="_" class="social-share">
+  <span class="icon twitter"></span>
+  <span>Tweet this post!</span>
+</a>
+
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://multithreaded.stitchfix.com/blog/2019/08/19/framework-for-responsible-innovation/&amp;title=A%20Framework%20for%20Responsible%20Innovation&amp;summary=How%20can%20a%20successful%20technology%20organization%20balance%20the%20need%20to%20innovate%20with%20the%20desire%20to%20maintain%20a%20lean,%20consistent%20tech%20stack?&amp;source=Stitch%20Fix%20Technology%20%E2%80%93%20Multithreaded" target="_" class="social-share">
+  <span class="icon linkedin"></span>
+  <span>Post on LinkedIn</span>
+</a>
+
+
+    </div>
+
+    <div class="divider py4 text-c">
+      <img src="A%20Framework%20for%20Responsible%20Innovation%20_%20Stitch%20Fix%20Technology%20–%20Multithreaded_files/logo-monogram-navy.svg" width="60" alt="Multithreaded">
+    </div>
+
+    <section class="py4 text-c">
+  <div class="container contain-to-md">
+    <h2 class="h2 heading--impact">Come Work with Us!</h2>
+    <p class="text-c p-limited">
+      We’re a diverse team dedicated to building great products, and we’d love your help. Do you want to build
+      amazing products with amazing peers? Join us!
+    </p>
+    <footer class="m2">
+      <a href="http://stitchfix.com/careers/jobs" class="btn-cta m1 mr1 ml1">All Careers at Stitch Fix</a>
+    </footer>
+  </div>
+</section> <div class="container">
+  <footer class="global-footer">
+    <div class="global-footer__content">
+      <section class="footer-column--brand">
+        <img src="A%20Framework%20for%20Responsible%20Innovation%20_%20Stitch%20Fix%20Technology%20–%20Multithreaded_files/logo-wordmark-navy.svg" class="footer-logo" alt="Stitch Fix: Your partner in personal style">
+        <small class="copyright">Stitch Fix and Fix are<br>trademarks of Stitch Fix, Inc.</small>
+      </section>
+      <section class="footer-column--links">
+        <div class="links-container">
+          <ul class="links-list">
+            <li><a href="https://www.stitchfix.com/">Stitch Fix Home</a></li>
+            <li><a href="https://www.stitchfix.com/faq">FAQ</a></li>
+            <li><a href="https://www.stitchfix.com/press">Press</a></li>
+          </ul>
+          <ul class="links-list">
+            <li><a href="https://www.stitchfix.com/women/maternity">Maternity</a></li>
+            <li><a href="https://www.stitchfix.com/men/big-tall">Big and tall</a></li>
+            <li><a href="https://www.stitchfix.com/women/jeans">Jeans</a></li>
+            <li><a href="https://www.stitchfix.com/women/business-casual">Business Casual</a></li>
+            <li><a href="https://www.stitchfix.com/women/petite">Petite</a></li>
+            <li><a href="https://www.stitchfix.com/women/plus">Plus</a></li>
+          </ul>
+          <ul class="links-list">
+            <li><a href="http://multithreaded.stitchfix.com/blog/">Tech Blog</a></li>
+            <li><a href="http://multithreaded.stitchfix.com/careers/">Tech Careers</a></li>
+            <li><a href="https://www.stitchfix.com/terms">Terms of Use</a></li>
+            <li><a href="https://www.stitchfix.com/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer-column--social">
+        <h5 class="f-sm mb1">Follow Us!</h5>
+        <a href="http://github.com/stitchfix" class="pxhalf">
+          <img src="A%20Framework%20for%20Responsible%20Innovation%20_%20Stitch%20Fix%20Technology%20–%20Multithreaded_files/socialgithub.svg" width="33" height="32" alt="Stitch Fix Tech on Github">
+        </a>
+      </section>
+    </div>
+
+    <div class="global-footer__content-small-views">
+      <section class="m4">
+        <h5 class="f-sm mb1">Follow Us!</h5>
+        <a href="http://github.com/stitchfix" class="pxhalf">
+          <img src="A%20Framework%20for%20Responsible%20Innovation%20_%20Stitch%20Fix%20Technology%20–%20Multithreaded_files/socialgithub.svg" width="33" height="32" alt="Stitch Fix Tech on Github">
+        </a>
+      </section>
+      <ul class="links-list--small-views">
+        <li><a href="http://multithreaded.stitchfix.com/blog/">Tech Blog</a></li>
+        <li><a href="http://multithreaded.stitchfix.com/careers/">Tech Careers</a></li>
+        <li><a href="https://www.stitchfix.com/">Stitch Fix Home</a></li>
+        <li><a href="https://www.stitchfix.com/faq">FAQ</a></li>
+        <li><a href="https://www.stitchfix.com/press">Press</a></li>
+        <li><a href="https://www.stitchfix.com/terms">Terms of Use</a></li>
+        <li><a href="https://www.stitchfix.com/privacy">Privacy Policy</a></li>
+      </ul>
+      <section class="copyright m1">
+        <div class="mb1">
+          Stitch Fix and Fix are trademarks of Stitch Fix, Inc.
+        </div>
+        <img src="A%20Framework%20for%20Responsible%20Innovation%20_%20Stitch%20Fix%20Technology%20–%20Multithreaded_files/logo-monogram-navy.svg" width="33" height="32" alt="Stitch Fix logomark">
+      </section>
+    </div>
+  </footer>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25598599-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+ <script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<script src="./A Framework for Responsible Innovation _ Stitch Fix Technology – Multithreaded_files/MathJax.js"></script>
+
+  
+
+</body></html>
