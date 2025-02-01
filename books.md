@@ -8,6 +8,10 @@ permalink: /books/
 
 ## Books
 
+## Videos
+
+* [Top REST API Design Pitfalls by Victor Rentea](https://www.youtube.com/watch?v=CNlLWCvazcQ): Fun talk about bad things you can do when designing an api
+
 # 2024
 
 ## Books
