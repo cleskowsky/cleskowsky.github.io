@@ -13,6 +13,7 @@ permalink: /production/
   * Debugging in production
     * [Logs](/2025/01/20/logs.html)
     * [Alerts](/2025/01/29/alerts.html)
+    * [Infrastructure as code](/2025/02/01/iac.html)
 * Cost
 
 > 2 primary concerns for an operations team: uptime (availability), cost - Rob Brown
