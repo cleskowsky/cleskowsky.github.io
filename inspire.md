@@ -10,6 +10,7 @@ permalink: /inspire/
 
 # Architecture diagrams
 
+* ![Netflix console me application architecture (aws, ecs, multi-account)](/assets/2025/consoleme_architecture_netflix.png)
 * ![K3s architecture diagram](/assets/2024/k3s_architecture_diagram.png)
 * ![Paging system architecture @ Dolthub.com](/assets/2023/automated_paging_at_dolthub.png)
 * ![Open telemetry architecture diagram](/assets/2023/otel_architecture_diagram.png)
