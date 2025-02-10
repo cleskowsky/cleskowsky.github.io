@@ -42,7 +42,7 @@ ansible-playbook -i inv pb.yml --check --diff
 **More links**
 
 * [Documented bash ‘set’ shell modifiers](https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html) (eg What does set -e mean?)
-* [Best practices for writing bash](https://kvz.io/bash-best-practices.html)
+* [Best practices for writing bash](https://kvz.io/blog/bash-best-practices.html)
 * [Anybody can write good bash](https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort)
 * [Google's style guide](https://google.github.io/styleguide/shellguide.html): Lots of great tips / things to think about here
 * [Difference between \[ and \[\[](https://www.baeldung.com/linux/bash-single-vs-double-brackets): Always have to look this up
