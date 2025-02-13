@@ -8,6 +8,8 @@ permalink: /books/
 
 ## Books
 
+* [Service model](https://www.amazon.ca/Service-Model-Adrian-Tchaikovsky/dp/1250290287/ref=sr_1_1): Adrian Tchaikovsky 
+
 ## Videos
 
 * [Top REST API Design Pitfalls by Victor Rentea](https://www.youtube.com/watch?v=CNlLWCvazcQ): Fun talk about bad things you can do when designing an api
