@@ -440,6 +440,7 @@ Always want to be doing sigterm.
 * `cmd + shift + .` Reveals hidden files in a finder window. eg ~/.sdkman/
 * `cmd + .` Is a special key combo for the physical escape key on the iPad magic keyboard
 * `cmd + ctrl + space` Pops up the emoji keyboard on a mac
+* `defaults write -g ApplePressAndHoldEnabled -bool false` Disables key hold for accented characters (I hold a key to move a cursor in vim)
 
 # MongoDB
 
