@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* [Children of Time](https://www.amazon.ca/Children-Time-Adrian-Tchaikovsky/dp/1447273303): Adrian Tchaikovsky
 * [Picks and Shovels](https://us.macmillan.com/books/9781250865908/picksandshovels/): Cory Doctorow
 * [Service model](https://www.amazon.ca/Service-Model-Adrian-Tchaikovsky/dp/1250290287/ref=sr_1_1): Adrian Tchaikovsky 
 
