@@ -26,8 +26,6 @@ A good set of high order principles to keep in mind when I'm building software t
 
 * Understand the shared responsibility model and how I can leverage it to improve security and shift some of the burden of patching and other maintenance tasks to a partner like AWS
 
-
-
 ## Reliability
 ## Cost
 ## Operational Simplicity
