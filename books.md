@@ -14,6 +14,7 @@ permalink: /books/
 
 ## Videos
 
+* [Two decades of Git: A conversation with creator Linus Torvalds](https://www.youtube.com/watch?v=sCr_gb8rdEI): Interview with Linux Torvalds on the 20th anniversary of git. Enjoyed this immensely. :)
 * [Top REST API Design Pitfalls by Victor Rentea](https://www.youtube.com/watch?v=CNlLWCvazcQ): Fun talk about bad things you can do when designing an api
 
 ## Articles
