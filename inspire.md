@@ -46,5 +46,6 @@ permalink: /inspire/
 
 # Website Design
 
+* ![Fedidb](/assets/2025/fedidb_dashboard.png)
 * [2023-1-8 Exploretock.com](/2023/01/08/design_tock.html)
 * ![Hidde.blog](/assets/2023/hidde_blog_home.png)
