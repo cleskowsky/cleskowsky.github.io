@@ -42,6 +42,22 @@ Code reviews are a most excellent opportunity to share experience about a progra
 * Handle specific exceptions you know may be thrown, and include a generic handler for everything else
 * Propagate errors out to the places where they can be handled
 
+# On database changes (queries, migrations)
+
+* What table is it?
+  * Know your big tables (eg mongodb has a command called stats on db.collection objects `db.table.stats()`)
+  * We mostly care about big tables (for some definition of big)
+* Show us the explain plan
+  * What does the query planner estimate is the most selective access path? (Determine against prod shaped,sized data without actually running the query in prod!)
+  * Table scans probably don't matter for tiny tables that will fit completely in memory
+* What index is it using?
+  * db.getIndexes()
+  * Look at query doc
+* How selective is that index?
+* How many records to you expect to return?
+* How hard is it expected to hit the disk?
+* If you're changing an existing query, will the preferred index by the optimizer change
+
 # My favourite code review links
 
 * [Testing in the Twenties with Tim Bray](https://www.tbray.org/ongoing/When/202x/2021/05/15/Testing-in-2021)
@@ -49,3 +65,19 @@ Code reviews are a most excellent opportunity to share experience about a progra
 * [Google Code Review Guidelines](https://github.com/google/eng-practices/blob/master/review/reviewer/looking-for.md)
 * [Here’s something from the point of view of the code author](https://mtlynch.io/code-review-love/) (On bringing reviewers joy …)
 * [Conventional Comments](https://conventionalcomments.org/): How to comment with a bit more context about whether you think something is a blocker or suggestion.
+
+# Reviewing database changes (queries, migrations)
+
+Reviewing a query
+* what table is it
+  * db.table.stats()
+  * we mostly care about big tables (for some definition of big)
+* is there an explain
+  * table scans probably don't matter for tiny tables that will fit completely in memory
+* what index is it using
+  * db.getIndexes()
+  * look at query doc
+* how selective is that index
+* how many records to you expect to return
+* how hard is it expected to hit the disk
+* if you're changing an existing query, will the preferred index by the optimizer change
