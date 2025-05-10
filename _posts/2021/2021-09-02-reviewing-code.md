@@ -65,19 +65,3 @@ Code reviews are a most excellent opportunity to share experience about a progra
 * [Google Code Review Guidelines](https://github.com/google/eng-practices/blob/master/review/reviewer/looking-for.md)
 * [Here’s something from the point of view of the code author](https://mtlynch.io/code-review-love/) (On bringing reviewers joy …)
 * [Conventional Comments](https://conventionalcomments.org/): How to comment with a bit more context about whether you think something is a blocker or suggestion.
-
-# Reviewing database changes (queries, migrations)
-
-Reviewing a query
-* what table is it
-  * db.table.stats()
-  * we mostly care about big tables (for some definition of big)
-* is there an explain
-  * table scans probably don't matter for tiny tables that will fit completely in memory
-* what index is it using
-  * db.getIndexes()
-  * look at query doc
-* how selective is that index
-* how many records to you expect to return
-* how hard is it expected to hit the disk
-* if you're changing an existing query, will the preferred index by the optimizer change
