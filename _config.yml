@@ -60,6 +60,7 @@ paginate: 30
 header_pages:
   - books.md
   - food.md
+  - health.md
   - inspire.md
   - oceanmd.md
   - quotes.md
