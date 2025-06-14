@@ -18,6 +18,7 @@ permalink: /books/
 
 ## Videos
 
+* [Interview with Sherry Sontag](https://vimeo.com/user143982918): Ergodox keyboards did an interview with Sherry this year that was wonderful. She co-wrote "Blind Man's Bluff" which is a historical book about submarine and their deployment by the USA. 
 * [Tim Sweeney: Fortnite, Unreal Engine, and the Future of Gaming | Lex Fridman Podcast](https://www.youtube.com/watch?v=477qF6QNSvc): Great, loong chat with Tim Sweeney about Epic, Unreal and the ecosystem of tools he got started and how he thinks about the future!
 * [Two decades of Git: A conversation with creator Linus Torvalds](https://www.youtube.com/watch?v=sCr_gb8rdEI): Interview with Linux Torvalds on the 20th anniversary of git. Enjoyed this immensely. :)
 * [Top REST API Design Pitfalls by Victor Rentea](https://www.youtube.com/watch?v=CNlLWCvazcQ): Fun talk about bad things you can do when designing an api
