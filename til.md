@@ -769,6 +769,10 @@ tfenv use <v>
 # https://www.terraform.io/internals/debugging
 # TF_LOG=[TRACE, DEBUG, INFO, WARN or ERROR]
 TF_LOG=DEBUG terraform plan -out a.plan
+
+# Generating a lock file that's good for arm64, amd64
+terraform init --backend=false --upgrade
+terraform providers lock -platform=darwin_amd64 -platform=darwin_arm64 -platform=linux_amd64
 {% endhighlight %}
 
 # Yum
