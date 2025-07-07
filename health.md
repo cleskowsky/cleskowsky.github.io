@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A post for healthy living related stuff"
+title: "Wellness"
 ---
 
 # Stretching, Yoga

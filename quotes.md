@@ -4,6 +4,8 @@ title: Quotes
 permalink: /quotes/
 ---
 
+![Technical leadership is about trust](/assets/2025/technical_leadership_trust.png)
+
 ![Kelsey Hightower talks about how to have impact](/assets/2025/kelsey_hightower_1.png)
 
 > Infrastructure is the stuff you have to run so you can run the stuff you want to run - Charity Majors, Oxide podcast s4 e17 July 11, Innovation tokens revisited blog post
