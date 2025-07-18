@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* [Emily Wilde's Encyclopaedia of Faeries](https://www.amazon.ca/Wildes-Encyclopaedia-Faeries-Heather-Fawcett/dp/0593500156/ref=sr_1_1): Heather Fawcett
 * [Immense World](https://www.amazon.ca/Immense-World-Animal-Senses-Reveal-ebook/dp/B09K4X6KM5/ref=sr_1_1): Ed Yong
 * [When the Moon Hits Your Eye](https://www.goodreads.com/book/show/211004190-when-the-moon-hits-your-eye): John Scalzi
 * [The Ministry of Time](https://www.amazon.ca/Ministry-Time-Novel-Kaliane-Bradley/dp/1668092654/ref=sr_1_1): Kaliane Bradley
