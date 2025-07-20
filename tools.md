@@ -13,3 +13,11 @@ permalink: /tools/
     * 1password is the password manager I'm using these days
     * ublock origin because there are way too many ads on the internet
 * [Bruno api client](https://www.usebruno.com/): Send authenticated test requests to an api and read back responses during development
+
+# Tools I have heard about but not used
+
+I've bumped into a few tools I haven't had the time or need to dig into, but wanted to leave a breadcrumb for my future self just in case ...
+
+* [Apache Surperset](https://superset.apache.org/): Visualization of analytics db by apache s/w foundation
+* [Apache Airflow](https://airflow.apache.org/): Data pipeline, batch orchestration tool (eg etl) again by apache :)
+* [mkcert](https://github.com/FiloSottile/mkcert): Tool for creating a local certificate authority (ca), and client certs
