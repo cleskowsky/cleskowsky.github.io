@@ -236,6 +236,9 @@ java -XshowSettings:properties -version
 * Followed by gc event time in seconds
 * Is this considered a minor collection or full? I think minor because the event starts with GC (...). Full collection starts with FULL GC (...).
 * [Source](https://www.baeldung.com/java-verbose-gc)
+
+* Get installed tomcat version
+java -cp /path/to/tomcat/lib/catalina.jar org.apache.catalina.util.ServerInfo
 {% endhighlight %}
 
 A full garbage collection is triggered when a copy from newgen to oldgen fails because there isn't enough available memory.
