@@ -30,6 +30,7 @@ permalink: /inspire/
 
 # Home pages
 
+* ![Doug's clinic website](/assets/inspire_board/dougs_clinic_website.png): Nice, simple, clean.
 * ![Svelte society homepage](/assets/2024/svelte_society.png)
 
 # Icons
