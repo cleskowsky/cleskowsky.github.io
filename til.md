@@ -401,7 +401,8 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 openssl x509 -in server.crt -text -noout
 
 # Check a key
-openssl rsa -in server.key -check
+openssl rsa -in server.key -check   # for rsa keys
+ssh-keygen -l -f my_ed25519_key # for ed25519 keys
 
 # Check a csr
 openssl req -text -noout -verify -in server.csr
