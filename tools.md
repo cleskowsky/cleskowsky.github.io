@@ -21,3 +21,4 @@ I've bumped into a few tools I haven't had the time or need to dig into, but wan
 * [Apache Surperset](https://superset.apache.org/): Visualization of analytics db by apache s/w foundation
 * [Apache Airflow](https://airflow.apache.org/): Data pipeline, batch orchestration tool (eg etl) again by apache :)
 * [mkcert](https://github.com/FiloSottile/mkcert): Tool for creating a local certificate authority (ca), and client certs
+* [Airbyte, ETL tool](https://airbyte.com): Might provide some of the framework-y type stuff for etl (chunking, checkpointing, retry, job state, job status, parallelism, etc)
