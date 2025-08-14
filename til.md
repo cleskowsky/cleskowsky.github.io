@@ -406,6 +406,13 @@ ssh-keygen -l -f my_ed25519_key # for ed25519 keys
 
 # Check a csr
 openssl req -text -noout -verify -in server.csr
+
+# Verify a certificate against a private key
+# Extract public key from cert
+> openssl x509 -in server.crt -noout -pubkey > public_key_from_cert.pem
+# Derive the public key from private key
+> openssl pkey -in server.key -pubout -out public_key_from_private_key_derived.pem
+> diff public_key_from_cert.pem public_key_from_private_key_derived.pem
 ```
 
 # Linux
