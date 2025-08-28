@@ -14,6 +14,10 @@ permalink: /tools/
     * ublock origin because there are way too many ads on the internet
 * [Bruno api client](https://www.usebruno.com/): Send authenticated test requests to an api and read back responses during development
 
+# Python
+
+* [uv Package manager (and other things) for python](https://docs.astral.sh/uv/)
+
 # Tools I have heard about but not used
 
 I've bumped into a few tools I haven't had the time or need to dig into, but wanted to leave a breadcrumb for my future self just in case ...
