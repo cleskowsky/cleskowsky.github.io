@@ -8,6 +8,8 @@ permalink: /books/
 
 ## Books
 
+* [Problem solving 101](https://www.amazon.ca/Problem-Solving-101-Simple-People-ebook/dp/B001UFP61C/ref=sr_1_1): Ken Watanabe
+* [Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 1)](https://www.amazon.ca/Newt-Demon-Low-Stakes-Fantasy-LitRPG-ebook/dp/B0DDM5H5JG/ref=sr_1_1): Edwin Griffiths
 * [Emily Wilde's Encyclopaedia of Faeries](https://www.amazon.ca/Wildes-Encyclopaedia-Faeries-Heather-Fawcett/dp/0593500156/ref=sr_1_1): Heather Fawcett
 * [Immense World](https://www.amazon.ca/Immense-World-Animal-Senses-Reveal-ebook/dp/B09K4X6KM5/ref=sr_1_1): Ed Yong
 * [When the Moon Hits Your Eye](https://www.goodreads.com/book/show/211004190-when-the-moon-hits-your-eye): John Scalzi
