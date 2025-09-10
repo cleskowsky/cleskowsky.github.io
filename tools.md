@@ -18,6 +18,13 @@ permalink: /tools/
 
 * [uv Package manager (and other things) for python](https://docs.astral.sh/uv/)
 
+# Docker
+
+## Handy images
+
+* [busybox](https://hub.docker.com/_/busybox): A tiny image with a few unix tools
+* [alpine](https://hub.docker.com/_/alpine): A tiny linux
+
 # Tools I have heard about but not used
 
 I've bumped into a few tools I haven't had the time or need to dig into, but wanted to leave a breadcrumb for my future self just in case ...
