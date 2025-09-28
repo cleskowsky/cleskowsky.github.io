@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 3)
 * Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 2)
 * [Problem solving 101](https://www.amazon.ca/Problem-Solving-101-Simple-People-ebook/dp/B001UFP61C/ref=sr_1_1): Ken Watanabe
 * [Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 1)](https://www.amazon.ca/Newt-Demon-Low-Stakes-Fantasy-LitRPG-ebook/dp/B0DDM5H5JG/ref=sr_1_1): Edwin Griffiths
