@@ -18,8 +18,6 @@ Today I Learned!
 * `ansible-playbook -i "localhost" playbook-nagios.yml --list-tasks`: Lists plays that will be run by ansible
 * `ansible hostgroup -i inv -m shell -a "command"`: Execute task <command> across all hosts in group hostgroup in inventory inv
 
-{% highlight bash %}
-
 # Don't make any changes but print a diff of what would have changed
 # Note: It's not always possible to do a check run
 ansible-playbook -i inv pb.yml --check --diff
@@ -48,7 +46,8 @@ ansible-playbook -i inv pb.yml --check --diff
 * [Difference between \[ and \[\[](https://www.baeldung.com/linux/bash-single-vs-double-brackets): Always have to look this up
 * [Shell check for static analysis of scripts looking for common mistakes](https://www.shellcheck.net/)
 
-{% highlight bash %}
+```shell
+
 #!/usr/bin/env bash
 
 # Default values for env variables
@@ -143,7 +142,15 @@ set -o nounset
 set -o errexit (same as set -e)
 set -o pipefail
 
-{% endhighlight %}
+# Looping
+
+DIRECTORIES="vim bash zsh various"
+for dir in $DIRECTORIES; do
+    echo "Setting up symlinks for all items in $dir"
+    # ...
+done
+
+```
 
 ![Bash debugging by Julia Evans](/assets/2024/bash-debugging.png)
 
