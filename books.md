@@ -24,6 +24,7 @@ permalink: /books/
 
 ## Videos
 
+* [VIDEO Storytelling & Science with James Cameron (Full Episode)](https://www.youtube.com/watch?v=z5d6RvbQbTg): Great interview with James Cameron about movies, science, and science fiction
 * [Why AI is Overrated - with Neil deGrasse Tyson](https://www.youtube.com/watch?v=BYizgB2FcAQ): Fun interview with Neil deGrasse Tyson.
 * [Interview with Sherry Sontag](https://vimeo.com/user143982918): Ergodox keyboards did an interview with Sherry this year that was wonderful. She co-wrote "Blind Man's Bluff" which is a historical book about submarine and their deployment by the USA. 
 * [Tim Sweeney: Fortnite, Unreal Engine, and the Future of Gaming](https://www.youtube.com/watch?v=477qF6QNSvc): Great, loong chat between Tim Sweeney and Lex Fridman about Epic, Unreal and the ecosystem of tools he got started and how he thinks about the future!
