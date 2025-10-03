@@ -18,10 +18,11 @@ Today I Learned!
 * `ansible-playbook -i "localhost" playbook-nagios.yml --list-tasks`: Lists plays that will be run by ansible
 * `ansible hostgroup -i inv -m shell -a "command"`: Execute task <command> across all hosts in group hostgroup in inventory inv
 
+```bash
 # Don't make any changes but print a diff of what would have changed
 # Note: It's not always possible to do a check run
 ansible-playbook -i inv pb.yml --check --diff
-{% endhighlight %}
+```
 
 # AWS
 
@@ -230,7 +231,7 @@ brew services stop [service]
 * [Elasticsearch's guidance for setting java's heap size](https://www.elastic.co/guide/en/elasticsearch/reference/current/advanced-configuration.html#set-jvm-heap-size): 50% of main memory available in a system is a recommendation I've read in a couple of places now
 * Get version of the jvm that ran tomcat by looking at catalina.out for log lines: ['JVM Version', 'JVM Vendor']
 
-{% highlight bash %}
+```bash
 # Show information about jvm vendor
 java -XshowSettings:properties -version
 
@@ -246,13 +247,13 @@ java -XshowSettings:properties -version
 
 * Get installed tomcat version
 java -cp /path/to/tomcat/lib/catalina.jar org.apache.catalina.util.ServerInfo
-{% endhighlight %}
+```
 
 A full garbage collection is triggered when a copy from newgen to oldgen fails because there isn't enough available memory.
 
 # Set default java on macos
 
-{% highlight bash %}
+```bash
 # Get a list of installed java versions
 /usr/libexec/java_home -V
 
@@ -271,13 +272,13 @@ export JAVA_HOME=`/usr/libexec/java_home -v 17.0.7`
 
 # Maven skip tests
 mvn package -DskipTests
-{% endhighlight %}
+```
 
 ## Performance analysis
 
 **CPU**
 
-{% highlight bash %}
+```bash
 # If cpu usage is high, dumping threads in the jvm may help
 # identify what work is being done. Taking multiple dumps
 # at 10s intervals will help spot threads that have been running,
@@ -293,14 +294,14 @@ jstack <pid>
 
 # A stronger version
 sudo jstack -F <pid>
-{% endhighlight %}
+```
 
 Links
 * [netflix: java flame graphs](https://netflixtechblog.com/java-in-flames-e763b3d32166)
 
 **Memory**
 
-{% highlight bash %}
+```bash
 # Look at garbage collection stats in the jvm
 sudo jstat -gcutil -h10 1002 250 20
 S0     S1     E      O      M     CCS    YGC     YGCT    FGC    FGCT     GCT
@@ -326,7 +327,7 @@ and reprint the header every 10 lines of output
 
 No header line
 sudo jstat -gcutil <pid> 250 7
-{% endhighlight %}
+```
 
 **JConsole**
 
@@ -462,7 +463,7 @@ Always want to be doing sigterm.
 
 # MongoDB
 
-{% highlight bash %}
+```bash
 # Takes a logical backup
 mongodump --archive=a.gz --gzip --db a
 mongodump --uri "$(get_db_uri a)" --archive=a.gz --gzip --db a
@@ -524,12 +525,11 @@ db.getProfilingStatus()
 
 # To change slowms
 db.setProfilingLevel(0, { slowms: x })
-
-{% endhighlight %}
+```
 
 **Connection Strings**
 
-{% highlight bash %}
+```bash
 # DNS seed list (Mongodb > 3.6)
 # We can setup a srv record that contains many or all hosts in a mongodb
 # replica set
@@ -547,7 +547,7 @@ mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[database][?opti
 # You can explicitly list all members of a replica set using this method
 # I believe the driver only needs to find one replica set member and then
 # can discover others and even follow mongo elections
-{% endhighlight %}
+```
 
 ## Links
 
@@ -560,15 +560,15 @@ mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[database][?opti
 * [Compact command concerns](https://www.mongodb.com/community/forums/t/compact-command-concerns/13696)
 * [Mongodb manual - compact](https://www.mongodb.com/docs/manual/reference/command/compact/#std-label-compact-cmd-replica-sets)
 
-{% highlight bash %}
+```bash
 # Find all users in a db cluster regardless of db they're created under
 PRIMARY> use admin
 PRIMARY> db.system.users.find()
-{% endhighlight %}
+```
 
 # Network
 
-{% highlight bash %}
+```bash
 # Visualize cidr blocks with ipcalc
 christian@Christians-Mac-mini cleskowsky.github.io % ipcalc 10.1.2.0/16
 Address:   10.1.2.0             00001010.00000001. 00000010.00000000
@@ -580,8 +580,7 @@ HostMin:   10.1.0.1             00001010.00000001. 00000000.00000001
 HostMax:   10.1.255.254         00001010.00000001. 11111111.11111110
 Broadcast: 10.1.255.255         00001010.00000001. 11111111.11111111
 Hosts/Net: 65534                 Class A, Private Internet
-
-{% endhighlight %}
+```
 
 ## Tools
 
@@ -595,7 +594,7 @@ Hosts/Net: 65534                 Class A, Private Internet
 
 Cross posted a few ssh things here because I can never remember where in this doc I put stuff like this ...
 
-{% highlight bash %}
+```bash
 # Check a certificate
 openssl x509 -in server.crt -text -noout
 
@@ -616,7 +615,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # Github recommends creating a key with the ed25519 algorithm
 ssh-keygen -t ed25519 -C "your_email@example.com"
-{% endhighlight %}
+```
 
 # Postfix
 
@@ -624,7 +623,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 ## Various helpful commands
 
-{% highlight bash %}
+```bash
 # Re-enqueue messages held back for a few days (Resets their timestamp
 # for remaining in delivery queues)
 postsuper -r [<QUEUEID>|ALL]
@@ -636,7 +635,7 @@ qshape deferred
 # Get me a list of messages currently in the active queue (and possibly
 # other queues eg hold)
 mailq
-{% endhighlight %}
+```
 
 _Email entering postfix queues_
 ![Inbound email](/assets/images/postfix_queues_1.png)
@@ -702,7 +701,7 @@ head -c 32 /dev/urandom | base64
 
 ~/.ssh/config
 
-{% highlight bash %}
+```bash
 # Create an vm alias that's easier to remember than an ip
 # Then use it thusly: ssh m
 Host m
@@ -718,41 +717,41 @@ Host *
     ControlMaster auto
     ControlPath ~/.ssh/sockets/%r@%h-%p
     ControlPersist 600
-{% endhighlight %}
+```
 
 Create an ssh tunnel to allow access to an internal service where I do have a jump host and can connect to another machine that can see the internal service
 
-{% highlight bash %}
+```bash
 ssh -L 10000:[vm.internal:443] [jump.host]
 
 * 10000 Local port to bind ssh to (Point browser here)
 * vm.internal:443 Internal service host:port
 * jump.host A bastion vm I can ssh to
-{% endhighlight %}
+```
 
 # Strace
 
-{% highlight bash %}
+```bash
 strace
 -e trace=open,pread64 Trace only open and pread64
 -p <pid> The process id to attach to. Optional
 -s 2000 Event line length to print
 -f Strace should follow subprocesses
 [command] Strace will run this command and begin a trace
-{% endhighlight %}
+```
 
 ![Comic page 1](/assets/images/2022/strace_1.jpeg)
 ![Comic page 2](/assets/images/2022/strace_2.jpeg)
 
 # Subversion
 
-{% highlight bash %}
+```bash
 # Cherry pick a changeset from the specified branch in the repo
 svn merge -c x ^/operations
 
 # Show the most recent commit
 svn log -l 1
-{% endhighlight %}
+```
 
 * Convention at cog
     * For a merge commit message, start with "Merged from <branch>"
@@ -760,15 +759,16 @@ svn log -l 1
 
 # Tailwindcss
 
-{% highlight bash %}
+```bash
 # Quick and dirty launch tailwind cli (using springboot here)
 # Note: This is not appropriate for inclusion in a build script (Use postcss or some such for that)
 npx tailwindcss -i ./src/main/resources/static/css/site.css -o ./target/classes/static/css/site.css --watch
-{% endhighlight %}
+```
 
 # Terraform
 
-{% highlight bash %}
+```bash
+
 # Use tfenv to install multiple versions of terraform at once
 # See : https://github.com/tfutils/tfenv
 
@@ -791,11 +791,11 @@ TF_LOG=DEBUG terraform plan -out a.plan
 # Generating a lock file that's good for arm64, amd64
 terraform init --backend=false --upgrade
 terraform providers lock -platform=darwin_amd64 -platform=darwin_arm64 -platform=linux_amd64
-{% endhighlight %}
+```
 
 # Yum
 
-{% highlight bash %}
+```bash
 # list installed packages
 yum list installed
 
@@ -820,7 +820,7 @@ yum clean headers
 yum clean metadata
 
 yum clean all # this is probably all I need :)
-{% endhighlight %}
+```
 
 # NodeJS
 
