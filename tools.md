@@ -38,3 +38,5 @@ I've bumped into a few tools I haven't had the time or need to dig into, but wan
 * [Apache Airflow](https://airflow.apache.org/): Data pipeline, batch orchestration tool (eg etl) again by apache :)
 * [mkcert](https://github.com/FiloSottile/mkcert): Tool for creating a local certificate authority (ca), and client certs
 * [Airbyte, ETL tool](https://airbyte.com): Might provide some of the framework-y type stuff for etl (chunking, checkpointing, retry, job state, job status, parallelism, etc)
+* [PeerDb](https://peerdb.io/): Data etl from postgres to various data warehouse platforms
+* [Debezium](https://debezium.io/): Change data capture platform for various databases (open source, allegedly hard to run at scale)
