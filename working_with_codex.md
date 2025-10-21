@@ -6,7 +6,16 @@ permalink: /codex/
 
 # Planning prompts
 
+## Starting a planning session 1
+
 > I want to enable custom, unobtrusive update notifications and installs by customizing SPUUserDriver. Let's start by planning the custom UI we'll need. We'll ONLY work on UI. Create a plan for creating SwiftUI views that can show the various states that are required by SPUUserDriver. I think the best place for these to show up is in the macOS window titlebars on the top-right. Create a plan to put it there. Consult the oracle.
+
+## Starting a planning session 2
+
+> I've got an idea I want to talk through with you. I'd like you to help me turn it into a fully formed design and spec (and eventually an implementation plan)
+> Check out the current state of the project in our working directory to understand where we're starting off, then ask me questions, one at a time, to help refine the idea.
+> Ideally, the questions would be multiple choice, but open-ended questions are OK, too. Don't forget: only one question per message.
+> Once you believe you understand what we're doing, stop and describe the design to me, in sections of maybe 200-300 words at a time, asking after each section whether it looks right so far.
 
 ## Develop session
 
