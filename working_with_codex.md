@@ -17,7 +17,17 @@ permalink: /codex/
 > Ideally, the questions would be multiple choice, but open-ended questions are OK, too. Don't forget: only one question per message.
 > Once you believe you understand what we're doing, stop and describe the design to me, in sections of maybe 200-300 words at a time, asking after each section whether it looks right so far.
 
-## Develop session
+## Add multiplayer to a simple game
+
+Chatgpt suggested this one:
+
+> I have a simple turn-based game written in Python using Pygame. I want to add multiplayer support so that two players can play against each other over the internet. The game is currently single-player only. Can you help me plan out how to implement this feature? Please provide a step-by-step plan, including any necessary changes to the game's architecture, networking considerations, and how to handle player turns and synchronization. Let's start with a high-level overview of the steps involved.
+
+Alternate start from [a 5m codex video](https://www.youtube.com/watch?v=iqNzfK4_meQ):
+
+> Write a plan to implement multiplayer
+
+# Develop session
 
 * "Consult the oracle" kicks an agent into a "deeper thinking" mode which often produces better results
 * Starts with a plan because he doesn't know what the feature should look like and do yet and he won't get a lot of value out of sending an agent off to write a bunch of code initially
@@ -32,7 +42,7 @@ permalink: /codex/
 * Review everything and for stuff that isn't understood he will try to learn about it
 * He learns in parallel with the agent (doesn't walk away after a green bar)
 
-## Cleanup session
+# Cleanup session
 
 * Agent is asked to refactor and add documentation
 * Documenation helps future work by humans and agents
@@ -57,6 +67,13 @@ permalink: /codex/
 # Sometimes helpful starting prompts
 
 * "I broke a bunch of things, please fix my mess"
+
+# Codex commands
+
+* init - reads files in a directory and generates an agents.md file
+* approvals - read only for the llm or directory only (auto) or full access
+* model - switch to a simpler / harder reasoning model
+* codex resume - continues a session started previously
 
 # Links
 
