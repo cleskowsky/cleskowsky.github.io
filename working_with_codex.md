@@ -78,3 +78,14 @@ Alternate start from [a 5m codex video](https://www.youtube.com/watch?v=iqNzfK4_
 # Links
 
 * [Vibing a Non-Trivial Ghostty Feature](https://mitchellh.com/writing/non-trivial-vibing): Mitchell Hashimoto vibe codes an update feature in ghostty
+* [The 7 Prompting Habits of Highly Effective Engineers](https://sketch.dev/blog/seven-prompting-habits): Nice list here of ways to think about asking for help:
+  * "Draw the rest of the owl"
+  * Checklist
+    * Write Plan
+    * Write a checklist
+    * Do the checklist
+    * Delete the checklist
+  * Just tell it to try something (if it gets it wrong it's fine)
+  * Throughput > latency (Start multiple tasks at once)
+  * Try giving a goal not detailed instructions and commands to validate work
+  * Git it to summarize a long article or documentation
