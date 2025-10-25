@@ -17,6 +17,12 @@ permalink: /codex/
 > Ideally, the questions would be multiple choice, but open-ended questions are OK, too. Don't forget: only one question per message.
 > Once you believe you understand what we're doing, stop and describe the design to me, in sections of maybe 200-300 words at a time, asking after each section whether it looks right so far.
 
+## Starting a planning session 3
+
+![Start planning session prompt screenshot](/assets/2025/chatgpt_planning_prompt.png)
+
+Developer created file called prompt.md
+
 ## Add multiplayer to a simple game
 
 Chatgpt suggested this one:
