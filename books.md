@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* [Starship's Mage Book 1](https://www.amazon.ca/Starships-Mage-Book-10th-Anniversary-ebook/dp/B0DHSXR92N), Glynn Stewart
 * Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 3)
 * Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 2)
 * [Problem solving 101](https://www.amazon.ca/Problem-Solving-101-Simple-People-ebook/dp/B001UFP61C/ref=sr_1_1): Ken Watanabe
