@@ -95,3 +95,4 @@ Alternate start from [a 5m codex video](https://www.youtube.com/watch?v=iqNzfK4_
   * Throughput > latency (Start multiple tasks at once)
   * Try giving a goal not detailed instructions and commands to validate work
   * Git it to summarize a long article or documentation
+* [Vibe engineering](https://simonwillison.net/2025/Oct/7/vibe-engineering/): Simon proposes a step past "vibe coding" where an agent is able to plan, design, code and crucially test their output while maintaining quality. He talks about working with existing code bases rather than greenfield ones. The better we get at automation and describing our tools, thinking, and process to documentation the better our agents will get. Allegedly. :)
