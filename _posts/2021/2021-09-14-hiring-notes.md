@@ -108,3 +108,17 @@ Incident's process isn't far off our at CMD for hiring in the Ops team.
 # Design question
 
 * Let's work on a build pipeline together! What should go in there? What do we need to worry about? It's an open-ended question so let it go wherever it will.
+
+# What we look for in a resume
+
+* Demonstrated expertise, not keywords
+  * Show how you acquired and use that skill in your job
+  * Share your expertise on public channels such as: StackOverflow answers, open source contributions, papers, blog posts
+* We look for people who get things done
+  * Initiative - Can you start something that matters?
+  * Persistence - Can you see those hard things through? Getting other people on board, making them feel safe and like participants, following up, etc
+* We look for unique perspectives (Do they have any interesting projects and are unique? Or interesting life experience? Or writing? that demonstrates a different point of view?)
+* We care about impact, not meaningless metrics - Relate to business objectives and team impact
+* 1 pagers are great but if you have more to say 2 is fine
+
+[Source](https://huyenchip.com/2023/01/24/what-we-look-for-in-a-candidate.html): Well this was great ...
