@@ -96,3 +96,5 @@ Alternate start from [a 5m codex video](https://www.youtube.com/watch?v=iqNzfK4_
   * Try giving a goal not detailed instructions and commands to validate work
   * Git it to summarize a long article or documentation
 * [Vibe engineering](https://simonwillison.net/2025/Oct/7/vibe-engineering/): Simon proposes a step past "vibe coding" where an agent is able to plan, design, code and crucially test their output while maintaining quality. He talks about working with existing code bases rather than greenfield ones. The better we get at automation and describing our tools, thinking, and process to documentation the better our agents will get. Allegedly. :)
+* [How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/): Guidance on writing prompts for subagents. Are subagents still the way to go?
+* [Third Stage Engineering](https://www.brendangregg.com/blog//2025-11-17/third-stage-engineering.html): Performance considers hardware, software, and whatever tuning you have to go to get the most out of a system
