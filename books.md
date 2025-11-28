@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* [Rift Magus Reborn](https://www.amazon.ca/Rift-Magus-Reborn-Arcane-Aristocrat-ebook/dp/B0DR5LX8MM/ref=sr_1_1), Sam Winton
 * [Starship's Mage Book 1](https://www.amazon.ca/Starships-Mage-Book-10th-Anniversary-ebook/dp/B0DHSXR92N), Glynn Stewart
 * Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 3)
 * Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 2)
