@@ -98,3 +98,18 @@ Alternate start from [a 5m codex video](https://www.youtube.com/watch?v=iqNzfK4_
 * [Vibe engineering](https://simonwillison.net/2025/Oct/7/vibe-engineering/): Simon proposes a step past "vibe coding" where an agent is able to plan, design, code and crucially test their output while maintaining quality. He talks about working with existing code bases rather than greenfield ones. The better we get at automation and describing our tools, thinking, and process to documentation the better our agents will get. Allegedly. :)
 * [How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/): Guidance on writing prompts for subagents. Are subagents still the way to go?
 * [Third Stage Engineering](https://www.brendangregg.com/blog//2025-11-17/third-stage-engineering.html): Performance considers hardware, software, and whatever tuning you have to go to get the most out of a system
+* [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices)
+
+## [How Programming Changed](https://blog.puzzmo.com/posts/2025/12/9/tech-2025/#how-programming-changed): "70% of my lines of code is now written by Claude Code" :/
+
+Good article overall. The section on the impact claude code had on this developer's workflow is wild ...
+
+> 2025 was a epochal year for the field of programming. LLMs got good enough. I’m finding myself using Claude Code almost every time I open up my editor, and it’s capabilities feels to have had quite a boost with the introduction of Sonnet 4.5. For the engineers who use Claude Code in our team, we’re finding it can drastically speed up, or allow for parallel work. If I had to guess, I’d estimate about 70% of my lines of code is now written by Claude Code.
+>
+> 6 month down the line I’m still regularly impressed by Claude’s ability to understand our codebase, and I can find that I can make requests which span multiple sub-projects “add a ‘display name’ to this model, and make it editable in the studio” would make the correct changes to the db, the GraphQL SDL layer, the application API layer, the backend would get forms and fields updated. This sort of thing is the bread and butter of a well defined system, and the tooling continues to impress.
+>
+> We’ve explored the idea of having Claude Code or Copilot running on web/hosted infrastructure, personally, I’ve found it uninteresting. While these tools occasionally can do a one-shot exactly what we were looking for, most of the time you need to clone the branch and make your own changes. Could have just asked locally. I think it’s useful for making something for you to come to later, (e.g. you’re in a lot of meetings in a row, or you’re off for the day and want to have something to start with tomorrow) but to me the right abstraction is still that the tool is running locally and being supervised/guided by a developer.
+>
+> Because of Claude Code, I feel like I am continually asking myself: how do I make this codebase more explicit and each abstraction boundary more obvious? We’ve moved the monorepos to contain all context and code about their scopes, I’ve worked to remove as many ‘any’s as possible and I test out every new feature for Claude Code.
+>
+> I even started a meetup with a friend to get the chance to talk to others who are figuring out this strange new piece of technology. I’d like to do a final introspection on using Claude Code on this blog after this one is shipped.
