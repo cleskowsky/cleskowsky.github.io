@@ -40,3 +40,4 @@ I've bumped into a few tools I haven't had the time or need to dig into, but wan
 * [Airbyte, ETL tool](https://airbyte.com): Might provide some of the framework-y type stuff for etl (chunking, checkpointing, retry, job state, job status, parallelism, etc)
 * [PeerDb](https://peerdb.io/): Data etl from postgres to various data warehouse platforms
 * [Debezium](https://debezium.io/): Change data capture platform for various databases (open source, allegedly hard to run at scale)
+* [UptimeKuma](https://uptimekuma.org/): Self-hosted uptime monitoring and alerting tool. Also has support for status pages with notifications to customers baked in.
