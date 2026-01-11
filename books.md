@@ -4,6 +4,13 @@ title: Books
 permalink: /books/
 ---
 
+# 2026
+
+## Books
+
+* [Dungeon crawler Carl book 4](https://www.amazon.ca/Gate-Feral-Gods-Dungeon-Crawler-ebook/dp/B093DJ7F3C/ref=sr_1_5), Matt Dinniman
+* [Dungeon crawler Carl book 3](https://www.amazon.ca/gp/product/B08V4QSV6W), Matt Dinniman
+
 # 2025
 
 ## Books
