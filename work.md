@@ -217,3 +217,27 @@ public GetProductInfoResponse getProductInfo(GetProductInfoRequest request) {
   return info;
 }
 ```
+
+# RFCs
+
+Sample template to discuss in writing about an important technical decision in front of me. Decisions are important when they impact others or are hard to reverse. They're a way to share knowledge and get feedback. Another benefit is all team members are able to participant in a process that's open. (Junior, senior, coop, new, old, ... :))
+
+* Background
+  * is an rfc appropriate for what i'm trying to do? (it's a heavy-ish process)
+    * note: this is a team decision - i'm opening up the process to everyone and my favourite idea might not win. that's ok! getting other points of view into problems that need the extra scrutinity is well worth it
+  * what is the problem we're trying to solve
+  * think about the motivation
+  * did anything happen recently that specifically triggered a need here?
+* Requirements
+  * think about 2 or 3 things that must be true after this work is done
+* Potential approaches with tradeoffs
+  * there are usually a couple of ideas i've considered when i think about a problem - what are they?
+  * every design has pros / cons - be upfront about them
+* Proposed solution
+  * highlight which way i'm leaning and why
+* Decision
+  * document the teams choice
+  * some rfcs may not be adopted and that's fine
+  * a decision might be to defer or drop
+* Open questions
+  * there are often things we don't know or understand at this stage
