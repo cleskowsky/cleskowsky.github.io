@@ -113,3 +113,5 @@ Good article overall. The section on the impact claude code had on this develope
 > Because of Claude Code, I feel like I am continually asking myself: how do I make this codebase more explicit and each abstraction boundary more obvious? We’ve moved the monorepos to contain all context and code about their scopes, I’ve worked to remove as many ‘any’s as possible and I test out every new feature for Claude Code.
 >
 > I even started a meetup with a friend to get the chance to talk to others who are figuring out this strange new piece of technology. I’d like to do a final introspection on using Claude Code on this blog after this one is shipped.
+
+* [Example of claude skill by clickhouse](https://github.com/ClickHouse/agent-skills/tree/main/skills/clickhouse-best-practices): Looks like a lot of information to pack into the session context. How well does this work I wonder ...
