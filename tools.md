@@ -13,6 +13,7 @@ permalink: /tools/
     * 1password is the password manager I'm using these days
     * ublock origin because there are way too many ads on the internet
 * [Bruno api client](https://www.usebruno.com/): Send authenticated test requests to an api and read back responses during development
+* [Lazygit](https://github.com/jesseduffield/lazygit): Terminal ui for git! :)
 
 # Python
 
@@ -42,7 +43,7 @@ I've bumped into a few tools I haven't had the time or need to dig into, but wan
 * [Debezium](https://debezium.io/): Change data capture platform for various databases (open source, allegedly hard to run at scale)
 * [UptimeKuma](https://uptimekuma.org/): Self-hosted uptime monitoring and alerting tool. Also has support for status pages with notifications to customers baked in.
 
-## Vim plugins
+# Vim plugins
 
 * Vim plug
 * Nerdtree
