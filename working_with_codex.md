@@ -84,6 +84,7 @@ like to see bigger tasks broken down into smaller ones.
 * [Example of claude skill by clickhouse](https://github.com/ClickHouse/agent-skills/tree/main/skills/clickhouse-best-practices):
   Looks like a lot of information to pack into the session context. How well
   does this work I wonder ...
+* [Context, Know-How and AI SRE: What Is the Other 70%?](https://www.linkedin.com/pulse/context-know-how-ai-sre-what-other-70-kyle-forster-bfq3e/): Finding how to get the most out of agents from the production support frame.
 
 # [How Programming Changed](https://blog.puzzmo.com/posts/2025/12/9/tech-2025/#how-programming-changed): "70% of my lines of code is now written by Claude Code" :/
 
