@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* Systemantics, John Gall
 * Operation bounce house, Matt Dinniman
 * Run your own mail server, Michael W Lucas
 * Dungeon crawler Carl book 6, The Eye of the Bedlam Bride, Matt Dinniman
