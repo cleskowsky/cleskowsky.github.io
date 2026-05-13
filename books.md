@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* Slow Gods, Claire North
 * Systemantics, John Gall
 * Operation bounce house, Matt Dinniman
 * Run your own mail server, Michael W Lucas
