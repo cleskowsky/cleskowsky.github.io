@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* Dungeon crawler Carl book 8, A Parade of Horribles, Matt Dinniman
 * Slow Gods, Claire North
 * Systemantics, John Gall
 * Operation bounce house, Matt Dinniman
