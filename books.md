@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+* Watcher of the Void (Wrath of the Stormking Book 3), Michael G. Manning
 * Dungeon crawler Carl book 8, A Parade of Horribles, Matt Dinniman
 * Slow Gods, Claire North
 * Systemantics, John Gall
