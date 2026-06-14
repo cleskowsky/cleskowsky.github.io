@@ -134,3 +134,5 @@ workflow is wild.
 > are figuring out this strange new piece
 > of technology. I’d like to do a final introspection on using Claude Code on
 > this blog after this one is shipped.
+
+* [The Agent Harness: Turning AI Slop Into Shipping Software](https://dev.to/tacoda/the-agent-harness-turning-ai-slop-into-shipping-software-589i): How an existing codebase is made ai-navigable through test automation, and making good patterns visible, and through the use of AGENTS.md files placed intentionally.
