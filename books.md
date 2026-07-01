@@ -8,76 +8,80 @@ permalink: /books/
 
 ## Books
 
-* A world appears, Michael Pollan
-* Watcher of the Void (Wrath of the Stormking Book 3), Michael G. Manning
-* Dungeon crawler Carl book 8, A Parade of Horribles, Matt Dinniman
-* Slow Gods, Claire North
-* Systemantics, John Gall
-* Operation bounce house, Matt Dinniman
-* Run your own mail server, Michael W Lucas
-* Dungeon crawler Carl book 7, This Inevitable Ruin, Matt Dinniman
-* Dungeon crawler Carl book 6, The Eye of the Bedlam Bride, Matt Dinniman
-* Dungeon crawler Carl book 5, Matt Dinniman
-* [Dungeon crawler Carl book 4](https://www.amazon.ca/Gate-Feral-Gods-Dungeon-Crawler-ebook/dp/B093DJ7F3C/ref=sr_1_5), Matt Dinniman
-* [Dungeon crawler Carl book 3](https://www.amazon.ca/gp/product/B08V4QSV6W), Matt Dinniman
+- A world appears, Michael Pollan
+- Watcher of the Void (Wrath of the Stormking Book 3), Michael G. Manning
+- Dungeon crawler Carl book 8, A Parade of Horribles, Matt Dinniman
+- Slow Gods, Claire North
+- Systemantics, John Gall
+- Operation bounce house, Matt Dinniman
+- Run your own mail server, Michael W Lucas
+- Dungeon crawler Carl book 7, This Inevitable Ruin, Matt Dinniman
+- Dungeon crawler Carl book 6, The Eye of the Bedlam Bride, Matt Dinniman
+- Dungeon crawler Carl book 5, Matt Dinniman
+- [Dungeon crawler Carl book 4](https://www.amazon.ca/Gate-Feral-Gods-Dungeon-Crawler-ebook/dp/B093DJ7F3C/ref=sr_1_5), Matt Dinniman
+- [Dungeon crawler Carl book 3](https://www.amazon.ca/gp/product/B08V4QSV6W), Matt Dinniman
+
+## Videos
+
+- [Fanastic Stephen Colbert interview with Andy Serkis](https://www.instagram.com/reel/DXWugQ4kYog/): This is so great.
 
 # 2025
 
 ## Books
 
-* [Dungeon crawler Carl book 2: Carl's doomsday scenario](https://www.amazon.ca/Carls-Doomsday-Scenario-Matt-Dinniman/dp/0593820266/ref=sr_1_1), Matt Dinniman
-* [Dungeon crawler Carl book 1](https://www.amazon.ca/Dungeon-Crawler-Carl-Matt-Dinniman/dp/059382024X), Matt Dinniman
-* [Rift Magus Reborn](https://www.amazon.ca/Rift-Magus-Reborn-Arcane-Aristocrat-ebook/dp/B0DR5LX8MM/ref=sr_1_1), Sam Winton
-* [Starship's Mage Book 1](https://www.amazon.ca/Starships-Mage-Book-10th-Anniversary-ebook/dp/B0DHSXR92N), Glynn Stewart
-* Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 3)
-* Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 2)
-* [Problem solving 101](https://www.amazon.ca/Problem-Solving-101-Simple-People-ebook/dp/B001UFP61C/ref=sr_1_1): Ken Watanabe
-* [Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 1)](https://www.amazon.ca/Newt-Demon-Low-Stakes-Fantasy-LitRPG-ebook/dp/B0DDM5H5JG/ref=sr_1_1): Edwin Griffiths
-* [Emily Wilde's Encyclopaedia of Faeries](https://www.amazon.ca/Wildes-Encyclopaedia-Faeries-Heather-Fawcett/dp/0593500156/ref=sr_1_1): Heather Fawcett
-* [Immense World](https://www.amazon.ca/Immense-World-Animal-Senses-Reveal-ebook/dp/B09K4X6KM5/ref=sr_1_1): Ed Yong
-* [When the Moon Hits Your Eye](https://www.goodreads.com/book/show/211004190-when-the-moon-hits-your-eye): John Scalzi
-* [The Ministry of Time](https://www.amazon.ca/Ministry-Time-Novel-Kaliane-Bradley/dp/1668092654/ref=sr_1_1): Kaliane Bradley
-* [Alien Clay](https://www.amazon.ca/Alien-Clay-mind-bending-journey-Arthur-ebook/dp/B0CD7VPR99/ref=sr_1_1): Adrian Tchaikovsky
-* [The Internet Con: How to Seize the Means of Computation](https://a.co/d/4GH0rSb): Cory Doctorow
-* [Children of Time](https://www.amazon.ca/Children-Time-Adrian-Tchaikovsky/dp/1447273303): Adrian Tchaikovsky
-* [Picks and Shovels](https://us.macmillan.com/books/9781250865908/picksandshovels/): Cory Doctorow
-* [Service model](https://www.amazon.ca/Service-Model-Adrian-Tchaikovsky/dp/1250290287/ref=sr_1_1): Adrian Tchaikovsky 
+- [Dungeon crawler Carl book 2: Carl's doomsday scenario](https://www.amazon.ca/Carls-Doomsday-Scenario-Matt-Dinniman/dp/0593820266/ref=sr_1_1), Matt Dinniman
+- [Dungeon crawler Carl book 1](https://www.amazon.ca/Dungeon-Crawler-Carl-Matt-Dinniman/dp/059382024X), Matt Dinniman
+- [Rift Magus Reborn](https://www.amazon.ca/Rift-Magus-Reborn-Arcane-Aristocrat-ebook/dp/B0DR5LX8MM/ref=sr_1_1), Sam Winton
+- [Starship's Mage Book 1](https://www.amazon.ca/Starships-Mage-Book-10th-Anniversary-ebook/dp/B0DHSXR92N), Glynn Stewart
+- Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 3)
+- Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 2)
+- [Problem solving 101](https://www.amazon.ca/Problem-Solving-101-Simple-People-ebook/dp/B001UFP61C/ref=sr_1_1): Ken Watanabe
+- [Newt and Demon: A Low-Stakes Cozy Fantasy LitRPG (The Newt and Demon Book 1)](https://www.amazon.ca/Newt-Demon-Low-Stakes-Fantasy-LitRPG-ebook/dp/B0DDM5H5JG/ref=sr_1_1): Edwin Griffiths
+- [Emily Wilde's Encyclopaedia of Faeries](https://www.amazon.ca/Wildes-Encyclopaedia-Faeries-Heather-Fawcett/dp/0593500156/ref=sr_1_1): Heather Fawcett
+- [Immense World](https://www.amazon.ca/Immense-World-Animal-Senses-Reveal-ebook/dp/B09K4X6KM5/ref=sr_1_1): Ed Yong
+- [When the Moon Hits Your Eye](https://www.goodreads.com/book/show/211004190-when-the-moon-hits-your-eye): John Scalzi
+- [The Ministry of Time](https://www.amazon.ca/Ministry-Time-Novel-Kaliane-Bradley/dp/1668092654/ref=sr_1_1): Kaliane Bradley
+- [Alien Clay](https://www.amazon.ca/Alien-Clay-mind-bending-journey-Arthur-ebook/dp/B0CD7VPR99/ref=sr_1_1): Adrian Tchaikovsky
+- [The Internet Con: How to Seize the Means of Computation](https://a.co/d/4GH0rSb): Cory Doctorow
+- [Children of Time](https://www.amazon.ca/Children-Time-Adrian-Tchaikovsky/dp/1447273303): Adrian Tchaikovsky
+- [Picks and Shovels](https://us.macmillan.com/books/9781250865908/picksandshovels/): Cory Doctorow
+- [Service model](https://www.amazon.ca/Service-Model-Adrian-Tchaikovsky/dp/1250290287/ref=sr_1_1): Adrian Tchaikovsky
 
 ## Videos
 
-* [VIDEO Storytelling & Science with James Cameron (Full Episode)](https://www.youtube.com/watch?v=z5d6RvbQbTg): Great interview with James Cameron about movies, science, and science fiction
-* [Why AI is Overrated - with Neil deGrasse Tyson](https://www.youtube.com/watch?v=BYizgB2FcAQ): Fun interview with Neil deGrasse Tyson.
-* [Interview with Sherry Sontag](https://vimeo.com/user143982918): Ergodox keyboards did an interview with Sherry this year that was wonderful. She co-wrote "Blind Man's Bluff" which is a historical book about submarine and their deployment by the USA. 
-* [Tim Sweeney: Fortnite, Unreal Engine, and the Future of Gaming](https://www.youtube.com/watch?v=477qF6QNSvc): Great, loong chat between Tim Sweeney and Lex Fridman about Epic, Unreal and the ecosystem of tools he got started and how he thinks about the future!
-* [Two decades of Git: A conversation with creator Linus Torvalds](https://www.youtube.com/watch?v=sCr_gb8rdEI): Interview with Linux Torvalds on the 20th anniversary of git. Enjoyed this immensely. :)
-* [Top REST API Design Pitfalls by Victor Rentea](https://www.youtube.com/watch?v=CNlLWCvazcQ): Fun talk about bad things you can do when designing an api
+- [VIDEO Storytelling & Science with James Cameron (Full Episode)](https://www.youtube.com/watch?v=z5d6RvbQbTg): Great interview with James Cameron about movies, science, and science fiction
+- [Why AI is Overrated - with Neil deGrasse Tyson](https://www.youtube.com/watch?v=BYizgB2FcAQ): Fun interview with Neil deGrasse Tyson.
+- [Interview with Sherry Sontag](https://vimeo.com/user143982918): Ergodox keyboards did an interview with Sherry this year that was wonderful. She co-wrote "Blind Man's Bluff" which is a historical book about submarine and their deployment by the USA.
+- [Tim Sweeney: Fortnite, Unreal Engine, and the Future of Gaming](https://www.youtube.com/watch?v=477qF6QNSvc): Great, loong chat between Tim Sweeney and Lex Fridman about Epic, Unreal and the ecosystem of tools he got started and how he thinks about the future!
+- [Two decades of Git: A conversation with creator Linus Torvalds](https://www.youtube.com/watch?v=sCr_gb8rdEI): Interview with Linux Torvalds on the 20th anniversary of git. Enjoyed this immensely. :)
+- [Top REST API Design Pitfalls by Victor Rentea](https://www.youtube.com/watch?v=CNlLWCvazcQ): Fun talk about bad things you can do when designing an api
 
 ## Articles
 
-* [A Framework for Responsible Innovation](https://multithreaded.stitchfix.com/blog/2019/08/19/framework-for-responsible-innovation/): Excellent guide to starting something new and deciding when to use new tools and do things in novel ways for us. There is a variable cost to building things and sometimes that comes back to choices made during planning that don't add a lot of value.
+- [A Framework for Responsible Innovation](https://multithreaded.stitchfix.com/blog/2019/08/19/framework-for-responsible-innovation/): Excellent guide to starting something new and deciding when to use new tools and do things in novel ways for us. There is a variable cost to building things and sometimes that comes back to choices made during planning that don't add a lot of value.
 
 # 2024
 
 ## Books
 
-* [Daughter of the Dragon](https://www.amazon.ca/Daughter-Dragon-Wrath-Stormking-Book-ebook/dp/B0DMYV5ZT7): Michael Manning 
-* [The Terraformers](https://www.amazon.ca/Terraformers-Annalee-Newitz/dp/1250228026)
-* [Witch King (The Rising World Book 1)](https://www.amazon.ca/Witch-King-Martha-Wells-ebook/dp/B0B9KVV7JH/ref=sr_1_1): Martha Wells
-* [Version Control with Git](https://www.amazon.ca/Version-Control-Git-collaborative-development/dp/1449316387/ref=sr_1_5): Matthew McCullough, Jon Loeliger
-* [The Library at Mount Char](https://www.amazon.ca/Library-at-Mount-Char/dp/0553418629/ref=sr_1_1): Scott Hawkins
-* [All Systems Red](https://www.amazon.ca/All-Systems-Red-Murderbot-Diaries/dp/0765397536/ref=sr_1_1): Martha Wells
-* [The Android's Dream](https://www.amazon.ca/The-Androids-Dream/dp/B0725MFFJH/ref=sr_1_1): John Scalzi, To save the earth, Creek must save the sheep
-* [Star Trek Countdown](https://www.amazon.ca/Star-Trek-Countdown-Vol-1-ebook/dp/B008O7V15E/ref=sr_1_3): Prequel graphic novel to Star Trek the movie (2009)
-* [Starter Villain](https://www.amazon.com/Audible-Starter-Villain/dp/B0C6FR3JN1/ref=sr_1_1), John Scalzi: What a great little book. It's been awhile since I've read a book for fun. This was perfect. :)
-* [For all humankind](https://www.amazon.ca/All-Humankind-Stories-Landing-Inspired-ebook/dp/B08RWZWCJC), Tanya Harrison, Danny Bednar
+- [Daughter of the Dragon](https://www.amazon.ca/Daughter-Dragon-Wrath-Stormking-Book-ebook/dp/B0DMYV5ZT7): Michael Manning
+- [The Terraformers](https://www.amazon.ca/Terraformers-Annalee-Newitz/dp/1250228026)
+- [Witch King (The Rising World Book 1)](https://www.amazon.ca/Witch-King-Martha-Wells-ebook/dp/B0B9KVV7JH/ref=sr_1_1): Martha Wells
+- [Version Control with Git](https://www.amazon.ca/Version-Control-Git-collaborative-development/dp/1449316387/ref=sr_1_5): Matthew McCullough, Jon Loeliger
+- [The Library at Mount Char](https://www.amazon.ca/Library-at-Mount-Char/dp/0553418629/ref=sr_1_1): Scott Hawkins
+- [All Systems Red](https://www.amazon.ca/All-Systems-Red-Murderbot-Diaries/dp/0765397536/ref=sr_1_1): Martha Wells
+- [The Android's Dream](https://www.amazon.ca/The-Androids-Dream/dp/B0725MFFJH/ref=sr_1_1): John Scalzi, To save the earth, Creek must save the sheep
+- [Star Trek Countdown](https://www.amazon.ca/Star-Trek-Countdown-Vol-1-ebook/dp/B008O7V15E/ref=sr_1_3): Prequel graphic novel to Star Trek the movie (2009)
+- [Starter Villain](https://www.amazon.com/Audible-Starter-Villain/dp/B0C6FR3JN1/ref=sr_1_1), John Scalzi: What a great little book. It's been awhile since I've read a book for fun. This was perfect. :)
+- [For all humankind](https://www.amazon.ca/All-Humankind-Stories-Landing-Inspired-ebook/dp/B08RWZWCJC), Tanya Harrison, Danny Bednar
 
 ## Videos
 
-* [Keynote: Linus Torvalds, Creator of Linux & Git, in Conversation with Dirk Hohndel](https://www.youtube.com/watch?v=OvuEYtkOH88): Conversation with Linus about linux past, present and future and how we currently relates to its evolution. Loved this one a lot this year!
+- [Keynote: Linus Torvalds, Creator of Linux & Git, in Conversation with Dirk Hohndel](https://www.youtube.com/watch?v=OvuEYtkOH88): Conversation with Linus about linux past, present and future and how we currently relates to its evolution. Loved this one a lot this year!
 
 ## Articles
 
-* [Software Managers’ Guide to Operational Excellence](/assets/papers_we_love/Software_Managers_Guide_to_Operational_Excellence.pdf)
+- [Software Managers’ Guide to Operational Excellence](/assets/papers_we_love/Software_Managers_Guide_to_Operational_Excellence.pdf)
 
 # 2023
 
@@ -145,7 +149,7 @@ permalink: /books/
 
 ## Videos
 
-* [Ryan Singer: Designing from start to finish](https://vimeo.com/16814487): This is great. I like watch people who are great at their craft make things. Doesn't have to be software related but this is.
+- [Ryan Singer: Designing from start to finish](https://vimeo.com/16814487): This is great. I like watch people who are great at their craft make things. Doesn't have to be software related but this is.
 
 # 2021
 
@@ -237,5 +241,6 @@ Some of these are audiobooks if the performance is well done and the rest I'm us
 - An Astronaut’s Guide to Life by Chris Hadfield
 
 # Favourite articles
+
 - [On Being a Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
 - [A Mature Role for Automation](https://www.kitchensoap.com/2012/09/21/a-mature-role-for-automation-part-i/)
