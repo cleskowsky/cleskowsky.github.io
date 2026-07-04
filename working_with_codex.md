@@ -151,4 +151,7 @@ workflow is wild.
   In which a barrage of sensors is described by a coding agent llm user. Lint,
   semgrep, unit+functional tests, vulnerability scanner, etc
 - [How to run a local coding agent with Gemma 4 and Pi](https://patloeber.com/gemma-4-pi-agent/):
-  Instructions for running a coding agent witha local model. 
+  Instructions for running a coding agent witha local model
+- [Quantization from the ground up](https://ngrok.com/blog/quantization):
+  Brilliant article about quantization - why we do it, how it's done, what are
+  the tradeoffs.
