@@ -7,42 +7,41 @@ permalink: /codex/
 # Patterns
 
 - RPI - research, plan, implement
-    - Start with gpt in planning mode and ask it to read code related to a task
-    - Gpt will generate a plan based on what it thinks the changes should be
-        - Iterate on the plan with gpt
-    - Only then have it start writing code
+  - Start with gpt in planning mode and ask it to read code related to a task
+  - Gpt will generate a plan based on what it thinks the changes should be
+    - Iterate on the plan with gpt
+  - Only then have it start writing code
 
 - Agent harness
-    - Ask gpt to do something
-    - Let gpt do what it will
-    - Review the work
-    - For any aspect that does match how you think the logic should be organized
-      or work, write that back to the
-      agents.md file so gpt has a good chance of not doing that again
-    - Note: It has been observed that a gpt working in a healthy code base will
-      try to emulate the patterns it finds!
+  - Ask gpt to do something
+  - Let gpt do what it will
+  - Review the work
+  - For any aspect that does match how you think the logic should be organized
+    or work, write that back to the agents.md file so gpt has a good chance of
+    not doing that again
+  - Note: It has been observed that a gpt working in a healthy code base will
+    try to emulate the patterns it finds!
 
 - Test first
-    - Verification of results is hugely important in this new age where gpt is
-      writing our code for us
-    - Ask gpt to write a test to make sure something works
-    - As it writes new code, it must run the tests to make sure they still work
+  - Verification of results is hugely important in this new age where gpt is
+    writing our code for us
+  - Ask gpt to write a test to make sure something works
+  - As it writes new code, it must run the tests to make sure they still work
 
 - Subagents
-    - When output degrades because of too much context, consider running
-      multiple agents looking at particuler aspects (eg explorer, tester,
-      reviewer, security reviewer, etc)
-    - There should be a supervisor agent delegating tasks to subagents and
-      reviewing results
-    - Worth repeating that subagents are not always helpful - a single agent
-      with a well fitting context window is super powerful and enough most of
-      the time
+  - When output degrades because of too much context, consider running multiple
+    agents looking at particuler aspects (eg explorer, tester, reviewer,
+    security reviewer, etc)
+  - There should be a supervisor agent delegating tasks to subagents and
+    reviewing results
+  - Worth repeating that subagents are not always helpful - a single agent with
+    a well fitting context window is super powerful and enough most of the time
 
 - Skills
-    - Capturing tool use and process workflows in reusable skills is powerful
-    - First do something with an agent from start to finish
-    - Then say "turn this into a skill"
-    - [The skill that make new skills](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)
+  - Capturing tool use and process workflows in reusable skills is powerful
+  - First do something with an agent from start to finish
+  - Then say "turn this into a skill"
+  - [The skill that make new skills](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)
 
 # Helpful starter prompts
 
@@ -65,20 +64,19 @@ like to see bigger tasks broken down into smaller ones.
 # Links
 
 - [Vibing a Non-Trivial Ghostty Feature](https://mitchellh.com/writing/non-trivial-vibing):
-  Mitchell Hashimoto vibe
-  codes an update feature in ghostty
+  Mitchell Hashimoto vibe codes an update feature in ghostty
 - [The 7 Prompting Habits of Highly Effective Engineers](https://sketch.dev/blog/seven-prompting-habits):
   Nice list here of ways to think about asking for help:
-    - "Draw the rest of the owl"
-    - Checklist
-        - Write Plan
-        - Write a checklist
-        - Do the checklist
-        - Delete the checklist
-    - Just tell it to try something (if it gets it wrong it's fine)
-    - Throughput > latency (Start multiple tasks at once)
-    - Try giving a goal not detailed instructions and commands to validate work
-    - Git it to summarize a long article or documentation
+  - "Draw the rest of the owl"
+  - Checklist
+    - Write Plan
+    - Write a checklist
+    - Do the checklist
+    - Delete the checklist
+  - Just tell it to try something (if it gets it wrong it's fine)
+  - Throughput > latency (Start multiple tasks at once)
+  - Try giving a goal not detailed instructions and commands to validate work
+  - Git it to summarize a long article or documentation
 - [How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/):
   Guidance on writing prompts for subagents. Are subagents still the way to go?
 - [Example of claude skill by clickhouse](https://github.com/ClickHouse/agent-skills/tree/main/skills/clickhouse-best-practices):
@@ -93,48 +91,39 @@ Great article! The section on the impact claude code had on this developer's
 workflow is wild.
 
 > 2025 was a epochal year for the field of programming. LLMs got good enough.
-> I’m finding myself using Claude Code
-> almost every time I open up my editor, and it’s capabilities feels to have had
-> quite a boost with the introduction of
+> I’m finding myself using Claude Code almost every time I open up my editor,
+> and it’s capabilities feels to have had quite a boost with the introduction of
 > Sonnet 4.5. For the engineers who use Claude Code in our team, we’re finding
-> it can drastically speed up, or allow for
-> parallel work. If I had to guess, I’d estimate about 70% of my lines of code
-> is now written by Claude Code.
+> it can drastically speed up, or allow for parallel work. If I had to guess,
+> I’d estimate about 70% of my lines of code is now written by Claude Code.
 >
 > 6 month down the line I’m still regularly impressed by Claude’s ability to
-> understand our codebase, and I can find
-> that I can make requests which span multiple sub-projects “add a ‘display
-> name’ to this model, and make it editable in
-> the studio” would make the correct changes to the db, the GraphQL SDL layer,
-> the application API layer, the backend
-> would get forms and fields updated. This sort of thing is the bread and butter
-> of a well defined system, and the
-> tooling
-> continues to impress.
+> understand our codebase, and I can find that I can make requests which span
+> multiple sub-projects “add a ‘display name’ to this model, and make it
+> editable in the studio” would make the correct changes to the db, the GraphQL
+> SDL layer, the application API layer, the backend would get forms and fields
+> updated. This sort of thing is the bread and butter of a well defined system,
+> and the tooling continues to impress.
 >
 > We’ve explored the idea of having Claude Code or Copilot running on web/hosted
-> infrastructure, personally, I’ve found
-> it uninteresting. While these tools occasionally can do a one-shot exactly
-> what we were looking for, most of the time
-> you need to clone the branch and make your own changes. Could have just asked
-> locally. I think it’s useful for making
-> something for you to come to later, (e.g. you’re in a lot of meetings in a
-> row, or you’re off for the day and want to
-> have something to start with tomorrow) but to me the right abstraction is
-> still that the tool is running locally and
-> being supervised/guided by a developer.
+> infrastructure, personally, I’ve found it uninteresting. While these tools
+> occasionally can do a one-shot exactly what we were looking for, most of the
+> time you need to clone the branch and make your own changes. Could have just
+> asked locally. I think it’s useful for making something for you to come to
+> later, (e.g. you’re in a lot of meetings in a row, or you’re off for the day
+> and want to have something to start with tomorrow) but to me the right
+> abstraction is still that the tool is running locally and being
+> supervised/guided by a developer.
 >
 > Because of Claude Code, I feel like I am continually asking myself: how do I
-> make this codebase more explicit and each
-> abstraction boundary more obvious? We’ve moved the monorepos to contain all
-> context and code about their scopes, I’ve
-> worked to remove as many ‘any’s as possible and I test out every new feature
-> for Claude Code.
+> make this codebase more explicit and each abstraction boundary more obvious?
+> We’ve moved the monorepos to contain all context and code about their scopes,
+> I’ve worked to remove as many ‘any’s as possible and I test out every new
+> feature for Claude Code.
 >
 > I even started a meetup with a friend to get the chance to talk to others who
-> are figuring out this strange new piece
-> of technology. I’d like to do a final introspection on using Claude Code on
-> this blog after this one is shipped.
+> are figuring out this strange new piece of technology. I’d like to do a final
+> introspection on using Claude Code on this blog after this one is shipped.
 
 - [The Agent Harness: Turning AI Slop Into Shipping Software](https://dev.to/tacoda/the-agent-harness-turning-ai-slop-into-shipping-software-589i):
   How an existing codebase is made ai-navigable through test automation, and
@@ -143,10 +132,10 @@ workflow is wild.
 - [Running local models is good now](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/):
   Fantastic article talks about what one developer is using specifically
   locally, and quality of output.
-    - [Running local models is good now - Georgi Gerganov reaction, llama.cpp maintainer](https://news.ycombinator.com/item?id=48555993#48557304):
-      Thread on a hacker news article talks about the utility of local models
-      for code generation. Still a bit of a ram piggy which will have to figured
-      out for the general code gen use case I guess.
+  - [Running local models is good now - Georgi Gerganov reaction, llama.cpp maintainer](https://news.ycombinator.com/item?id=48555993#48557304):
+    Thread on a hacker news article talks about the utility of local models for
+    code generation. Still a bit of a ram piggy which will have to figured out
+    for the general code gen use case I guess.
 - [Maintainability sensors for coding agents](https://martinfowler.com/articles/sensors-for-coding-agents.html):
   In which a barrage of sensors is described by a coding agent llm user. Lint,
   semgrep, unit+functional tests, vulnerability scanner, etc
@@ -155,3 +144,12 @@ workflow is wild.
 - [Quantization from the ground up](https://ngrok.com/blog/quantization):
   Brilliant article about quantization - why we do it, how it's done, what are
   the tradeoffs.
+
+# Tools
+
+- [oMLX](https://omlx.ai/): macOS local gpt model server that harnesses like pi
+  can talk to. Best h/w to make this work well sounds like m1 + 64gb of ram for
+  a decent open weight coding model. Min is m1, 16gb ram but not sure what that
+  realistically gets you. With h/w costs where they are now, a subscription to
+  codex or claude for $20 - $100 a month is probably the way to go. (General
+  purpose frontier models are still much better than local ones.)
