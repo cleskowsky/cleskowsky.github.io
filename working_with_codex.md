@@ -6,42 +6,50 @@ permalink: /codex/
 
 # Patterns
 
+- Adversarial review
+    - _Adversarial review asks Claude (in a separate context window) to
+      exhaustively come up with reasons why the changes create bugs or do not
+      work._
+
 - RPI - research, plan, implement
-  - Start with gpt in planning mode and ask it to read code related to a task
-  - Gpt will generate a plan based on what it thinks the changes should be
-    - Iterate on the plan with gpt
-  - Only then have it start writing code
+    - Start with gpt in planning mode and ask it to read code related to a task
+    - Gpt will generate a plan based on what it thinks the changes should be
+        - Iterate on the plan with gpt
+    - Only then have it start writing code
 
 - Agent harness
-  - Ask gpt to do something
-  - Let gpt do what it will
-  - Review the work
-  - For any aspect that does match how you think the logic should be organized
-    or work, write that back to the agents.md file so gpt has a good chance of
-    not doing that again
-  - Note: It has been observed that a gpt working in a healthy code base will
-    try to emulate the patterns it finds!
+    - Ask gpt to do something
+    - Let gpt do what it will
+    - Review the work
+    - For any aspect that does match how you think the logic should be organized
+      or work, write that back to the agents.md file so gpt has a good chance of
+      not doing that again
+    - Note: It has been observed that a gpt working in a healthy code base will
+      try to emulate the patterns it finds!
 
 - Test first
-  - Verification of results is hugely important in this new age where gpt is
-    writing our code for us
-  - Ask gpt to write a test to make sure something works
-  - As it writes new code, it must run the tests to make sure they still work
+    - Verification of results is hugely important in this new age where gpt is
+      writing our code for us
+    - Ask gpt to write a test to make sure something works
+    - As it writes new code, it must run the tests to make sure they still work
 
 - Subagents
-  - When output degrades because of too much context, consider running multiple
-    agents looking at particuler aspects (eg explorer, tester, reviewer,
-    security reviewer, etc)
-  - There should be a supervisor agent delegating tasks to subagents and
-    reviewing results
-  - Worth repeating that subagents are not always helpful - a single agent with
-    a well fitting context window is super powerful and enough most of the time
+    - When output degrades because of too much context, consider running
+      multiple
+      agents looking at particuler aspects (eg explorer, tester, reviewer,
+      security reviewer, etc)
+    - There should be a supervisor agent delegating tasks to subagents and
+      reviewing results
+    - Worth repeating that subagents are not always helpful - a single agent
+      with
+      a well fitting context window is super powerful and enough most of the
+      time
 
 - Skills
-  - Capturing tool use and process workflows in reusable skills is powerful
-  - First do something with an agent from start to finish
-  - Then say "turn this into a skill"
-  - [The skill that make new skills](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)
+    - Capturing tool use and process workflows in reusable skills is powerful
+    - First do something with an agent from start to finish
+    - Then say "turn this into a skill"
+    - [The skill that make new skills](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)
 
 # Helpful starter prompts
 
@@ -67,16 +75,16 @@ like to see bigger tasks broken down into smaller ones.
   Mitchell Hashimoto vibe codes an update feature in ghostty
 - [The 7 Prompting Habits of Highly Effective Engineers](https://sketch.dev/blog/seven-prompting-habits):
   Nice list here of ways to think about asking for help:
-  - "Draw the rest of the owl"
-  - Checklist
-    - Write Plan
-    - Write a checklist
-    - Do the checklist
-    - Delete the checklist
-  - Just tell it to try something (if it gets it wrong it's fine)
-  - Throughput > latency (Start multiple tasks at once)
-  - Try giving a goal not detailed instructions and commands to validate work
-  - Git it to summarize a long article or documentation
+    - "Draw the rest of the owl"
+    - Checklist
+        - Write Plan
+        - Write a checklist
+        - Do the checklist
+        - Delete the checklist
+    - Just tell it to try something (if it gets it wrong it's fine)
+    - Throughput > latency (Start multiple tasks at once)
+    - Try giving a goal not detailed instructions and commands to validate work
+    - Git it to summarize a long article or documentation
 - [How to write a great agents.md: Lessons from over 2,500 repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/):
   Guidance on writing prompts for subagents. Are subagents still the way to go?
 - [Example of claude skill by clickhouse](https://github.com/ClickHouse/agent-skills/tree/main/skills/clickhouse-best-practices):
@@ -132,10 +140,11 @@ workflow is wild.
 - [Running local models is good now](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/):
   Fantastic article talks about what one developer is using specifically
   locally, and quality of output.
-  - [Running local models is good now - Georgi Gerganov reaction, llama.cpp maintainer](https://news.ycombinator.com/item?id=48555993#48557304):
-    Thread on a hacker news article talks about the utility of local models for
-    code generation. Still a bit of a ram piggy which will have to figured out
-    for the general code gen use case I guess.
+    - [Running local models is good now - Georgi Gerganov reaction, llama.cpp maintainer](https://news.ycombinator.com/item?id=48555993#48557304):
+      Thread on a hacker news article talks about the utility of local models
+      for
+      code generation. Still a bit of a ram piggy which will have to figured out
+      for the general code gen use case I guess.
 - [Maintainability sensors for coding agents](https://martinfowler.com/articles/sensors-for-coding-agents.html):
   In which a barrage of sensors is described by a coding agent llm user. Lint,
   semgrep, unit+functional tests, vulnerability scanner, etc
@@ -153,3 +162,17 @@ workflow is wild.
   realistically gets you. With h/w costs where they are now, a subscription to
   codex or claude for $20 - $100 a month is probably the way to go. (General
   purpose frontier models are still much better than local ones.)
+
+# Bun ports Zig to Rust
+
+This is the largest rewrite of a complex piece of software I've ever come
+across. Some stats:
+
+- Goal is to draw down a backlog of security bugs (eg use-after-free)
+- 11 days from end to end
+- Large test suite with millions of assertions
+- Simple prompts to start loops
+- Adversarial review technique explained in the best way I have seen
+  - Independent reviewer and author
+  - Split context windows
+- $160k worth of tokens spent in 11 days
