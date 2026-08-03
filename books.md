@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- More everything forever, Adam Becker
 - Armada, Ernest Cline
 - A world appears, Michael Pollan
 - Watcher of the Void (Wrath of the Stormking Book 3), Michael G. Manning
