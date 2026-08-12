@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- Old Man's War, John Scalzi
 - More everything forever, Adam Becker
 - Armada, Ernest Cline
 - A world appears, Michael Pollan
