@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- The Ghost Brigades, John Scalzi
 - Old Man's War, John Scalzi
 - More everything forever, Adam Becker
 - Armada, Ernest Cline
