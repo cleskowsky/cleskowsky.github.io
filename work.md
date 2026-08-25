@@ -123,24 +123,24 @@ It's super important for teams to be aware that this sort of thing can be (and p
 
 # 1 on 1s
 
-Some questions I've found revealing in the past:
+**Some questions I've found revealing in the past:**
 
 * What's on your mind? is a good starter. It's open ended. It lets the other participant lead with anything they're thinking about.
 * How do you like your work to be recognized? Publicly, privately, within the group?
 * What's your favourite pastry? Nice little ice breaker and gives you an idea of something to bring in for the team at some point. :)
 
-Stuff to ask once or twice a year:
+**Stuff to ask once or twice a year:**
 
 * How would you like to grow in your skills, job, career?
 * Are you feeling a sense of purpose in what you're doing?
 * What are we doing as a team / company that you think could be improved?
 * What are we not doing?
 
-Other 1 on 1 truths
+**Other 1 on 1 truths**
 
 * If there's nothing to say that's find too. Just agree to skip this time and reconnect for the next
 
-Are 1-1's a waste of time?
+**Are 1-1's a waste of time?**
 
 * They're not a status update. You have other places to get project status. They're time for your direct report to talk goals, feedback and mid- long- term things
 * The direct report should own the agenda. You can share a doc of past topics but if there's nothing to say it's ok to cancel
@@ -152,6 +152,17 @@ Are 1-1's a waste of time?
 * It's ok to be light and casual sometimes (Don't have to always be heavy!)
 
 [Source](https://lauratacho.com/blog/how-can-i-make-my-1-1s-less-boring)
+
+**Getting the Most Out of 1:1s**
+
+Good overall article about 1:1s. My favourite points:
+
+- Weekly to start and might become less frequent when a new team member has settled
+- Place to provide feedback to a team member
+- Place for them to talk about problems they see (might need a bit of time to build trust)
+- Good question : What’s a [design/technical] choice you made this week that we can talk through?
+
+[Source](https://basecamp.com/managers/1-1s)
 
 # UI/UX
 
