@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- The Last Colony, John Scalzi
 - The Ghost Brigades, John Scalzi
 - Old Man's War, John Scalzi
 - More everything forever, Adam Becker
