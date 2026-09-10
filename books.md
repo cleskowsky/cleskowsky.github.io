@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- Zoe's tale, John Scalzi
 - The Last Colony, John Scalzi
 - The Ghost Brigades, John Scalzi
 - Old Man's War, John Scalzi
