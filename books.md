@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- Human Division, John Scalzi
 - Zoe's tale, John Scalzi
 - The Last Colony, John Scalzi
 - The Ghost Brigades, John Scalzi
