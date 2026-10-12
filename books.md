@@ -8,6 +8,7 @@ permalink: /books/
 
 ## Books
 
+- The End of All Things, John Scalzi
 - Human Division, John Scalzi
 - Zoe's tale, John Scalzi
 - The Last Colony, John Scalzi
